@@ -1,0 +1,266 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "333523da-fbe0-4b62-b707-15c1b23f3b41")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 91.44 88.9) (xy 100.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae37607-0eb5-4e9d-bd1e-defaa7fc715b")
+	)
+	(bus
+		(pts
+			(xy 100.33 88.9) (xy 100.33 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f109ee4-8262-426a-95e8-bddb698d0fdc")
+	)
+	(bus
+		(pts
+			(xy 100.33 59.69) (xy 111.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c78f087-0770-47af-b1c3-7e0a5d02df1e")
+	)
+	(bus
+		(pts
+			(xy 45.72 88.9) (xy 58.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72c882f-a686-4f50-a305-e7b445b12561")
+	)
+	(label "USB1{USB}"
+		(at 100.33 69.85 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c70eecb-0506-474d-b981-6bacf87d6f1e")
+	)
+	(sheet
+		(at 20.32 85.09)
+		(size 25.4 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "15110b20-d110-4276-b182-6ec5152680bc")
+		(property "Sheetname" "USB Connector"
+			(at 20.32 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_CON.kicad_sch"
+			(at 20.32 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_IN{USB_EXT}" bidirectional
+			(at 45.72 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "00fd5ed2-6b9e-437d-bc86-c8f41c2710d2")
+		)
+		(instances
+			(project "CC_Debug"
+				(path "/333523da-fbe0-4b62-b707-15c1b23f3b41"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 85.09)
+		(size 33.02 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "31542dab-9c61-4595-8293-40a7ee8bdc51")
+		(property "Sheetname" "USB hub"
+			(at 58.42 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CC USB hub.kicad_sch"
+			(at 58.42 99.6446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB2{USB}" bidirectional
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d745c8c4-86fb-4e43-82f2-4492cea48074")
+		)
+		(pin "USB1{USB}" bidirectional
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1a5b77f1-19dc-460d-8e42-aac53f3d08cd")
+		)
+		(pin "USB_IN{USB_EXT}" bidirectional
+			(at 58.42 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "de244a39-15b9-4984-8042-371e8c5447d3")
+		)
+		(instances
+			(project "CC_Debug"
+				(path "/333523da-fbe0-4b62-b707-15c1b23f3b41"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 180.34)
+		(size 25.4 10.16)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6ff1f151-1e22-476b-9bbd-a704725d6735")
+		(property "Sheetname" "mech"
+			(at 26.67 179.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mech.kicad_sch"
+			(at 26.67 191.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CC_Debug"
+				(path "/333523da-fbe0-4b62-b707-15c1b23f3b41"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 46.99)
+		(size 38.1 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "94c11654-df98-40df-80fb-fde9e439ebc2")
+		(property "Sheetname" "USB2UART1"
+			(at 111.76 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb2uart.kicad_sch"
+			(at 111.76 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB1{USB}" input
+			(at 111.76 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "821eee68-1cba-43d0-a978-0b5d00c826a6")
+		)
+		(instances
+			(project "CC_Debug"
+				(path "/333523da-fbe0-4b62-b707-15c1b23f3b41"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
