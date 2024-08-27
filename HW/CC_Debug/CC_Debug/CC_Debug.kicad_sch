@@ -7,6 +7,26 @@
 	(lib_symbols)
 	(bus
 		(pts
+			(xy 91.44 93.98) (xy 101.6 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a4e544-cf4a-4908-8bca-9da1089dc951")
+	)
+	(bus
+		(pts
+			(xy 101.6 118.11) (xy 110.49 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0c8894-91ff-4822-85a4-3cc1212687f2")
+	)
+	(bus
+		(pts
 			(xy 91.44 88.9) (xy 100.33 88.9)
 		)
 		(stroke
@@ -24,6 +44,16 @@
 			(type default)
 		)
 		(uuid "4f109ee4-8262-426a-95e8-bddb698d0fdc")
+	)
+	(bus
+		(pts
+			(xy 101.6 93.98) (xy 101.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c39bac-b5a0-4bde-a55b-a1655d0b2cce")
 	)
 	(bus
 		(pts
@@ -55,6 +85,105 @@
 			(justify right bottom)
 		)
 		(uuid "2c70eecb-0506-474d-b981-6bacf87d6f1e")
+	)
+	(label "USB2{USB}"
+		(at 101.6 109.22 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "469b139c-9110-4809-bab8-c5a50753b93f")
+	)
+	(sheet
+		(at 110.49 106.68)
+		(size 39.37 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "05334520-774f-427c-9c16-f58d04a228ed")
+		(property "Sheetname" "USB2UART2"
+			(at 110.49 105.9684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB2UART2.kicad_sch"
+			(at 110.49 132.6646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB2{USB}" input
+			(at 110.49 118.11 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "37af5d3e-74ab-4632-bfee-b1dcc5339e93")
+		)
+		(pin "UART_B_3{UART}" bidirectional
+			(at 149.86 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eecb5808-e04d-4de4-8bb4-6a92a235fc48")
+		)
+		(pin "UART_B_4{UART}" bidirectional
+			(at 149.86 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c3d5c9ed-93bc-4f6c-b9f3-967f845de711")
+		)
+		(pin "UART_B_1{UART}" bidirectional
+			(at 149.86 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cccdaeaf-39c6-4e8f-8cb6-37230924aeb1")
+		)
+		(pin "UART_B_2{UART}" bidirectional
+			(at 149.86 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "18c55ec3-7a1f-456a-98e9-3ce85231011b")
+		)
+		(instances
+			(project "CC_Debug"
+				(path "/333523da-fbe0-4b62-b707-15c1b23f3b41"
+					(page "6")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 20.32 85.09)
@@ -249,6 +378,46 @@
 				(justify left)
 			)
 			(uuid "821eee68-1cba-43d0-a978-0b5d00c826a6")
+		)
+		(pin "UART_A_4{UART}" bidirectional
+			(at 149.86 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "54d13bb6-9f4f-420d-9768-ccbb0ae4f0d5")
+		)
+		(pin "UART_A_1{UART}" bidirectional
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b133107c-971f-41f1-aabe-6d6fcd302b4b")
+		)
+		(pin "UART_A_2{UART}" bidirectional
+			(at 149.86 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "454fe2e4-db64-4fc7-9fa1-cbfa4f5615c8")
+		)
+		(pin "UART_A_3{UART}" bidirectional
+			(at 149.86 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "79e9ef41-c297-43a4-afad-aa62510f6bbf")
 		)
 		(instances
 			(project "CC_Debug"
