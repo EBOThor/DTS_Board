@@ -397,6 +397,14 @@
     [
       "1753a15f-d572-4c39-8cc7-77188589f279",
       "IO_core"
+    ],
+    [
+      "fe5ea34d-21cf-4dac-9ef2-b9905ff3ffd8",
+      "ETH_Connector"
+    ],
+    [
+      "ab2c46cb-188d-485d-996b-6193419384b9",
+      "CAN"
     ]
   ],
   "text_variables": {}

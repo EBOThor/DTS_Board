@@ -1675,6 +1675,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 13.97 -53.34 90)
+					(length 3.81)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at -30.48 22.86 0)
 					(length 3.81)
@@ -3289,6 +3307,12 @@
 		(uuid "2750ee6e-44b8-467b-9164-8e49bcba7841")
 	)
 	(junction
+		(at 196.85 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ebb5579-d68f-4f8d-a351-01d32ff22e06")
+	)
+	(junction
 		(at 96.52 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3347,6 +3371,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91f114eb-3a69-40e1-8135-a5c2864d73fe")
+	)
+	(junction
+		(at 269.24 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "949808e9-807e-46eb-abae-2e6a11be73ed")
 	)
 	(junction
 		(at 92.71 237.49)
@@ -3413,6 +3443,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2b0e708-43ec-4081-91e3-81c951afb27a")
+	)
+	(junction
+		(at 269.24 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d840d027-6b2e-4f68-a4ef-9e31bccd5e60")
 	)
 	(junction
 		(at 114.3 234.95)
@@ -4004,6 +4040,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 196.85) (xy 203.2 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "401c9016-1568-46a7-8947-bc1b0104e56f")
+	)
+	(wire
+		(pts
 			(xy 303.53 45.72) (xy 320.04 45.72)
 		)
 		(stroke
@@ -4264,6 +4310,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 59.69) (xy 255.27 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6da5eba4-e403-43e2-abc4-d762338b3ae7")
+	)
+	(wire
+		(pts
 			(xy 194.31 87.63) (xy 194.31 78.74)
 		)
 		(stroke
@@ -4281,6 +4337,16 @@
 			(type default)
 		)
 		(uuid "710affa9-7bb1-489e-abbb-99516c4fe30e")
+	)
+	(wire
+		(pts
+			(xy 255.27 64.77) (xy 269.24 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72160b28-c68b-4132-91b4-510ce91e5a56")
 	)
 	(bus
 		(pts
@@ -4924,6 +4990,26 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 45.72) (xy 255.27 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d20cd132-5ff9-46b7-b869-f4ff4762b578")
+	)
+	(wire
+		(pts
+			(xy 196.85 205.74) (xy 203.2 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d35d000b-80cd-443d-993c-2d94f3c460d3")
+	)
+	(wire
+		(pts
 			(xy 134.62 163.83) (xy 158.75 163.83)
 		)
 		(stroke
@@ -5184,6 +5270,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 45.72) (xy 255.27 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab393ec-28c8-4272-aae0-7334b8228526")
+	)
+	(wire
+		(pts
 			(xy 181.61 205.74) (xy 184.15 205.74)
 		)
 		(stroke
@@ -5280,7 +5376,7 @@
 		)
 		(uuid "32f6a4e8-5091-438a-ab14-c48e718bf3f4")
 	)
-	(label "UART_A_1.TX"
+	(label "UART_A_3.TX"
 		(at 260.35 140.97 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5423,7 +5519,7 @@
 		)
 		(uuid "9c4e197d-79b3-4f4c-b9b0-7de9a9efb6a2")
 	)
-	(label "UART_A_1.TX"
+	(label "UART_A_2.TX"
 		(at 260.35 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6526,6 +6622,94 @@
 			(project "CC_Debug"
 				(path "/333523da-fbe0-4b62-b707-15c1b23f3b41/94c11654-df98-40df-80fb-fde9e439ebc2"
 					(reference "#PWR05027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 255.27 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "286c006e-dc08-4ff7-9238-e7ef78bf5f8c")
+		(property "Reference" "C5015"
+			(at 259.08 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 259.08 57.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 252.492 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 255.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;C;T1;S;P0603;NA"
+			(at 259.27 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-090680"
+			(at 259.27 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "02ae2e57-59de-4eef-abfd-791505053629")
+		)
+		(pin "1"
+			(uuid "bb888789-b8d5-41d8-a87d-460e51f65018")
+		)
+		(instances
+			(project "CC_Debug"
+				(path "/333523da-fbe0-4b62-b707-15c1b23f3b41/94c11654-df98-40df-80fb-fde9e439ebc2"
+					(reference "C5015")
 					(unit 1)
 				)
 			)
@@ -9923,6 +10107,9 @@
 		)
 		(pin "9"
 			(uuid "432f8d37-10ac-4c2b-a04e-edd9096c8799")
+		)
+		(pin "65"
+			(uuid "4de5d4a2-de7d-46a0-8134-7152eab84075")
 		)
 		(instances
 			(project "CC_Debug"

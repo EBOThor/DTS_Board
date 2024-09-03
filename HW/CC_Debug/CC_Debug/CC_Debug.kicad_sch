@@ -7,6 +7,36 @@
 	(lib_symbols)
 	(bus
 		(pts
+			(xy 161.29 67.31) (xy 149.86 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c12fd48-b901-48fc-a6d2-1da6cd4408dd")
+	)
+	(bus
+		(pts
+			(xy 149.86 114.3) (xy 161.29 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dcde9ab-b155-48a6-8180-377ee7c1d6a3")
+	)
+	(bus
+		(pts
+			(xy 165.1 63.5) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee58c4c-59ff-4b5f-943c-6582dbccccbe")
+	)
+	(bus
+		(pts
 			(xy 91.44 93.98) (xy 101.6 93.98)
 		)
 		(stroke
@@ -14,6 +44,16 @@
 			(type default)
 		)
 		(uuid "21a4e544-cf4a-4908-8bca-9da1089dc951")
+	)
+	(bus
+		(pts
+			(xy 149.86 55.88) (xy 171.45 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bd4023e-8534-40a5-892e-f9c253ba77f6")
 	)
 	(bus
 		(pts
@@ -27,6 +67,26 @@
 	)
 	(bus
 		(pts
+			(xy 172.72 125.73) (xy 172.72 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f43ad67-284b-4b72-9418-d7f588514191")
+	)
+	(bus
+		(pts
+			(xy 161.29 114.3) (xy 161.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "344f59b7-048a-434a-8640-a8f73db0e6cb")
+	)
+	(bus
+		(pts
 			(xy 91.44 88.9) (xy 100.33 88.9)
 		)
 		(stroke
@@ -34,6 +94,36 @@
 			(type default)
 		)
 		(uuid "3ae37607-0eb5-4e9d-bd1e-defaa7fc715b")
+	)
+	(bus
+		(pts
+			(xy 149.86 118.11) (xy 165.1 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "445b40a4-833f-4d63-99a2-e8acbc47f610")
+	)
+	(bus
+		(pts
+			(xy 149.86 125.73) (xy 172.72 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e4d937-5f93-4f49-8959-986a3f4a441e")
+	)
+	(bus
+		(pts
+			(xy 168.91 102.87) (xy 180.34 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e7436af-a8b9-4850-892f-64a9324c2046")
 	)
 	(bus
 		(pts
@@ -57,6 +147,36 @@
 	)
 	(bus
 		(pts
+			(xy 149.86 63.5) (xy 165.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52c45b89-3b85-4606-847d-40bd136ddffd")
+	)
+	(bus
+		(pts
+			(xy 149.86 121.92) (xy 168.91 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58edc774-30ee-4e99-bb22-5bab95f18012")
+	)
+	(bus
+		(pts
+			(xy 171.45 55.88) (xy 171.45 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6017b172-1e7e-4937-98e6-f233dd00fc6d")
+	)
+	(bus
+		(pts
 			(xy 100.33 59.69) (xy 111.76 59.69)
 		)
 		(stroke
@@ -67,6 +187,76 @@
 	)
 	(bus
 		(pts
+			(xy 168.91 59.69) (xy 149.86 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "864f06a8-8d56-412c-9167-51b2499cedd1")
+	)
+	(bus
+		(pts
+			(xy 161.29 95.25) (xy 180.34 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bccfbe6-0f12-43c0-aa48-80bf7198912f")
+	)
+	(bus
+		(pts
+			(xy 161.29 80.01) (xy 161.29 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab27af0e-6ed1-4d17-9456-dafe6e390a17")
+	)
+	(bus
+		(pts
+			(xy 172.72 106.68) (xy 180.34 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0519419-699f-4f41-b4b9-19907f2f34e5")
+	)
+	(bus
+		(pts
+			(xy 180.34 80.01) (xy 161.29 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2439e40-8345-4354-aa7e-3301d740d268")
+	)
+	(bus
+		(pts
+			(xy 168.91 121.92) (xy 168.91 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a57795-cd7d-4f96-b233-ae5a044ce299")
+	)
+	(bus
+		(pts
+			(xy 180.34 72.39) (xy 168.91 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6f1dda-48f9-457b-9db6-4d3fa1a67c58")
+	)
+	(bus
+		(pts
 			(xy 45.72 88.9) (xy 58.42 88.9)
 		)
 		(stroke
@@ -74,6 +264,56 @@
 			(type default)
 		)
 		(uuid "c72c882f-a686-4f50-a305-e7b445b12561")
+	)
+	(bus
+		(pts
+			(xy 171.45 68.58) (xy 180.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1da0515-4841-4741-af62-fc98277b9bde")
+	)
+	(bus
+		(pts
+			(xy 165.1 76.2) (xy 180.34 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef2afdef-16fd-4a1f-95b6-322618d3e659")
+	)
+	(bus
+		(pts
+			(xy 168.91 72.39) (xy 168.91 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5233347-13c7-464b-aad6-c774778703c8")
+	)
+	(bus
+		(pts
+			(xy 165.1 118.11) (xy 165.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f647d993-02c5-4519-bcd7-384b3d51871a")
+	)
+	(bus
+		(pts
+			(xy 165.1 99.06) (xy 180.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffcf5af6-644d-44e5-9441-c15930094c9b")
 	)
 	(label "USB1{USB}"
 		(at 100.33 69.85 270)
@@ -96,6 +336,17 @@
 			(justify left bottom)
 		)
 		(uuid "469b139c-9110-4809-bab8-c5a50753b93f")
+	)
+	(label "USB{USB_EXT}"
+		(at 46.99 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2a76360-c471-419b-9aa0-a77e8181a994")
 	)
 	(sheet
 		(at 110.49 106.68)
@@ -138,7 +389,7 @@
 			(uuid "37af5d3e-74ab-4632-bfee-b1dcc5339e93")
 		)
 		(pin "UART_B_3{UART}" bidirectional
-			(at 149.86 124.46 0)
+			(at 149.86 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -148,7 +399,7 @@
 			(uuid "eecb5808-e04d-4de4-8bb4-6a92a235fc48")
 		)
 		(pin "UART_B_4{UART}" bidirectional
-			(at 149.86 128.27 0)
+			(at 149.86 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,30 +408,148 @@
 			)
 			(uuid "c3d5c9ed-93bc-4f6c-b9f3-967f845de711")
 		)
-		(pin "UART_B_1{UART}" bidirectional
-			(at 149.86 116.84 0)
+		(pin "I2C_B_1{I2C}" bidirectional
+			(at 149.86 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "cccdaeaf-39c6-4e8f-8cb6-37230924aeb1")
+			(uuid "e08cdf6d-6581-4499-bfff-ac3a3ed6dbb2")
 		)
-		(pin "UART_B_2{UART}" bidirectional
-			(at 149.86 120.65 0)
+		(pin "I2C_B_2{I2C}" bidirectional
+			(at 149.86 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "18c55ec3-7a1f-456a-98e9-3ce85231011b")
+			(uuid "5a4e6252-0617-496c-b58d-e6e7f41b093d")
 		)
 		(instances
 			(project "CC_Debug"
 				(path "/333523da-fbe0-4b62-b707-15c1b23f3b41"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 180.34 63.5)
+		(size 33.02 46.99)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "089dc46e-eccd-4b55-9ebb-55322b837961")
+		(property "Sheetname" "Isolation_output"
+			(at 180.34 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Isolation_output.kicad_sch"
+			(at 180.34 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "UART_B_3{UART}" bidirectional
+			(at 180.34 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e5d62fc9-c38a-440b-b139-05742a573770")
+		)
+		(pin "UART_B_4{UART}" bidirectional
+			(at 180.34 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9574b130-8ff5-4e93-8071-bbfe5bf4acc5")
+		)
+		(pin "UART_A_1{UART}" bidirectional
+			(at 180.34 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d41e7473-c6b1-423f-bf76-f1980328b8f8")
+		)
+		(pin "UART_A_2{UART}" bidirectional
+			(at 180.34 72.39 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a3f28dc4-1b98-4309-bff3-acc3ad85f498")
+		)
+		(pin "UART_A_3{UART}" bidirectional
+			(at 180.34 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5710c539-eaac-44f8-8fa1-0e5263eb79c7")
+		)
+		(pin "UART_A_4{UART}" bidirectional
+			(at 180.34 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3e65bd54-5023-4974-8a17-22f46ff597b4")
+		)
+		(pin "I2C_B_1{I2C}" bidirectional
+			(at 180.34 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cc0237bf-d12c-482f-a8d1-bce5dbf83900")
+		)
+		(pin "I2C_B_2{I2C}" bidirectional
+			(at 180.34 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5f8c392b-2673-46ff-8a0d-ce4abbe196fc")
+		)
+		(instances
+			(project "CC_Debug"
+				(path "/333523da-fbe0-4b62-b707-15c1b23f3b41"
+					(page "7")
 				)
 			)
 		)
@@ -380,7 +749,7 @@
 			(uuid "821eee68-1cba-43d0-a978-0b5d00c826a6")
 		)
 		(pin "UART_A_4{UART}" bidirectional
-			(at 149.86 68.58 0)
+			(at 149.86 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -390,7 +759,7 @@
 			(uuid "54d13bb6-9f4f-420d-9768-ccbb0ae4f0d5")
 		)
 		(pin "UART_A_1{UART}" bidirectional
-			(at 149.86 52.07 0)
+			(at 149.86 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -400,7 +769,7 @@
 			(uuid "b133107c-971f-41f1-aabe-6d6fcd302b4b")
 		)
 		(pin "UART_A_2{UART}" bidirectional
-			(at 149.86 55.88 0)
+			(at 149.86 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -410,7 +779,7 @@
 			(uuid "454fe2e4-db64-4fc7-9fa1-cbfa4f5615c8")
 		)
 		(pin "UART_A_3{UART}" bidirectional
-			(at 149.86 60.96 0)
+			(at 149.86 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

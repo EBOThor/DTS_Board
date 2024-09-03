@@ -807,15 +807,6 @@
 		(uuid "3912a653-cea0-4ebc-97cb-8ad3d5374086")
 	)
 	(bus_entry
-		(at 204.47 81.28)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04c6e2d1-bf0b-4584-beaa-bca108f7d4f8")
-	)
-	(bus_entry
 		(at 204.47 90.17)
 		(size -2.54 2.54)
 		(stroke
@@ -823,6 +814,15 @@
 			(type default)
 		)
 		(uuid "13da215f-126c-4a06-bd2c-54af582889a3")
+	)
+	(bus_entry
+		(at 204.47 81.28)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4227fac-addb-4456-a601-1b7b9d85a83e")
 	)
 	(bus_entry
 		(at 204.47 85.09)
@@ -835,13 +835,13 @@
 	)
 	(bus
 		(pts
-			(xy 204.47 85.09) (xy 204.47 81.28)
+			(xy 204.47 78.74) (xy 217.17 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "145f3e39-80d5-4926-b2df-7b239b6b5765")
+		(uuid "0cdc419e-62ae-4ffc-9a6c-6183e35eb0b7")
 	)
 	(wire
 		(pts
@@ -862,6 +862,26 @@
 			(type default)
 		)
 		(uuid "1ae8cb30-56c6-4232-b9c6-cef8ad21bbd0")
+	)
+	(bus
+		(pts
+			(xy 204.47 78.74) (xy 204.47 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2434c783-1dcf-409d-bb72-3d19a708cb04")
+	)
+	(wire
+		(pts
+			(xy 128.27 83.82) (xy 201.93 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595e82c5-192b-467e-82e4-7b2a5d7ce797")
 	)
 	(bus
 		(pts
@@ -935,26 +955,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 83.82) (xy 201.93 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afa45798-70a1-44ac-b44b-34a8476dd541")
-	)
-	(bus
-		(pts
-			(xy 204.47 81.28) (xy 217.17 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0dec606-6cfa-4d9b-adc6-4b81ee24311e")
-	)
-	(wire
-		(pts
 			(xy 171.45 87.63) (xy 201.93 87.63)
 		)
 		(stroke
@@ -993,6 +993,27 @@
 		)
 		(uuid "dc502125-7462-4d02-ae80-b7396920d6da")
 	)
+	(bus
+		(pts
+			(xy 204.47 81.28) (xy 204.47 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f55f4265-1faa-4329-b1eb-d030dcdc4204")
+	)
+	(label "USB_IN.VBUS"
+		(at 163.83 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44637af4-2e15-4e68-ab2d-e91dbe4f6bb0")
+	)
 	(label "USB_IN.D+"
 		(at 187.96 87.63 0)
 		(fields_autoplaced yes)
@@ -1026,8 +1047,8 @@
 		)
 		(uuid "a063b341-39be-41fd-8a26-17934268d886")
 	)
-	(label "USB_IN.VBUS"
-		(at 128.27 83.82 0)
+	(label "VBUS"
+		(at 135.89 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1035,11 +1056,11 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "af757b3c-586c-484a-beb1-310adc35a37b")
+		(uuid "fc8e2ea1-d5a5-4647-823e-1dae72c2fb00")
 	)
 	(hierarchical_label "USB_IN{USB_EXT}"
 		(shape bidirectional)
-		(at 217.17 81.28 0)
+		(at 217.17 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
