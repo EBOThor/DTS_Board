@@ -3498,6 +3498,110 @@
 		(color 0 0 0 0)
 		(uuid "ff82dc48-f923-45a5-a1e2-3824da35feed")
 	)
+	(no_connect
+		(at 158.75 184.15)
+		(uuid "0f91125f-b885-44d9-b50d-d99c89668017")
+	)
+	(no_connect
+		(at 219.71 107.95)
+		(uuid "10c2ab44-c1cf-4618-9d3d-d9bab928e441")
+	)
+	(no_connect
+		(at 219.71 100.33)
+		(uuid "1253070e-52b3-4b83-ba90-64b41a9c5632")
+	)
+	(no_connect
+		(at 219.71 153.67)
+		(uuid "156227f5-2eef-4e73-b18b-7826ca2e840e")
+	)
+	(no_connect
+		(at 219.71 151.13)
+		(uuid "2114bdcc-7be6-4814-a8b0-85f5ec217eac")
+	)
+	(no_connect
+		(at 219.71 156.21)
+		(uuid "2357e0cb-1001-461c-990b-873b6a480b15")
+	)
+	(no_connect
+		(at 219.71 125.73)
+		(uuid "284640ca-4f80-4b99-b81c-92aaee3b5bd0")
+	)
+	(no_connect
+		(at 219.71 105.41)
+		(uuid "33b1c49f-ed16-4536-b6ab-e967a62ab7ba")
+	)
+	(no_connect
+		(at 219.71 171.45)
+		(uuid "350386a1-8e7c-4f46-bc78-af65a347e408")
+	)
+	(no_connect
+		(at 219.71 158.75)
+		(uuid "4c131f5e-5abe-404a-abe7-96c6d4b75f27")
+	)
+	(no_connect
+		(at 219.71 148.59)
+		(uuid "578d56b0-20f9-43c4-8455-1604264a280b")
+	)
+	(no_connect
+		(at 219.71 102.87)
+		(uuid "59c563af-bb7e-4293-abc9-a5e7f9125610")
+	)
+	(no_connect
+		(at 219.71 110.49)
+		(uuid "6cd71555-3a05-4cab-94d8-8b9b1df01e5a")
+	)
+	(no_connect
+		(at 219.71 168.91)
+		(uuid "7001da34-6afc-43e5-af45-bdce9eee9f6d")
+	)
+	(no_connect
+		(at 219.71 146.05)
+		(uuid "8b90399e-a977-402c-aa30-55f27a392a4b")
+	)
+	(no_connect
+		(at 219.71 181.61)
+		(uuid "8f053188-bde7-4a6e-94ba-46a345a4e2aa")
+	)
+	(no_connect
+		(at 219.71 179.07)
+		(uuid "9c386635-faf5-47da-a839-5e9d718eeb83")
+	)
+	(no_connect
+		(at 219.71 189.23)
+		(uuid "a5430290-6212-48ed-88b6-0d380548dd1d")
+	)
+	(no_connect
+		(at 219.71 173.99)
+		(uuid "a7819856-50a4-4368-9b11-c1f3ba75b78f")
+	)
+	(no_connect
+		(at 219.71 176.53)
+		(uuid "ad88b39d-1c7c-4f2f-8d65-5cc43e287d53")
+	)
+	(no_connect
+		(at 219.71 133.35)
+		(uuid "b5b11d20-94c5-4f32-bc6f-915b705f6072")
+	)
+	(no_connect
+		(at 219.71 123.19)
+		(uuid "bb1e7e4e-7cf9-4e52-947e-55e05e43cea3")
+	)
+	(no_connect
+		(at 219.71 130.81)
+		(uuid "d81e71ff-992c-4313-b5df-3e99293c7752")
+	)
+	(no_connect
+		(at 219.71 135.89)
+		(uuid "e82d38e1-7f3e-4ba1-bc69-c39f2388a304")
+	)
+	(no_connect
+		(at 219.71 128.27)
+		(uuid "edf91820-d63c-47f6-b6f1-363e13457b84")
+	)
+	(no_connect
+		(at 219.71 113.03)
+		(uuid "fcf90538-fef1-44a9-9578-cec0e509df14")
+	)
 	(bus_entry
 		(at 312.42 163.83)
 		(size -2.54 2.54)

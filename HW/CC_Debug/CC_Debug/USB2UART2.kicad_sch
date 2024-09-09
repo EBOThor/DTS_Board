@@ -1956,6 +1956,120 @@
 				)
 			)
 		)
+		(symbol "bt_misc:TestPoint_SQU"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+				(at 5.334 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at -6.604 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_SQU_0_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_SQU_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "bt_misc:TestPoint_THD"
 			(pin_numbers hide)
 			(pin_names
@@ -3393,6 +3507,102 @@
 		(color 0 0 0 0)
 		(uuid "f37b7518-5a33-4deb-a56c-696309462f36")
 	)
+	(no_connect
+		(at 220.98 119.38)
+		(uuid "001642e7-dc1c-41b1-9756-ef50178d4e09")
+	)
+	(no_connect
+		(at 220.98 152.4)
+		(uuid "1338a67a-e849-417f-8b11-46dcce6d3a38")
+	)
+	(no_connect
+		(at 220.98 182.88)
+		(uuid "1be9894b-4fab-4854-9df4-7d11825e1b73")
+	)
+	(no_connect
+		(at 220.98 167.64)
+		(uuid "36e7c7b5-89f9-4f90-9c5f-b6c38a943c34")
+	)
+	(no_connect
+		(at 220.98 162.56)
+		(uuid "3abdaabe-956e-4026-846e-6683af0ec965")
+	)
+	(no_connect
+		(at 220.98 101.6)
+		(uuid "3ca0778e-3b10-4165-97b2-b2e6329227ab")
+	)
+	(no_connect
+		(at 220.98 121.92)
+		(uuid "42d6b4da-8a4e-452b-babd-2e5e61bb384b")
+	)
+	(no_connect
+		(at 220.98 144.78)
+		(uuid "46e9f649-8120-46bf-9009-922d587caeff")
+	)
+	(no_connect
+		(at 220.98 147.32)
+		(uuid "46f6e67b-7b4c-4722-9e54-cc07ac7b629d")
+	)
+	(no_connect
+		(at 220.98 106.68)
+		(uuid "5888b7a5-7cd6-45ae-84b8-afe322da71e3")
+	)
+	(no_connect
+		(at 160.02 177.8)
+		(uuid "594927c2-fd42-4811-a960-30b3ed643f6e")
+	)
+	(no_connect
+		(at 220.98 142.24)
+		(uuid "6eb8e544-bbfd-4243-b325-b5032e4d30b3")
+	)
+	(no_connect
+		(at 220.98 104.14)
+		(uuid "6f2c5ddd-dc63-4e14-b192-e519b6cbf346")
+	)
+	(no_connect
+		(at 220.98 149.86)
+		(uuid "70a3b37f-3200-4ee4-9ed3-8c097a3fd2fc")
+	)
+	(no_connect
+		(at 220.98 129.54)
+		(uuid "78481dc2-caad-4b13-b007-769c98f28812")
+	)
+	(no_connect
+		(at 220.98 172.72)
+		(uuid "7bf90271-bc46-4611-9636-27a722f6842f")
+	)
+	(no_connect
+		(at 220.98 170.18)
+		(uuid "83e7e5c4-d3f2-4f44-abc4-4ef69226ea5d")
+	)
+	(no_connect
+		(at 220.98 124.46)
+		(uuid "90052ee3-129e-47b1-9eb9-cf1454365f42")
+	)
+	(no_connect
+		(at 220.98 96.52)
+		(uuid "a47db4c9-e16c-41eb-9bd8-099340ba9aae")
+	)
+	(no_connect
+		(at 220.98 127)
+		(uuid "ab7152e9-493c-474c-b23d-cdb5becb0fd3")
+	)
+	(no_connect
+		(at 220.98 139.7)
+		(uuid "b64e26cb-4a93-45a0-a5b8-df30047d1700")
+	)
+	(no_connect
+		(at 220.98 99.06)
+		(uuid "d8f48ac2-abfc-4b59-add2-b506c3f3833b")
+	)
+	(no_connect
+		(at 220.98 175.26)
+		(uuid "dee5a048-4b96-46c9-88f2-502588fb90aa")
+	)
+	(no_connect
+		(at 220.98 165.1)
+		(uuid "ec29a444-9f06-430e-aad5-2936575e5dd8")
+	)
 	(bus_entry
 		(at 313.69 154.94)
 		(size -2.54 2.54)
@@ -3805,6 +4015,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 240.03) (xy 104.14 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23bc6ba7-27a5-43ab-91dd-2122fefc510b")
+	)
+	(wire
+		(pts
 			(xy 198.12 72.39) (xy 200.66 72.39)
 		)
 		(stroke
@@ -4092,6 +4312,16 @@
 			(type default)
 		)
 		(uuid "4f216c09-1780-4ef5-b890-d2028df69032")
+	)
+	(wire
+		(pts
+			(xy 118.11 127) (xy 118.11 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52513b0f-c68c-43a7-8539-a6115f69dafe")
 	)
 	(wire
 		(pts
@@ -8742,6 +8972,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 118.11 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad66423f-5a64-4994-ae5e-4e593eb7052f")
+		(property "Reference" "#PWR06028"
+			(at 118.11 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.11 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 118.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a108f9e-046f-4c2f-bfbb-c8a97686e660")
+		)
+		(instances
+			(project "CC_Debug"
+				(path "/333523da-fbe0-4b62-b707-15c1b23f3b41/05334520-774f-427c-9c16-f58d04a228ed"
+					(reference "#PWR06028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aebb8387-779b-4d53-ab99-865a0f3dab93")
+		(property "Reference" "#PWR06027"
+			(at 104.14 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7aa3c59e-d207-4325-a602-d7d53fec1b1c")
+		)
+		(instances
+			(project "CC_Debug"
+				(path "/333523da-fbe0-4b62-b707-15c1b23f3b41/05334520-774f-427c-9c16-f58d04a228ed"
+					(reference "#PWR06027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bt_resistors:R;G;10K;10P0;S;0603")
 		(at 102.87 173.99 0)
 		(unit 1)
@@ -9286,6 +9648,73 @@
 			(project "CC_Debug"
 				(path "/333523da-fbe0-4b62-b707-15c1b23f3b41/05334520-774f-427c-9c16-f58d04a228ed"
 					(reference "#PWR06013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_misc:TestPoint_SQU")
+		(at 118.11 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd79c23a-5fb1-437b-b020-b141ecc25e87")
+		(property "Reference" "TP6007"
+			(at 120.65 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 118.11 124.968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 123.444 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.506 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ae931d8-2322-41a0-8827-504d7729a7e7")
+		)
+		(instances
+			(project "CC_Debug"
+				(path "/333523da-fbe0-4b62-b707-15c1b23f3b41/05334520-774f-427c-9c16-f58d04a228ed"
+					(reference "TP6007")
 					(unit 1)
 				)
 			)
@@ -9897,6 +10326,73 @@
 			(project "CC_Debug"
 				(path "/333523da-fbe0-4b62-b707-15c1b23f3b41/05334520-774f-427c-9c16-f58d04a228ed"
 					(reference "#PWR06021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_misc:TestPoint_SQU")
+		(at 104.14 240.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbfe47ef-84b7-4d86-bc5f-98f2693c4d96")
+		(property "Reference" "TP6006"
+			(at 106.68 240.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.14 237.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 109.474 244.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 97.536 241.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec91f726-7586-4da5-a58d-60d879a2f448")
+		)
+		(instances
+			(project "CC_Debug"
+				(path "/333523da-fbe0-4b62-b707-15c1b23f3b41/05334520-774f-427c-9c16-f58d04a228ed"
+					(reference "TP6006")
 					(unit 1)
 				)
 			)
