@@ -523,7 +523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2810e31-4172-440a-954d-e0957a7f611f")
-		(property "Reference" "U?"
+		(property "Reference" "U6001"
 			(at 208.28 100.33 0)
 			(effects
 				(font
@@ -634,7 +634,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ab2c46cb-188d-485d-996b-6193419384b9"
-					(reference "U?")
+					(reference "U6001")
 					(unit 1)
 				)
 			)

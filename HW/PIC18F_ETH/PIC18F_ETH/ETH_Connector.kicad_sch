@@ -1863,6 +1863,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 111.76) (xy 130.81 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eca61236-4ee2-41a9-8b11-a90adccb1ae6")
+	)
+	(wire
+		(pts
 			(xy 170.18 110.49) (xy 179.07 110.49)
 		)
 		(stroke
@@ -2390,6 +2400,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 130.81 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69062879-b156-4dbd-abf0-53e798511b71")
+		(property "Reference" "#PWR05005"
+			(at 130.81 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88f6c55d-bbae-478c-9a3a-caff2898ef9b")
+		)
+		(instances
+			(project "PIC18F_ETH"
+				(path "/26a36835-4e01-4565-9612-f38560505464/fe5ea34d-21cf-4dac-9ef2-b9905ff3ffd8"
+					(reference "#PWR05005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 179.07 93.98 0)
 		(unit 1)
@@ -2468,7 +2544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a97e4856-228e-4606-8b12-94d7d12998bb")
-		(property "Reference" "R?"
+		(property "Reference" "R5005"
 			(at 104.14 85.09 90)
 			(effects
 				(font
@@ -2538,7 +2614,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/fe5ea34d-21cf-4dac-9ef2-b9905ff3ffd8"
-					(reference "R?")
+					(reference "R5005")
 					(unit 1)
 				)
 			)
@@ -2554,7 +2630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6018528-d962-4067-97b8-45d55997e5b9")
-		(property "Reference" "C?"
+		(property "Reference" "C5002"
 			(at 200.66 104.14 90)
 			(effects
 				(font
@@ -2624,7 +2700,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/fe5ea34d-21cf-4dac-9ef2-b9905ff3ffd8"
-					(reference "C?")
+					(reference "C5002")
 					(unit 1)
 				)
 			)
@@ -2776,7 +2852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d92b4c4b-527f-4772-9895-13250892ebd8")
-		(property "Reference" "C?"
+		(property "Reference" "C5001"
 			(at 200.66 81.28 90)
 			(effects
 				(font
@@ -2846,7 +2922,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/fe5ea34d-21cf-4dac-9ef2-b9905ff3ffd8"
-					(reference "C?")
+					(reference "C5001")
 					(unit 1)
 				)
 			)
@@ -3002,7 +3078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6ba7ddd-fa3f-4444-ae5d-733855913c95")
-		(property "Reference" "R?"
+		(property "Reference" "R5006"
 			(at 104.14 100.33 90)
 			(effects
 				(font
@@ -3072,7 +3148,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/fe5ea34d-21cf-4dac-9ef2-b9905ff3ffd8"
-					(reference "R?")
+					(reference "R5006")
 					(unit 1)
 				)
 			)
