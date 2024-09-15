@@ -5,6 +5,26 @@
 	(uuid "26a36835-4e01-4565-9612-f38560505464")
 	(paper "A4")
 	(lib_symbols)
+	(bus
+		(pts
+			(xy 158.75 96.52) (xy 209.55 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f59528e-79e9-424c-b489-f242589e519c")
+	)
+	(bus
+		(pts
+			(xy 158.75 92.71) (xy 209.55 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3c5804-f69c-410a-9a80-6adbc05185b9")
+	)
 	(wire
 		(pts
 			(xy 81.28 104.14) (xy 115.57 104.14)
@@ -27,6 +47,16 @@
 	)
 	(bus
 		(pts
+			(xy 158.75 88.9) (xy 209.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65af29d-a350-4f74-ad98-fb682c313511")
+	)
+	(bus
+		(pts
 			(xy 81.28 109.22) (xy 115.57 109.22)
 		)
 		(stroke
@@ -34,6 +64,39 @@
 			(type default)
 		)
 		(uuid "d9d05935-f49c-4cdc-8d47-a51a158913c5")
+	)
+	(label "DO[0..7]"
+		(at 186.69 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e7caedc-0ed3-43b5-9f4e-7a62434bf7a9")
+	)
+	(label "AD[0..5]"
+		(at 186.69 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cd0e22a4-9afb-4386-94e5-eb245c3871c5")
+	)
+	(label "DI[0..11]"
+		(at 186.69 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8c68ce0-7361-4bea-99e4-57307e604784")
 	)
 	(sheet
 		(at 209.55 68.58)
@@ -64,6 +127,36 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "DI[0..11]" output
+			(at 209.55 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "da820468-9ee1-4f27-b56a-967094386d6b")
+		)
+		(pin "AD[0..5]" output
+			(at 209.55 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d3a71e5-4da2-4da2-b044-fceff7536070")
+		)
+		(pin "DO[0..7]" input
+			(at 209.55 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "488a4ebb-8e5d-469d-a7c2-2f8047bd898d")
 		)
 		(instances
 			(project "PIC18F_ETH"
@@ -170,6 +263,36 @@
 				(justify left)
 			)
 			(uuid "4dfef44f-f584-463b-bd71-64b9353dc04c")
+		)
+		(pin "DO[0..7]" output
+			(at 158.75 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a72ff2a0-bb13-4642-b236-3ee6f207794a")
+		)
+		(pin "DI[0..11]" output
+			(at 158.75 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0cf22500-826e-4858-a050-4e17dffea014")
+		)
+		(pin "AD[0..5]" input
+			(at 158.75 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "22749194-d40c-49ef-b0bd-aa098a053dbe")
 		)
 		(instances
 			(project "PIC18F_ETH"
