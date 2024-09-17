@@ -5855,7 +5855,7 @@
 		)
 		(uuid "d178acbb-0fd5-4711-abb7-33807249686d")
 	)
-	(label "ETH.RX+"
+	(label "ETH.RX-"
 		(at 214.63 189.23 0)
 		(fields_autoplaced yes)
 		(effects

@@ -208,6 +208,44 @@
 		)
 	)
 	(sheet
+		(at 66.04 142.24)
+		(size 31.75 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "99e9adce-921c-46ac-b4e9-6503da75f3b7")
+		(property "Sheetname" "misc"
+			(at 66.04 141.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "misc.kicad_sch"
+			(at 66.04 166.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PIC18F_ETH"
+				(path "/26a36835-4e01-4565-9612-f38560505464"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 190.5 27.94)
 		(size 35.56 27.94)
 		(fields_autoplaced yes)
