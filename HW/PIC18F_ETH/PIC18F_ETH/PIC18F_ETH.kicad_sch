@@ -17,6 +17,26 @@
 	)
 	(bus
 		(pts
+			(xy 184.15 78.74) (xy 158.75 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324c2e1f-adbf-4ffb-9c77-1ddd7562157f")
+	)
+	(bus
+		(pts
+			(xy 184.15 48.26) (xy 184.15 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c8c6776-de23-4246-b93f-376803619e67")
+	)
+	(bus
+		(pts
 			(xy 158.75 92.71) (xy 209.55 92.71)
 		)
 		(stroke
@@ -65,6 +85,16 @@
 		)
 		(uuid "d9d05935-f49c-4cdc-8d47-a51a158913c5")
 	)
+	(bus
+		(pts
+			(xy 190.5 48.26) (xy 184.15 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da56f0f8-9d7b-40e6-885b-dcaf19887178")
+	)
 	(label "DO[0..7]"
 		(at 186.69 88.9 180)
 		(fields_autoplaced yes)
@@ -75,6 +105,17 @@
 			(justify right bottom)
 		)
 		(uuid "6e7caedc-0ed3-43b5-9f4e-7a62434bf7a9")
+	)
+	(label "CAN_CTRL{SPI}"
+		(at 163.83 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3309ed4-1b93-44c4-b3c4-34465211e7b0")
 	)
 	(label "AD[0..5]"
 		(at 186.69 96.52 180)
@@ -196,6 +237,16 @@
 				(justify left top)
 			)
 		)
+		(pin "CAN_CTRL{SPI}" bidirectional
+			(at 190.5 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8be97703-1bd0-4f37-8724-08f18d85746a")
+		)
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464"
@@ -293,6 +344,16 @@
 				(justify right)
 			)
 			(uuid "22749194-d40c-49ef-b0bd-aa098a053dbe")
+		)
+		(pin "CAN_CTRL{SPI}" bidirectional
+			(at 158.75 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b2932c6c-93e3-424e-8e04-23335adfe993")
 		)
 		(instances
 			(project "PIC18F_ETH"

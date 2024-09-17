@@ -5,174 +5,6 @@
 	(uuid "5d8e3bea-9928-4f2a-af63-abe913b7a1a8")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
 				(offset 1.016) hide)
@@ -2681,6 +2513,201 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "bt_connector:M;JST;01x03;2.54"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "JST,2.54"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "CPN" "BT10003-00003"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "JST 3 pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SMT" "n"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "M;JST;01x03;2.54_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8223,6 +8250,7 @@
 	)
 	(label "DI7"
 		(at 137.16 153.67 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8233,6 +8261,7 @@
 	)
 	(label "DO3"
 		(at 306.07 113.03 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8243,6 +8272,7 @@
 	)
 	(label "DI10"
 		(at 137.16 227.33 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8253,6 +8283,7 @@
 	)
 	(label "DO4"
 		(at 306.07 143.51 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8285,6 +8316,7 @@
 	)
 	(label "DI4"
 		(at 137.16 138.43 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8295,6 +8327,7 @@
 	)
 	(label "AD5"
 		(at 41.91 247.65 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8327,6 +8360,7 @@
 	)
 	(label "DO1"
 		(at 306.07 59.69 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8348,6 +8382,7 @@
 	)
 	(label "DI8"
 		(at 137.16 217.17 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8358,6 +8393,7 @@
 	)
 	(label "DO7"
 		(at 306.07 229.87 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8368,6 +8404,7 @@
 	)
 	(label "AD1"
 		(at 41.91 77.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8378,6 +8415,7 @@
 	)
 	(label "DI0"
 		(at 137.16 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8388,6 +8426,7 @@
 	)
 	(label "AD4"
 		(at 41.91 204.47 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8398,6 +8437,7 @@
 	)
 	(label "AD3"
 		(at 41.91 162.56 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8463,6 +8503,7 @@
 	)
 	(label "DI11"
 		(at 137.16 231.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8473,6 +8514,7 @@
 	)
 	(label "DI1"
 		(at 137.16 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8494,6 +8536,7 @@
 	)
 	(label "AD0"
 		(at 41.91 36.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8504,6 +8547,7 @@
 	)
 	(label "DI9"
 		(at 137.16 222.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8525,6 +8569,7 @@
 	)
 	(label "DO5"
 		(at 306.07 171.45 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8535,6 +8580,7 @@
 	)
 	(label "DO2"
 		(at 306.07 87.63 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8545,6 +8591,7 @@
 	)
 	(label "DO6"
 		(at 306.07 201.93 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8599,6 +8646,7 @@
 	)
 	(label "DI3"
 		(at 137.16 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8620,6 +8668,7 @@
 	)
 	(label "AD2"
 		(at 41.91 118.11 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8641,6 +8690,7 @@
 	)
 	(label "DI5"
 		(at 137.16 143.51 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8717,6 +8767,7 @@
 	)
 	(label "DI2"
 		(at 137.16 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8727,6 +8778,7 @@
 	)
 	(label "DO0"
 		(at 306.07 36.83 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8748,6 +8800,7 @@
 	)
 	(label "DI6"
 		(at 137.16 148.59 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9602,7 +9655,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "bt_connector:M;JST;01x03;2.54")
 		(at 88.9 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9620,7 +9673,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "JST,2.54"
 			(at 91.44 78.7399 0)
 			(effects
 				(font
@@ -9629,7 +9682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Samtec_HPM_THT:Samtec_HPM-03-01-x-S_Straight_1x03_Pitch5.08mm"
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 88.9 77.47 0)
 			(effects
 				(font
@@ -9648,6 +9701,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT10003-00003"
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "JST 3 pin"
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" "n"
 			(at 88.9 77.47 0)
 			(effects
 				(font
@@ -9675,7 +9755,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "bt_connector:M;JST;01x03;2.54")
 		(at 88.9 247.65 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9693,7 +9773,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "JST,2.54"
 			(at 91.44 248.9199 0)
 			(effects
 				(font
@@ -9702,7 +9782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Samtec_HPM_THT:Samtec_HPM-03-01-x-S_Straight_1x03_Pitch5.08mm"
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 88.9 247.65 0)
 			(effects
 				(font
@@ -9721,6 +9801,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 88.9 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT10003-00003"
+			(at 88.9 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "JST 3 pin"
+			(at 88.9 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" "n"
 			(at 88.9 247.65 0)
 			(effects
 				(font
@@ -10015,7 +10122,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "bt_connector:M;JST;01x03;2.54")
 		(at 88.9 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10033,7 +10140,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "JST,2.54"
 			(at 91.44 205.7399 0)
 			(effects
 				(font
@@ -10042,7 +10149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Samtec_HPM_THT:Samtec_HPM-03-01-x-S_Straight_1x03_Pitch5.08mm"
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 88.9 204.47 0)
 			(effects
 				(font
@@ -10061,6 +10168,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 88.9 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT10003-00003"
+			(at 88.9 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "JST 3 pin"
+			(at 88.9 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" "n"
 			(at 88.9 204.47 0)
 			(effects
 				(font
@@ -13925,7 +14059,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "bt_connector:M;JST;01x03;2.54")
 		(at 88.9 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13943,7 +14077,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "JST,2.54"
 			(at 91.44 119.3799 0)
 			(effects
 				(font
@@ -13952,7 +14086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Samtec_HPM_THT:Samtec_HPM-03-01-x-S_Straight_1x03_Pitch5.08mm"
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 88.9 118.11 0)
 			(effects
 				(font
@@ -13971,6 +14105,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 88.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT10003-00003"
+			(at 88.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "JST 3 pin"
+			(at 88.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" "n"
 			(at 88.9 118.11 0)
 			(effects
 				(font
@@ -16423,7 +16584,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "bt_connector:M;JST;01x03;2.54")
 		(at 88.9 36.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16441,7 +16602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "JST,2.54"
 			(at 91.44 38.0999 0)
 			(effects
 				(font
@@ -16450,7 +16611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Samtec_HPM_THT:Samtec_HPM-03-01-x-S_Straight_1x03_Pitch5.08mm"
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 88.9 36.83 0)
 			(effects
 				(font
@@ -16469,6 +16630,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 88.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT10003-00003"
+			(at 88.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "JST 3 pin"
+			(at 88.9 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" "n"
 			(at 88.9 36.83 0)
 			(effects
 				(font
@@ -16733,7 +16921,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "bt_connector:M;JST;01x03;2.54")
 		(at 88.9 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16751,7 +16939,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
+		(property "Value" "JST,2.54"
 			(at 91.44 163.8299 0)
 			(effects
 				(font
@@ -16760,7 +16948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Samtec_HPM_THT:Samtec_HPM-03-01-x-S_Straight_1x03_Pitch5.08mm"
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 88.9 162.56 0)
 			(effects
 				(font
@@ -16779,6 +16967,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 88.9 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT10003-00003"
+			(at 88.9 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "JST 3 pin"
+			(at 88.9 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMT" "n"
 			(at 88.9 162.56 0)
 			(effects
 				(font
