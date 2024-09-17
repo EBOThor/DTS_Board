@@ -293,7 +293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19fe3fa3-023f-43eb-910a-e210e030d6ee")
-		(property "Reference" "#PWR07001"
+		(property "Reference" "#PWR07002"
 			(at 140.97 74.93 0)
 			(effects
 				(font
@@ -343,7 +343,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/99e9adce-921c-46ac-b4e9-6503da75f3b7"
-					(reference "#PWR07001")
+					(reference "#PWR07002")
 					(unit 1)
 				)
 			)
@@ -882,7 +882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df5f8bd7-99f6-4546-ae4b-0e6322c09060")
-		(property "Reference" "#PWR07002"
+		(property "Reference" "#PWR07001"
 			(at 140.97 50.8 0)
 			(effects
 				(font
@@ -932,7 +932,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/99e9adce-921c-46ac-b4e9-6503da75f3b7"
-					(reference "#PWR07002")
+					(reference "#PWR07001")
 					(unit 1)
 				)
 			)

@@ -6048,7 +6048,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06df8532-bbef-4a94-ae25-f8c47ca1fac3")
-		(property "Reference" "U2002"
+		(property "Reference" "U2003"
 			(at 235.458 85.852 0)
 			(effects
 				(font
@@ -6124,7 +6124,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "U2002")
+					(reference "U2003")
 					(unit 1)
 				)
 			)
@@ -6140,7 +6140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "183354a0-ec7c-4cb6-adaa-6d6cfb89bb23")
-		(property "Reference" "#PWR02006"
+		(property "Reference" "#PWR02002"
 			(at 62.23 252.73 0)
 			(effects
 				(font
@@ -6190,7 +6190,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "#PWR02006")
+					(reference "#PWR02002")
 					(unit 1)
 				)
 			)
@@ -6206,7 +6206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2963c5df-fc91-4cd0-ad3c-757373e9a004")
-		(property "Reference" "R2001"
+		(property "Reference" "R2004"
 			(at 245.11 87.6299 0)
 			(effects
 				(font
@@ -6278,7 +6278,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "R2001")
+					(reference "R2004")
 					(unit 1)
 				)
 			)
@@ -6294,7 +6294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a93252c-702c-4b85-958b-77a3ec4223ad")
-		(property "Reference" "R2003"
+		(property "Reference" "R2002"
 			(at 95.25 111.7599 0)
 			(effects
 				(font
@@ -6366,7 +6366,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "R2003")
+					(reference "R2002")
 					(unit 1)
 				)
 			)
@@ -6381,7 +6381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c328e0e-c8d8-4c35-a7be-b541c0892bd3")
-		(property "Reference" "C2005"
+		(property "Reference" "C2006"
 			(at 311.15 36.8299 0)
 			(effects
 				(font
@@ -6453,7 +6453,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "C2005")
+					(reference "C2006")
 					(unit 1)
 				)
 			)
@@ -6468,7 +6468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d165d9a-5e3b-438b-b1e0-74d6a2f98473")
-		(property "Reference" "U2001"
+		(property "Reference" "U2002"
 			(at 383.032 23.622 0)
 			(effects
 				(font
@@ -6728,7 +6728,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "U2001")
+					(reference "U2002")
 					(unit 2)
 				)
 			)
@@ -6744,7 +6744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "32a2cc43-9fd0-43ec-9209-50160d442e34")
-		(property "Reference" "R2002"
+		(property "Reference" "R2001"
 			(at 46.99 264.1599 0)
 			(effects
 				(font
@@ -6816,7 +6816,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "R2002")
+					(reference "R2001")
 					(unit 1)
 				)
 			)
@@ -6831,7 +6831,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3762e0c7-967d-4de9-932f-ed6f33a706df")
-		(property "Reference" "U2001"
+		(property "Reference" "U2002"
 			(at 191.516 115.062 0)
 			(effects
 				(font
@@ -7089,7 +7089,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "U2001")
+					(reference "U2002")
 					(unit 1)
 				)
 			)
@@ -7192,7 +7192,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40160837-f4d3-41fe-bc38-52fdd3e46850")
-		(property "Reference" "#PWR02010"
+		(property "Reference" "#PWR02005"
 			(at 80.01 285.75 0)
 			(effects
 				(font
@@ -7242,7 +7242,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "#PWR02010")
+					(reference "#PWR02005")
 					(unit 1)
 				)
 			)
@@ -7257,7 +7257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "441b1aa7-cc7e-4193-b265-070ef512b1b9")
-		(property "Reference" "C2008"
+		(property "Reference" "C2009"
 			(at 344.17 36.8299 0)
 			(effects
 				(font
@@ -7329,7 +7329,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "C2008")
+					(reference "C2009")
 					(unit 1)
 				)
 			)
@@ -7345,7 +7345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a9be4ed-476b-4c52-b460-766a3936c4b6")
-		(property "Reference" "#PWR02005"
+		(property "Reference" "#PWR02003"
 			(at 62.23 278.13 0)
 			(effects
 				(font
@@ -7395,7 +7395,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "#PWR02005")
+					(reference "#PWR02003")
 					(unit 1)
 				)
 			)
@@ -7411,7 +7411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c6065b0-4427-4962-84af-a7c4872578cd")
-		(property "Reference" "#PWR02009"
+		(property "Reference" "#PWR02008"
 			(at 125.73 276.86 0)
 			(effects
 				(font
@@ -7461,7 +7461,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "#PWR02009")
+					(reference "#PWR02008")
 					(unit 1)
 				)
 			)
@@ -7477,7 +7477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d9fa2ce-2249-4e1d-b2a1-521ea84347c5")
-		(property "Reference" "#PWR02002"
+		(property "Reference" "#PWR02010"
 			(at 228.6 115.57 0)
 			(effects
 				(font
@@ -7527,7 +7527,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "#PWR02002")
+					(reference "#PWR02010")
 					(unit 1)
 				)
 			)
@@ -7543,7 +7543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6352daa1-3039-4171-9eb9-d1454c9e516d")
-		(property "Reference" "#PWR02015"
+		(property "Reference" "#PWR02011"
 			(at 260.35 87.63 0)
 			(effects
 				(font
@@ -7593,7 +7593,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "#PWR02015")
+					(reference "#PWR02011")
 					(unit 1)
 				)
 			)
@@ -7608,7 +7608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ebc303b-9f12-483b-a81c-cce9e1bc9848")
-		(property "Reference" "C2006"
+		(property "Reference" "C2007"
 			(at 322.58 36.8299 0)
 			(effects
 				(font
@@ -7680,7 +7680,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "C2006")
+					(reference "C2007")
 					(unit 1)
 				)
 			)
@@ -7695,7 +7695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77d7d656-5743-44fe-bd90-7e4b0ed88213")
-		(property "Reference" "C2003"
+		(property "Reference" "C2004"
 			(at 288.29 36.8299 0)
 			(effects
 				(font
@@ -7767,7 +7767,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "C2003")
+					(reference "C2004")
 					(unit 1)
 				)
 			)
@@ -7782,7 +7782,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "780368ec-daa7-4e4f-a1fa-ed64b3ee68ee")
-		(property "Reference" "C2011"
+		(property "Reference" "C2003"
 			(at 264.16 91.4399 0)
 			(effects
 				(font
@@ -7854,7 +7854,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "C2011")
+					(reference "C2003")
 					(unit 1)
 				)
 			)
@@ -7870,7 +7870,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ce8c357-e232-479e-be70-7fe4cde4f4e0")
-		(property "Reference" "R2004"
+		(property "Reference" "R2003"
 			(at 232.41 171.45 90)
 			(effects
 				(font
@@ -7940,7 +7940,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "R2004")
+					(reference "R2003")
 					(unit 1)
 				)
 			)
@@ -7956,7 +7956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85c33b81-86af-456f-b495-e8be48ddea85")
-		(property "Reference" "#PWR02001"
+		(property "Reference" "#PWR02009"
 			(at 228.6 83.82 0)
 			(effects
 				(font
@@ -8006,7 +8006,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "#PWR02001")
+					(reference "#PWR02009")
 					(unit 1)
 				)
 			)
@@ -8022,7 +8022,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89cd59e9-3f96-429c-9f86-afeea4ff4779")
-		(property "Reference" "#PWR02008"
+		(property "Reference" "#PWR02007"
 			(at 121.92 254 0)
 			(effects
 				(font
@@ -8072,7 +8072,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "#PWR02008")
+					(reference "#PWR02007")
 					(unit 1)
 				)
 			)
@@ -8088,7 +8088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d789bdc-47d1-423a-9786-b3b81bdb3479")
-		(property "Reference" "#PWR02016"
+		(property "Reference" "#PWR02014"
 			(at 323.85 58.42 0)
 			(effects
 				(font
@@ -8138,7 +8138,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "#PWR02016")
+					(reference "#PWR02014")
 					(unit 1)
 				)
 			)
@@ -8154,7 +8154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8edeeb2c-3a73-40c3-b074-e6d34e978a40")
-		(property "Reference" "#PWR02003"
+		(property "Reference" "#PWR02016"
 			(at 370.84 76.2 0)
 			(effects
 				(font
@@ -8204,7 +8204,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "#PWR02003")
+					(reference "#PWR02016")
 					(unit 1)
 				)
 			)
@@ -8307,7 +8307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "933418a5-be23-4093-8e3d-247cf8baf416")
-		(property "Reference" "#PWR02004"
+		(property "Reference" "#PWR02015"
 			(at 365.76 30.48 0)
 			(effects
 				(font
@@ -8357,7 +8357,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "#PWR02004")
+					(reference "#PWR02015")
 					(unit 1)
 				)
 			)
@@ -8372,7 +8372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d69fe3d-bdea-4bc6-a0f2-f39391e2b6d2")
-		(property "Reference" "C2007"
+		(property "Reference" "C2008"
 			(at 332.74 36.8299 0)
 			(effects
 				(font
@@ -8444,7 +8444,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "C2007")
+					(reference "C2008")
 					(unit 1)
 				)
 			)
@@ -8460,7 +8460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6829124-b4cd-4507-883c-52eae85609a4")
-		(property "Reference" "#PWR02014"
+		(property "Reference" "#PWR02012"
 			(at 260.35 105.41 0)
 			(effects
 				(font
@@ -8510,7 +8510,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "#PWR02014")
+					(reference "#PWR02012")
 					(unit 1)
 				)
 			)
@@ -8591,7 +8591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba77ae04-5457-48f7-898e-78f97f19e62b")
-		(property "Reference" "C2009"
+		(property "Reference" "C2010"
 			(at 355.6 36.8299 0)
 			(effects
 				(font
@@ -8663,7 +8663,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "C2009")
+					(reference "C2010")
 					(unit 1)
 				)
 			)
@@ -8679,7 +8679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb130c17-98fd-4159-8834-a08367ed642b")
-		(property "Reference" "#PWR02012"
+		(property "Reference" "#PWR02006"
 			(at 92.71 105.41 0)
 			(effects
 				(font
@@ -8729,7 +8729,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "#PWR02012")
+					(reference "#PWR02006")
 					(unit 1)
 				)
 			)
@@ -8744,7 +8744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc0db0c9-f471-429c-b440-971b78e8b21b")
-		(property "Reference" "C2004"
+		(property "Reference" "C2005"
 			(at 299.72 36.8299 0)
 			(effects
 				(font
@@ -8816,7 +8816,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "C2004")
+					(reference "C2005")
 					(unit 1)
 				)
 			)
@@ -8832,7 +8832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c454bb4d-c4cc-48a6-9487-68ea2102cdcd")
-		(property "Reference" "#PWR02007"
+		(property "Reference" "#PWR02001"
 			(at 44.45 279.4 0)
 			(effects
 				(font
@@ -8882,7 +8882,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "#PWR02007")
+					(reference "#PWR02001")
 					(unit 1)
 				)
 			)
@@ -8898,7 +8898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c57798e8-dc49-4416-ac6b-8191caf7d608")
-		(property "Reference" "#PWR02011"
+		(property "Reference" "#PWR02004"
 			(at 80.01 275.59 0)
 			(effects
 				(font
@@ -8948,7 +8948,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "#PWR02011")
+					(reference "#PWR02004")
 					(unit 1)
 				)
 			)
@@ -9046,7 +9046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7c83318-34b1-4cba-9623-6531fa2e47f8")
-		(property "Reference" "C2010"
+		(property "Reference" "C2011"
 			(at 355.6 52.0699 0)
 			(effects
 				(font
@@ -9118,7 +9118,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "C2010")
+					(reference "C2011")
 					(unit 1)
 				)
 			)
@@ -9134,7 +9134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e25eddfe-8550-4442-913f-e4f898d9aaa6")
-		(property "Reference" "U2003"
+		(property "Reference" "U2001"
 			(at 64.4241 250.19 0)
 			(effects
 				(font
@@ -9218,7 +9218,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
-					(reference "U2003")
+					(reference "U2001")
 					(unit 1)
 				)
 			)
