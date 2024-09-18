@@ -5,22 +5,21 @@
 	(uuid "4c6e43a2-2c49-4109-a273-cbbf4fb24017")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Connector:Jack-DC"
+		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
-				(offset 1.016)
-			)
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 5.334 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Jack-DC"
+			(property "Value" "Screw_Terminal_01x02"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -29,7 +28,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 1.27 -1.016 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -38,15 +37,6 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 1.27 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Barrel Jack"
 				(at 0 0 0)
 				(effects
 					(font
@@ -55,7 +45,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "DC power barrel jack connector"
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -64,7 +54,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "BarrelJack*"
+			(property "ki_keywords" "screw terminal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -73,10 +63,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "Jack-DC_0_1"
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
 				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -85,36 +84,11 @@
 						(type background)
 					)
 				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.302 3.175)
-					(mid -3.9343 2.54)
-					(end -3.302 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 3.81 2.54)
-					)
-					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -123,33 +97,67 @@
 				)
 				(polyline
 					(pts
-						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
 					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(rectangle
-					(start 3.683 3.175)
-					(end -3.302 1.905)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-			)
-			(symbol "Jack-DC_1_1"
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "~"
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -165,9 +173,9 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -326,6 +334,169 @@
 					(at 0 -3.81 90)
 					(length 2.794)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2860,7 +3031,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 119.38) (xy 106.68 119.38)
+			(xy 87.63 119.38) (xy 93.98 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2970,7 +3141,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 124.46) (xy 92.71 135.89)
+			(xy 92.71 121.92) (xy 92.71 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3110,6 +3281,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 119.38) (xy 106.68 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995a0ce1-c052-4d8c-9109-6e6a3b352433")
+	)
+	(wire
+		(pts
 			(xy 204.47 132.08) (xy 204.47 133.35)
 		)
 		(stroke
@@ -3210,7 +3391,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 124.46) (xy 92.71 124.46)
+			(xy 87.63 121.92) (xy 92.71 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3298,7 +3479,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03b6dfdb-06a5-4edb-b3cc-348cfd38b950")
-		(property "Reference" "#PWR03009"
+		(property "Reference" "#PWR03002"
 			(at 105.41 201.93 0)
 			(effects
 				(font
@@ -3348,7 +3529,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "#PWR03009")
+					(reference "#PWR03002")
 					(unit 1)
 				)
 			)
@@ -3452,7 +3633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1cf765c2-0c96-484a-88b3-eaed4910c806")
-		(property "Reference" "C3003"
+		(property "Reference" "C3004"
 			(at 223.52 132.0799 0)
 			(effects
 				(font
@@ -3524,7 +3705,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "C3003")
+					(reference "C3004")
 					(unit 1)
 				)
 			)
@@ -3540,7 +3721,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2645eaf2-4e8b-48cf-95c7-345dfb8565fc")
-		(property "Reference" "R3008"
+		(property "Reference" "R3005"
 			(at 212.09 227.3299 0)
 			(effects
 				(font
@@ -3612,7 +3793,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "R3008")
+					(reference "R3005")
 					(unit 1)
 				)
 			)
@@ -3628,7 +3809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "412d6bf6-eb16-4951-9436-a1803c11b52f")
-		(property "Reference" "#PWR03011"
+		(property "Reference" "#PWR03007"
 			(at 209.55 241.3 0)
 			(effects
 				(font
@@ -3678,7 +3859,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "#PWR03011")
+					(reference "#PWR03007")
 					(unit 1)
 				)
 			)
@@ -3694,7 +3875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4676dde3-21ee-42a1-9a57-a197fe7d48b7")
-		(property "Reference" "R3006"
+		(property "Reference" "R3003"
 			(at 212.09 208.2799 0)
 			(effects
 				(font
@@ -3766,7 +3947,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "R3006")
+					(reference "R3003")
 					(unit 1)
 				)
 			)
@@ -3782,7 +3963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46bb6f4c-fddd-48ff-97dc-764a120771ff")
-		(property "Reference" "#PWR03003"
+		(property "Reference" "#PWR03011"
 			(at 266.7 121.92 0)
 			(effects
 				(font
@@ -3832,7 +4013,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "#PWR03003")
+					(reference "#PWR03011")
 					(unit 1)
 				)
 			)
@@ -3918,7 +4099,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5affba47-280c-4303-b81c-71d9dc3c14f2")
-		(property "Reference" "#PWR03006"
+		(property "Reference" "#PWR03009"
 			(at 232.41 227.33 0)
 			(effects
 				(font
@@ -3968,7 +4149,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "#PWR03006")
+					(reference "#PWR03009")
 					(unit 1)
 				)
 			)
@@ -3984,7 +4165,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5de92c7e-8770-44e3-a39c-072f35695c66")
-		(property "Reference" "#PWR03008"
+		(property "Reference" "#PWR03004"
 			(at 115.57 228.6 0)
 			(effects
 				(font
@@ -4034,75 +4215,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "#PWR03008")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Jack-DC")
-		(at 80.01 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c0acb75-9f31-464f-b1f4-b90379e5d13e")
-		(property "Reference" "J3001"
-			(at 80.01 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Jack-DC"
-			(at 80.01 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
-			(at 81.28 122.936 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 122.936 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Barrel Jack"
-			(at 80.01 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f54daae-68a2-4897-80a6-3f411637ca4d")
-		)
-		(pin "1"
-			(uuid "199c270b-739a-43b1-a674-76ad21dd62c5")
-		)
-		(instances
-			(project "PIC18F_ETH"
-				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "J3001")
+					(reference "#PWR03004")
 					(unit 1)
 				)
 			)
@@ -4118,7 +4231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74d3d070-a397-4d52-bdb0-0fd9a7b178f4")
-		(property "Reference" "C3004"
+		(property "Reference" "C3006"
 			(at 240.03 132.0799 0)
 			(effects
 				(font
@@ -4190,7 +4303,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "C3004")
+					(reference "C3006")
 					(unit 1)
 				)
 			)
@@ -4294,7 +4407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f1799ec-9205-448f-b561-1df65ae7d638")
-		(property "Reference" "#PWR03004"
+		(property "Reference" "#PWR03003"
 			(at 106.68 143.51 0)
 			(effects
 				(font
@@ -4344,7 +4457,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "#PWR03004")
+					(reference "#PWR03003")
 					(unit 1)
 				)
 			)
@@ -4360,7 +4473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81d880e3-d486-427f-a084-6c1f185fd94c")
-		(property "Reference" "C3006"
+		(property "Reference" "C3002"
 			(at 119.38 208.2799 0)
 			(effects
 				(font
@@ -4432,7 +4545,75 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "C3006")
+					(reference "C3002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 82.55 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83428ceb-617e-40e5-9b42-34546e4aac0f")
+		(property "Reference" "J3001"
+			(at 82.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 82.55 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Samtec_HPM_THT:Samtec_HPM-02-01-x-S_Straight_1x02_Pitch5.08mm"
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 82.55 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68f92aad-b7c4-4898-83d1-bb611ef56bdc")
+		)
+		(pin "2"
+			(uuid "77dc1640-5d29-46b5-a3bf-d597869b2649")
+		)
+		(instances
+			(project ""
+				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
+					(reference "J3001")
 					(unit 1)
 				)
 			)
@@ -4556,7 +4737,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85611140-5a53-4b4b-b0a6-9babd9643d17")
-		(property "Reference" "C3008"
+		(property "Reference" "C3007"
 			(at 246.38 209.5499 0)
 			(effects
 				(font
@@ -4628,7 +4809,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "C3008")
+					(reference "C3007")
 					(unit 1)
 				)
 			)
@@ -4644,7 +4825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a033459-9380-42be-bad4-dd674efa42e9")
-		(property "Reference" "C3002"
+		(property "Reference" "C3003"
 			(at 166.37 104.14 90)
 			(effects
 				(font
@@ -4714,7 +4895,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "C3002")
+					(reference "C3003")
 					(unit 1)
 				)
 			)
@@ -4730,7 +4911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a1a81a0-ad03-40fa-80f8-86a6df8665cc")
-		(property "Reference" "C3005"
+		(property "Reference" "C3008"
 			(at 255.27 132.0799 0)
 			(effects
 				(font
@@ -4802,7 +4983,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "C3005")
+					(reference "C3008")
 					(unit 1)
 				)
 			)
@@ -4818,7 +4999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a55d7bd-70bd-4676-bc50-914e32d1cf46")
-		(property "Reference" "C3007"
+		(property "Reference" "C3005"
 			(at 228.6 209.5499 0)
 			(effects
 				(font
@@ -4890,7 +5071,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "C3007")
+					(reference "C3005")
 					(unit 1)
 				)
 			)
@@ -4906,7 +5087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a7fb2b5-c7d0-40e3-a68f-8f8ccf24308d")
-		(property "Reference" "#PWR03001"
+		(property "Reference" "#PWR03006"
 			(at 147.32 146.05 0)
 			(effects
 				(font
@@ -4956,7 +5137,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "#PWR03001")
+					(reference "#PWR03006")
 					(unit 1)
 				)
 			)
@@ -4972,7 +5153,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a44b8169-1239-4e18-9d05-febda190451a")
-		(property "Reference" "R3007"
+		(property "Reference" "R3004"
 			(at 212.09 217.1699 0)
 			(effects
 				(font
@@ -5044,7 +5225,93 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "R3007")
+					(reference "R3004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 97.79 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5c6f291-47de-4176-baec-155528cc7b05")
+		(property "Reference" "D3001"
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 97.79 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+			(at 97.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 97.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 97.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 97.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd1dcd6e-c213-498e-8593-71508faa8191")
+		)
+		(pin "1"
+			(uuid "63acd2a6-6f01-4ae0-847a-caa0ebc391ef")
+		)
+		(instances
+			(project ""
+				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
+					(reference "D3001")
 					(unit 1)
 				)
 			)
@@ -5060,7 +5327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b21a5564-a316-4a2b-9072-525bebfe2e5c")
-		(property "Reference" "#PWR03007"
+		(property "Reference" "#PWR03005"
 			(at 140.97 228.6 0)
 			(effects
 				(font
@@ -5110,7 +5377,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "#PWR03007")
+					(reference "#PWR03005")
 					(unit 1)
 				)
 			)
@@ -5224,7 +5491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b67f07ea-7923-45cb-8f8d-978ed6eb721c")
-		(property "Reference" "#PWR03002"
+		(property "Reference" "#PWR03008"
 			(at 226.06 157.48 0)
 			(effects
 				(font
@@ -5274,7 +5541,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "#PWR03002")
+					(reference "#PWR03008")
 					(unit 1)
 				)
 			)
@@ -5453,7 +5720,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 92.71 135.89 0)
+		(at 92.71 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5461,8 +5728,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9840ddb-173e-4ecb-84db-623e0a4ed56c")
-		(property "Reference" "#PWR03005"
-			(at 92.71 142.24 0)
+		(property "Reference" "#PWR03001"
+			(at 92.71 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5471,7 +5738,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 92.71 140.97 0)
+			(at 92.71 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5479,7 +5746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 135.89 0)
+			(at 92.71 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 135.89 0)
+			(at 92.71 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5497,7 +5764,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 92.71 135.89 0)
+			(at 92.71 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5511,7 +5778,7 @@
 		(instances
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
-					(reference "#PWR03005")
+					(reference "#PWR03001")
 					(unit 1)
 				)
 			)

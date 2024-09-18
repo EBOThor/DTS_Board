@@ -17,6 +17,16 @@
 	)
 	(bus
 		(pts
+			(xy 158.75 105.41) (xy 209.55 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8a1ed5-b5d9-40e0-b085-a1596e7865d1")
+	)
+	(bus
+		(pts
 			(xy 184.15 78.74) (xy 158.75 78.74)
 		)
 		(stroke
@@ -34,16 +44,6 @@
 			(type default)
 		)
 		(uuid "5c8c6776-de23-4246-b93f-376803619e67")
-	)
-	(bus
-		(pts
-			(xy 158.75 92.71) (xy 209.55 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e3c5804-f69c-410a-9a80-6adbc05185b9")
 	)
 	(wire
 		(pts
@@ -67,13 +67,13 @@
 	)
 	(bus
 		(pts
-			(xy 158.75 88.9) (xy 209.55 88.9)
+			(xy 158.75 102.87) (xy 209.55 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b65af29d-a350-4f74-ad98-fb682c313511")
+		(uuid "bd63d393-8877-4a09-a1dd-c225edd054c8")
 	)
 	(bus
 		(pts
@@ -95,16 +95,16 @@
 		)
 		(uuid "da56f0f8-9d7b-40e6-885b-dcaf19887178")
 	)
-	(label "DO[0..7]"
-		(at 186.69 88.9 180)
+	(label "SPI_DI{SPI}"
+		(at 170.18 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "6e7caedc-0ed3-43b5-9f4e-7a62434bf7a9")
+		(uuid "7f0222b0-ceff-4769-9195-155fe5a4cc89")
 	)
 	(label "CAN_CTRL{SPI}"
 		(at 163.83 78.74 0)
@@ -117,6 +117,17 @@
 		)
 		(uuid "b3309ed4-1b93-44c4-b3c4-34465211e7b0")
 	)
+	(label "SPI_DO{SPI}"
+		(at 170.18 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca54242b-8292-4dce-a080-f7c4105e921b")
+	)
 	(label "AD[0..5]"
 		(at 186.69 96.52 180)
 		(fields_autoplaced yes)
@@ -127,17 +138,6 @@
 			(justify right bottom)
 		)
 		(uuid "cd0e22a4-9afb-4386-94e5-eb245c3871c5")
-	)
-	(label "DI[0..11]"
-		(at 186.69 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e8c68ce0-7361-4bea-99e4-57307e604784")
 	)
 	(sheet
 		(at 209.55 68.58)
@@ -169,16 +169,6 @@
 				(justify left top)
 			)
 		)
-		(pin "DI[0..11]" output
-			(at 209.55 92.71 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "da820468-9ee1-4f27-b56a-967094386d6b")
-		)
 		(pin "AD[0..5]" output
 			(at 209.55 96.52 180)
 			(effects
@@ -189,15 +179,25 @@
 			)
 			(uuid "8d3a71e5-4da2-4da2-b044-fceff7536070")
 		)
-		(pin "DO[0..7]" input
-			(at 209.55 88.9 180)
+		(pin "SPI_DO{SPI}" input
+			(at 209.55 105.41 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "488a4ebb-8e5d-469d-a7c2-2f8047bd898d")
+			(uuid "8b2e630b-4901-42d8-b752-201f30e93927")
+		)
+		(pin "SPI_DI{SPI}" bidirectional
+			(at 209.55 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0230a433-9a57-4677-a937-312ef1452d32")
 		)
 		(instances
 			(project "PIC18F_ETH"
@@ -353,26 +353,6 @@
 			)
 			(uuid "4dfef44f-f584-463b-bd71-64b9353dc04c")
 		)
-		(pin "DO[0..7]" output
-			(at 158.75 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a72ff2a0-bb13-4642-b236-3ee6f207794a")
-		)
-		(pin "DI[0..11]" output
-			(at 158.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "0cf22500-826e-4858-a050-4e17dffea014")
-		)
 		(pin "AD[0..5]" input
 			(at 158.75 96.52 0)
 			(effects
@@ -392,6 +372,26 @@
 				(justify right)
 			)
 			(uuid "b2932c6c-93e3-424e-8e04-23335adfe993")
+		)
+		(pin "SPI_DI{SPI}" bidirectional
+			(at 158.75 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "531f22ff-03fa-42ac-a049-2f11d5991982")
+		)
+		(pin "SPI_DO{SPI}" bidirectional
+			(at 158.75 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f89cb082-db83-495e-83c2-01941e483955")
 		)
 		(instances
 			(project "PIC18F_ETH"
