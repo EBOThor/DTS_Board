@@ -2033,7 +2033,7 @@
 		)
 	)
 	(bus_alias "SPI"
-		(members "CS#" "MOSI" "MISO" "SCK" "INT#")
+		(members "CS#" "MOSI" "MISO" "SCK" "INT#" "INT1#")
 	)
 	(junction
 		(at 210.82 144.78)
