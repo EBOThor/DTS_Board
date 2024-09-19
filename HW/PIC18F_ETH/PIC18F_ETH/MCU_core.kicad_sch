@@ -5418,6 +5418,17 @@
 		)
 		(uuid "57defc7b-88be-4af9-89da-cb2fc879f4af")
 	)
+	(label "SPI_SS0"
+		(at 86.36 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a500b54-60ff-4e10-9309-23d4ecd7c075")
+	)
 	(label "SPI_SS2"
 		(at 86.36 151.13 0)
 		(fields_autoplaced yes)
@@ -5517,7 +5528,7 @@
 		)
 		(uuid "80ddd5c6-0e18-4235-84f4-060f6d6f7df5")
 	)
-	(label "SPI_SS1"
+	(label "SPI_SS0"
 		(at 41.91 257.81 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5682,7 +5693,7 @@
 		)
 		(uuid "a009ec84-3495-4e73-ac32-88873a0e893e")
 	)
-	(label "SPI_SS2"
+	(label "SPI_SS1"
 		(at 163.83 237.49 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5772,6 +5783,7 @@
 	)
 	(label "SPI_DI.INT1#"
 		(at 314.96 125.73 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
