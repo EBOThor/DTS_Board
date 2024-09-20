@@ -1187,6 +1187,386 @@
 				)
 			)
 		)
+		(symbol "bt_capacitor:C;M;3n3;10p;50V;S;0603"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3n3 50V"
+				(at 4.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at -2.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "C;C;T1;S;P0603;NA"
+				(at 4 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "CPN" "BT00007-090033"
+				(at 4 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C;M;3n3;10p;50V;S;0603_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C;M;3n3;10p;50V;S;0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "bt_misc:TestPoint_SQU"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+				(at 5.334 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at -6.604 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_SQU_0_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TestPoint_SQU_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "bt_misc:TestPoint_THD"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+				(at 5.334 -4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at -6.604 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_THD_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_THD_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "bt_opto:D;LED;G;2V;25mA"
 			(pin_numbers hide)
 			(pin_names
@@ -2963,6 +3343,12 @@
 		)
 	)
 	(junction
+		(at 90.17 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02dbe778-a618-48fa-a394-ba551dba1507")
+	)
+	(junction
 		(at 106.68 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2985,6 +3371,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e87e50e-17cb-4f84-bb6d-090fc54d8c4d")
+	)
+	(junction
+		(at 270.51 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30acd870-5560-4767-af04-a2e4987b32ad")
 	)
 	(junction
 		(at 270.51 201.93)
@@ -3041,10 +3433,22 @@
 		(uuid "9008f1c5-28bf-4305-988e-400280b38fed")
 	)
 	(junction
+		(at 140.97 220.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9129ba95-939f-4eed-b92d-4e8aaba27f1d")
+	)
+	(junction
 		(at 226.06 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9c28364-4799-4c44-b30b-bd9c30f77b3c")
+	)
+	(junction
+		(at 124.46 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bec327c7-60f3-4561-bcb7-67043da06989")
 	)
 	(junction
 		(at 219.71 121.92)
@@ -3065,6 +3469,12 @@
 		(uuid "cb170e37-965a-4542-86cb-a36582f174ae")
 	)
 	(junction
+		(at 92.71 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d9e11dcb-9721-42a8-ab40-cc2b2e6e7ddf")
+	)
+	(junction
 		(at 251.46 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3075,6 +3485,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2ad2747-c71e-441d-8bfc-6e780f79382f")
+	)
+	(junction
+		(at 105.41 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa030e2f-8140-4ea3-8b51-2002b533d4e5")
 	)
 	(no_connect
 		(at 167.64 210.82)
@@ -3142,6 +3558,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 133.35) (xy 124.46 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18978ca9-9951-4230-9838-c4c5f0cde28e")
+	)
+	(wire
+		(pts
 			(xy 209.55 201.93) (xy 224.79 201.93)
 		)
 		(stroke
@@ -3149,6 +3575,16 @@
 			(type default)
 		)
 		(uuid "18d4edfb-58fd-4d4b-8d06-e23478986c3c")
+	)
+	(wire
+		(pts
+			(xy 124.46 119.38) (xy 124.46 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19812c9d-7c77-4a43-a71d-7537adb46902")
 	)
 	(wire
 		(pts
@@ -3232,13 +3668,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 119.38) (xy 132.08 119.38)
+			(xy 106.68 119.38) (xy 124.46 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "22328ef3-75d8-4752-b467-94a6557cea34")
+	)
+	(wire
+		(pts
+			(xy 105.41 199.39) (xy 105.41 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22506ac6-4d92-4353-9a61-19693f3899bd")
 	)
 	(wire
 		(pts
@@ -3362,7 +3808,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 119.38) (xy 93.98 119.38)
+			(xy 87.63 119.38) (xy 90.17 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3392,7 +3838,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 193.04) (xy 270.51 201.93)
+			(xy 270.51 193.04) (xy 270.51 196.85)
 		)
 		(stroke
 			(width 0)
@@ -3472,7 +3918,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 121.92) (xy 92.71 133.35)
+			(xy 92.71 121.92) (xy 92.71 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3542,6 +3988,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 196.85) (xy 270.51 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7605ee28-11fb-4e55-9d1e-901f51ec1c91")
+	)
+	(wire
+		(pts
 			(xy 209.55 222.25) (xy 209.55 223.52)
 		)
 		(stroke
@@ -3592,7 +4048,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 198.12) (xy 105.41 201.93)
+			(xy 105.41 198.12) (xy 105.41 199.39)
 		)
 		(stroke
 			(width 0)
@@ -3662,6 +4118,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 220.98) (xy 140.97 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1181a10-b7ae-4346-bf79-8ccbe5b6a6e7")
+	)
+	(wire
+		(pts
 			(xy 204.47 121.92) (xy 204.47 124.46)
 		)
 		(stroke
@@ -3722,7 +4188,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 210.82) (xy 140.97 222.25)
+			(xy 140.97 210.82) (xy 140.97 220.98)
 		)
 		(stroke
 			(width 0)
@@ -3739,6 +4205,16 @@
 			(type default)
 		)
 		(uuid "d4ebbbaa-6a30-446d-b66a-72ea4c835e17")
+	)
+	(wire
+		(pts
+			(xy 124.46 119.38) (xy 132.08 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db404f04-f4aa-4dac-8f37-6b7a2413152a")
 	)
 	(wire
 		(pts
@@ -3802,6 +4278,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 119.38) (xy 93.98 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f421c477-53ed-45eb-b22f-98fcd8b97188")
+	)
+	(wire
+		(pts
 			(xy 219.71 121.92) (xy 236.22 121.92)
 		)
 		(stroke
@@ -3809,6 +4295,16 @@
 			(type default)
 		)
 		(uuid "f5f5d787-4fe5-4aaa-b399-0cc4c96fd117")
+	)
+	(wire
+		(pts
+			(xy 92.71 130.81) (xy 92.71 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89c8dbb-0f50-4634-9faa-e4fc99b2e3a1")
 	)
 	(wire
 		(pts
@@ -4548,6 +5044,73 @@
 		)
 	)
 	(symbol
+		(lib_id "bt_misc:TestPoint_SQU")
+		(at 140.97 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50d4f27a-7c22-4354-833a-586d03b9fc24")
+		(property "Reference" "TP3004"
+			(at 143.51 220.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 140.97 218.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 146.304 225.044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 134.366 222.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "452ae7bc-e079-48e1-ba7b-1f740106950a")
+		)
+		(instances
+			(project ""
+				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
+					(reference "TP3004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bt_resistors:R;G;200R;10P0;S;0603")
 		(at 270.51 210.82 180)
 		(unit 1)
@@ -4630,6 +5193,73 @@
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
 					(reference "R3006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_misc:TestPoint_THD")
+		(at 105.41 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "552ac2df-c3fa-41cc-8ed2-d1f7d265cb31")
+		(property "Reference" "TP3003"
+			(at 107.95 199.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 105.41 197.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 110.744 203.454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 98.806 200.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87e6c509-ea09-46ed-91f3-7248343d6bdb")
+		)
+		(instances
+			(project ""
+				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
+					(reference "TP3003")
 					(unit 1)
 				)
 			)
@@ -5004,6 +5634,94 @@
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
 					(reference "#PWR03003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;3n3;10p;50V;S;0603")
+		(at 124.46 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8119a177-ed42-404e-bae9-674f1d5f99cd")
+		(property "Reference" "C3009"
+			(at 128.27 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3n3 50V"
+			(at 128.27 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 121.682 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 124.46 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;C;T1;S;P0603;NA"
+			(at 128.46 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00007-090033"
+			(at 128.46 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "593c397b-414d-4813-bfde-9dd5d25f9844")
+		)
+		(pin "1"
+			(uuid "4dd435bd-f3e2-4d52-9816-406b08bf5474")
+		)
+		(instances
+			(project ""
+				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
+					(reference "C3009")
 					(unit 1)
 				)
 			)
@@ -5422,6 +6140,73 @@
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
 					(reference "#PWR03012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_misc:TestPoint_THD")
+		(at 90.17 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "984ee89a-4af4-4f50-966c-f8e64baeeb19")
+		(property "Reference" "TP3001"
+			(at 92.71 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 90.17 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 95.504 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.566 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52697352-8c74-40aa-80e5-11e93877f0d4")
+		)
+		(instances
+			(project ""
+				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
+					(reference "TP3001")
 					(unit 1)
 				)
 			)
@@ -6160,6 +6945,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 124.46 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5ac0d4e-8809-4626-9e64-53a8a76993eb")
+		(property "Reference" "#PWR03013"
+			(at 124.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e734b646-7ff2-4037-8382-ced4130ecaf9")
+		)
+		(instances
+			(project "PIC18F_ETH"
+				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
+					(reference "#PWR03013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bt_Inductors:L;33u;2,8;62m;S;")
 		(at 184.15 121.92 90)
 		(unit 1)
@@ -6331,6 +7182,73 @@
 		)
 	)
 	(symbol
+		(lib_id "bt_misc:TestPoint_THD")
+		(at 270.51 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3ae4765-3bed-4a5f-996b-e7e69de88fac")
+		(property "Reference" "TP3005"
+			(at 273.05 196.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 270.51 194.818 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 275.844 200.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 263.906 198.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79faaa19-9342-48c7-a7d9-080249e144eb")
+		)
+		(instances
+			(project ""
+				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
+					(reference "TP3005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 92.71 133.35 0)
 		(unit 1)
@@ -6391,6 +7309,73 @@
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
 					(reference "#PWR03001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_misc:TestPoint_SQU")
+		(at 92.71 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbdda90a-208b-4504-b226-5f8aba77428a")
+		(property "Reference" "TP3002"
+			(at 95.25 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 92.71 128.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm"
+			(at 98.044 134.874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 86.106 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6bc3acb2-459b-4e68-972c-50f10a638f37")
+		)
+		(instances
+			(project ""
+				(path "/26a36835-4e01-4565-9612-f38560505464/bd751cb9-4c94-4c00-a697-5d4aa40d6bc8"
+					(reference "TP3002")
 					(unit 1)
 				)
 			)
