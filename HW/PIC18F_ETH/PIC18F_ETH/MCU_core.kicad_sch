@@ -3267,6 +3267,12 @@
 		(uuid "b6723650-011c-4af3-8059-ccdead418ee8")
 	)
 	(junction
+		(at 107.95 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb4a7a8d-aaea-43f9-9017-9e7c257537f8")
+	)
+	(junction
 		(at 228.6 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3534,6 +3540,16 @@
 			(type default)
 		)
 		(uuid "f5e6c286-4f38-4599-abdb-1d2ea0e5c662")
+	)
+	(wire
+		(pts
+			(xy 107.95 123.19) (xy 110.49 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0027a040-5f03-4bd3-9466-74126af91ffa")
 	)
 	(bus
 		(pts
@@ -3977,6 +3993,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 125.73) (xy 107.95 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47438bcb-2e76-4756-abd4-d27e5ee2834f")
+	)
+	(wire
+		(pts
 			(xy 323.85 46.99) (xy 323.85 52.07)
 		)
 		(stroke
@@ -4394,6 +4420,16 @@
 			(type default)
 		)
 		(uuid "7650cbf5-e782-419e-98da-a0a8a81a3815")
+	)
+	(wire
+		(pts
+			(xy 107.95 125.73) (xy 107.95 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76db70cc-b5ba-4f6e-8047-6135ad87d0c9")
 	)
 	(wire
 		(pts
@@ -5147,7 +5183,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 123.19) (xy 110.49 123.19)
+			(xy 92.71 123.19) (xy 107.95 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6581,6 +6617,93 @@
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
 					(reference "U2003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 69.85 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f88b1da-f24c-46fb-a3b7-1a6b004a3e5f")
+		(property "Reference" "C2012"
+			(at 72.136 127.254 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 65.024 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 69.85 122.952 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 69.85 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;C;T1;S;P0603;NA"
+			(at 69.85 129.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-090680"
+			(at 69.85 129.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9559aa38-7d69-410b-ae2f-9cb38e7523b8")
+		)
+		(pin "2"
+			(uuid "aac657af-837f-47f2-8f6b-cccec11d6cbc")
+		)
+		(instances
+			(project "PIC18F_ETH"
+				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
+					(reference "C2012")
 					(unit 1)
 				)
 			)
@@ -8452,6 +8575,72 @@
 			(project "PIC18F_ETH"
 				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
 					(reference "#PWR02018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 66.04 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "628879b8-8131-473b-b226-c32a29bc6b24")
+		(property "Reference" "#PWR02020"
+			(at 59.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fcf4b4d-392e-46bb-a748-5a435165d417")
+		)
+		(instances
+			(project "PIC18F_ETH"
+				(path "/26a36835-4e01-4565-9612-f38560505464/ad2b3e7b-516f-4805-aaab-2158978e44df"
+					(reference "#PWR02020")
 					(unit 1)
 				)
 			)
