@@ -5,8 +5,9 @@
 	(uuid "5d8e3bea-9928-4f2a-af63-abe913b7a1a8")
 	(paper "A3")
 	(title_block
-		(title "BT_ADDX")
+		(title "BT_AD/DX")
 		(rev "Rev:P1")
+		(comment 1 "BT_0001-1")
 	)
 	(lib_symbols
 		(symbol "MCP23S17-E_ML_1"

@@ -5,8 +5,9 @@
 	(uuid "9cd97e44-2ee6-47c0-b52f-7e1400f0628f")
 	(paper "A3")
 	(title_block
-		(title "BT_ADDX")
+		(title "BT_AD/DX")
 		(rev "Rev:P1")
+		(comment 1 "BT_0001-1")
 	)
 	(lib_symbols
 		(symbol "Device:R"

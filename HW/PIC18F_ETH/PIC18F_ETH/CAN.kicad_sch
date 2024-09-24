@@ -5,8 +5,9 @@
 	(uuid "b5c67d1a-fda2-4066-a152-4abb809c7776")
 	(paper "A3")
 	(title_block
-		(title "BT_ADDX")
+		(title "BT_AD/DX")
 		(rev "Rev:P1")
+		(comment 1 "BT_0001-1")
 	)
 	(lib_symbols
 		(symbol "bt_capacitor:C;M;100n;10p;25V;S;0603"

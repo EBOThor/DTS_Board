@@ -5,8 +5,9 @@
 	(uuid "4c6e43a2-2c49-4109-a273-cbbf4fb24017")
 	(paper "A3")
 	(title_block
-		(title "BT_ADDX")
+		(title "BT_AD/DX")
 		(rev "Rev:P1")
+		(comment 1 "BT_0001-1")
 	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"

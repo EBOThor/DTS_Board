@@ -5,8 +5,9 @@
 	(uuid "8dde34a7-396c-478a-a575-3bd78d33d4b5")
 	(paper "A3")
 	(title_block
-		(title "BT_ADDX")
+		(title "BT_AD/DX")
 		(rev "Rev:P1")
+		(comment 1 "BT_0001-1")
 	)
 	(lib_symbols
 		(symbol "bt_connector:M;JST;01x02;2.54"
