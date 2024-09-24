@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "8dde34a7-396c-478a-a575-3bd78d33d4b5")
 	(paper "A3")
+	(title_block
+		(title "BT_ADDX")
+		(rev "Rev:P1")
+	)
 	(lib_symbols
 		(symbol "bt_connector:M;JST;01x02;2.54"
 			(pin_names

@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "4c6e43a2-2c49-4109-a273-cbbf4fb24017")
 	(paper "A3")
+	(title_block
+		(title "BT_ADDX")
+		(rev "Rev:P1")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
@@ -883,6 +887,158 @@
 				)
 			)
 		)
+		(symbol "bt_capacitor:C;M;100n;10p;100V;S;0603"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100n 100V"
+				(at 4.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at -2.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "C;M;100n;10p;100V;S;0603"
+				(at 4 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "CPN" "BT00013-090680"
+				(at 4 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C;M;100n;10p;100V;S;0603_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C;M;100n;10p;100V;S;0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "bt_capacitor:C;M;100n;10p;25V;S;0603"
 			(pin_numbers hide)
 			(pin_names
@@ -1187,7 +1343,7 @@
 				)
 			)
 		)
-		(symbol "bt_capacitor:C;M;3n3;10p;50V;S;0603"
+		(symbol "bt_capacitor:C;M;10u;10p;50V;S;0603"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -1203,7 +1359,7 @@
 					)
 				)
 			)
-			(property "Value" "3n3 50V"
+			(property "Value" "10u 50V"
 				(at 4.635 -2.54 0)
 				(effects
 					(font
@@ -1247,7 +1403,7 @@
 					(hide yes)
 				)
 			)
-			(property "CPN" "BT00007-090033"
+			(property "CPN" "BT00007-060100"
 				(at 4 0 90)
 				(effects
 					(font
@@ -1274,7 +1430,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C;M;3n3;10p;50V;S;0603_0_1"
+			(symbol "C;M;10u;10p;50V;S;0603_0_1"
 				(polyline
 					(pts
 						(xy -2.032 -0.762) (xy 2.032 -0.762)
@@ -1300,7 +1456,7 @@
 					)
 				)
 			)
-			(symbol "C;M;3n3;10p;50V;S;0603_1_1"
+			(symbol "C;M;10u;10p;50V;S;0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -2474,7 +2630,7 @@
 				)
 			)
 		)
-		(symbol "bt_resistors:R;G;160K;10P0;S;0603"
+		(symbol "bt_resistors:R;G;16K;10P0;S;0603"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -2490,7 +2646,7 @@
 					)
 				)
 			)
-			(property "Value" "160K"
+			(property "Value" "16K"
 				(at 0 0 90)
 				(effects
 					(font
@@ -2534,7 +2690,7 @@
 					(hide yes)
 				)
 			)
-			(property "CPN" "BT00002-31600"
+			(property "CPN" "BT00002-30160"
 				(at 0 0 90)
 				(effects
 					(font
@@ -2561,7 +2717,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R;G;160K;10P0;S;0603_0_1"
+			(symbol "R;G;16K;10P0;S;0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -2574,7 +2730,7 @@
 					)
 				)
 			)
-			(symbol "R;G;160K;10P0;S;0603_1_1"
+			(symbol "R;G;16K;10P0;S;0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -2891,7 +3047,7 @@
 				)
 			)
 		)
-		(symbol "bt_resistors:R;G;30K;10P0;S;0603"
+		(symbol "bt_resistors:R;G;3K;10P0;S;0603"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -2907,7 +3063,7 @@
 					)
 				)
 			)
-			(property "Value" "30K"
+			(property "Value" "3K"
 				(at 0 0 90)
 				(effects
 					(font
@@ -2951,7 +3107,7 @@
 					(hide yes)
 				)
 			)
-			(property "CPN" "BT00002-30300"
+			(property "CPN" "BT00002-30030"
 				(at 0 0 90)
 				(effects
 					(font
@@ -2978,7 +3134,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R;G;30K;10P0;S;0603_0_1"
+			(symbol "R;G;3K;10P0;S;0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -2991,7 +3147,7 @@
 					)
 				)
 			)
-			(symbol "R;G;30K;10P0;S;0603_1_1"
+			(symbol "R;G;3K;10P0;S;0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -4603,7 +4759,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_resistors:R;G;30K;10P0;S;0603")
+		(lib_id "bt_resistors:R;G;3K;10P0;S;0603")
 		(at 204.47 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4621,7 +4777,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30K"
+		(property "Value" "3K"
 			(at 207.01 139.6999 0)
 			(effects
 				(font
@@ -4666,7 +4822,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00002-30300"
+		(property "CPN" "BT00002-30030"
 			(at 204.47 138.43 90)
 			(effects
 				(font
@@ -4691,7 +4847,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;10u;10p;10V;S;0603")
+		(lib_id "bt_capacitor:C;M;10u;10p;50V;S;0603")
 		(at 219.71 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4709,7 +4865,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 10V"
+		(property "Value" "10u 50V"
 			(at 223.52 134.6199 0)
 			(effects
 				(font
@@ -4754,7 +4910,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00010-060100"
+		(property "CPN" "BT00007-060100"
 			(at 223.71 133.35 90)
 			(effects
 				(font
@@ -5202,7 +5358,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "4,7uF 100V"
 			(at 110.49 129.9209 0)
 			(effects
 				(font
@@ -5608,7 +5764,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;10u;10p;10V;S;0603")
+		(lib_id "bt_capacitor:C;M;10u;10p;50V;S;0603")
 		(at 236.22 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5626,7 +5782,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 10V"
+		(property "Value" "10u 50V"
 			(at 240.03 134.6199 0)
 			(effects
 				(font
@@ -5671,7 +5827,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00010-060100"
+		(property "CPN" "BT00007-060100"
 			(at 240.22 133.35 90)
 			(effects
 				(font
@@ -5696,7 +5852,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_resistors:R;G;160K;10P0;S;0603")
+		(lib_id "bt_resistors:R;G;16K;10P0;S;0603")
 		(at 204.47 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5714,7 +5870,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "160K"
+		(property "Value" "16K"
 			(at 207.01 129.5399 0)
 			(effects
 				(font
@@ -5759,7 +5915,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00002-31600"
+		(property "CPN" "BT00002-30160"
 			(at 204.47 128.27 90)
 			(effects
 				(font
@@ -5850,7 +6006,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;3n3;10p;50V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;100V;S;0603")
 		(at 124.46 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5868,7 +6024,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3n3 50V"
+		(property "Value" "100n 100V"
 			(at 128.27 130.8099 0)
 			(effects
 				(font
@@ -5904,7 +6060,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;100V;S;0603"
 			(at 128.46 129.54 90)
 			(effects
 				(font
@@ -5913,7 +6069,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00007-090033"
+		(property "CPN" "BT00013-090680"
 			(at 128.46 129.54 90)
 			(effects
 				(font
@@ -5938,7 +6094,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;10u;10p;10V;S;0603")
+		(lib_id "bt_capacitor:C;M;10u;10p;50V;S;0603")
 		(at 115.57 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5956,7 +6112,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 10V"
+		(property "Value" "10u 50V"
 			(at 119.38 210.8199 0)
 			(effects
 				(font
@@ -6001,7 +6157,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00010-060100"
+		(property "CPN" "BT00007-060100"
 			(at 119.57 209.55 90)
 			(effects
 				(font
@@ -6033,18 +6189,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "83428ceb-617e-40e5-9b42-34546e4aac0f")
 		(property "Reference" "J3001"
-			(at 82.55 113.03 0)
+			(at 80.264 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 82.55 115.57 0)
+		(property "Value" "6-40V"
+			(at 77.47 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6363,10 +6518,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "984ee89a-4af4-4f50-966c-f8e64baeeb19")
 		(property "Reference" "TP3001"
-			(at 92.71 119.3799 0)
+			(at 87.63 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,7 +6663,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;10u;10p;10V;S;0603")
+		(lib_id "bt_capacitor:C;M;10u;10p;50V;S;0603")
 		(at 251.46 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6527,7 +6681,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u 10V"
+		(property "Value" "10u 50V"
 			(at 255.27 134.6199 0)
 			(effects
 				(font
@@ -6572,7 +6726,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00010-060100"
+		(property "CPN" "BT00007-060100"
 			(at 255.46 133.35 90)
 			(effects
 				(font

@@ -4,6 +4,10 @@
 	(generator_version "8.0")
 	(uuid "b5c67d1a-fda2-4066-a152-4abb809c7776")
 	(paper "A3")
+	(title_block
+		(title "BT_ADDX")
+		(rev "Rev:P1")
+	)
 	(lib_symbols
 		(symbol "bt_capacitor:C;M;100n;10p;25V;S;0603"
 			(pin_numbers hide)

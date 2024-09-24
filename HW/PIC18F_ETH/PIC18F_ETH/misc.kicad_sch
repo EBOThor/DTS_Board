@@ -3,7 +3,11 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "442b3a15-f72e-486d-9c9f-cd0c956f1b99")
-	(paper "A4")
+	(paper "A3")
+	(title_block
+		(title "BT_ADDX")
+		(rev "Rev:P1")
+	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)

@@ -971,7 +971,7 @@
 				)
 			)
 		)
-		(property "Value" "10u 10V"
+		(property "Value" "10u 50V"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1035,7 +1035,7 @@
 				)
 			)
 		)
-		(property "CPN" "BT00010-060100"
+		(property "CPN" "BT00007-060100"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7469,7 +7469,7 @@
 				)
 			)
 		)
-		(property "Value" "3n3 50V"
+		(property "Value" "100n 100V"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7520,7 +7520,7 @@
 				)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;100V;S;0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7533,7 +7533,7 @@
 				)
 			)
 		)
-		(property "CPN" "BT00007-090033"
+		(property "CPN" "BT00013-090680"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9538,7 +9538,7 @@
 				)
 			)
 		)
-		(property "Value" "10u 10V"
+		(property "Value" "10u 50V"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9602,7 +9602,7 @@
 				)
 			)
 		)
-		(property "CPN" "BT00010-060100"
+		(property "CPN" "BT00007-060100"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -62247,7 +62247,7 @@
 				)
 			)
 		)
-		(property "Value" "10u 10V"
+		(property "Value" "10u 50V"
 			(at 0 1.43 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -62311,7 +62311,7 @@
 				)
 			)
 		)
-		(property "CPN" "BT00010-060100"
+		(property "CPN" "BT00007-060100"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -76107,7 +76107,7 @@
 				)
 			)
 		)
-		(property "Value" "10u 10V"
+		(property "Value" "10u 50V"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -76171,7 +76171,7 @@
 				)
 			)
 		)
-		(property "CPN" "BT00010-060100"
+		(property "CPN" "BT00007-060100"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -80874,7 +80874,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized"
+		(property "Value" "4,7uF 100V"
 			(at 0 3.2 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -89813,20 +89813,52 @@
 		(uuid "0647efd8-0837-4848-b2f8-4e1cae422518")
 	)
 	(segment
-		(start 93.688999 138.18)
-		(end 94.996 138.18)
-		(width 0.1)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "4cd356ea-5edd-4765-826e-a18a357d06e1")
-	)
-	(segment
-		(start 97.385554 138.18)
-		(end 94.996 138.18)
+		(start 94.742 138.176)
+		(end 94.667999 138.250001)
 		(width 0.15)
 		(layer "F.Cu")
 		(net 5)
-		(uuid "4cf065fa-7196-44f4-b6ef-77a2febd6359")
+		(uuid "0869bfcc-3fdb-4687-b768-0c1c5f0b92ac")
+	)
+	(segment
+		(start 94.667999 138.250001)
+		(end 93.618998 138.250001)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "3e518e57-d039-4553-bba5-e1112ba11571")
+	)
+	(segment
+		(start 94.746 138.18)
+		(end 94.742 138.176)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "4aa49db4-d69f-474a-b157-078640ef99f1")
+	)
+	(segment
+		(start 101.047 160.528)
+		(end 101.047 159.811)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "4e8c0743-a4e2-4002-8670-358b98b4fbd9")
+	)
+	(segment
+		(start 97.385554 138.18)
+		(end 94.746 138.18)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "6dd03d85-5bfd-4851-bd70-a188debc5ea3")
+	)
+	(segment
+		(start 103.116 157.742)
+		(end 103.116 143.910446)
+		(width 0.15)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "762b35eb-f50b-4f15-a8a3-28bb1b23978b")
 	)
 	(segment
 		(start 103.116 143.910446)
@@ -89834,15 +89866,7 @@
 		(width 0.15)
 		(layer "F.Cu")
 		(net 5)
-		(uuid "5794def2-3d28-4479-9c8b-9891ca94ccb7")
-	)
-	(segment
-		(start 101.047 159.811)
-		(end 103.116 157.742)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "60e49a87-27ef-4c66-ae62-d936a9f132e1")
+		(uuid "8318df19-351d-4ed5-847b-57bf45aa13be")
 	)
 	(segment
 		(start 93.618998 138.250001)
@@ -89853,20 +89877,12 @@
 		(uuid "9064f5f7-78e1-4fe1-973c-e6a8ca058be3")
 	)
 	(segment
-		(start 103.116 157.742)
-		(end 103.116 143.910446)
+		(start 101.047 159.811)
+		(end 103.116 157.742)
 		(width 0.15)
 		(layer "F.Cu")
 		(net 5)
-		(uuid "e29031e6-ada3-45ce-9b0c-29d8d838ee80")
-	)
-	(segment
-		(start 101.047 160.528)
-		(end 101.047 159.811)
-		(width 0.15)
-		(layer "F.Cu")
-		(net 5)
-		(uuid "ebbbac67-70a5-4967-b66e-05dd7a4d255d")
+		(uuid "97a38650-02b5-460a-a195-a66a7cb1ba20")
 	)
 	(segment
 		(start 101.022 162.126)
