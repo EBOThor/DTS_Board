@@ -316,7 +316,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "C;C;T1;S;P0603;NA"
+			(property "MPN" "C;M;100n;10p;25V;S;0603"
 				(at 4 0 90)
 				(effects
 					(font
@@ -468,7 +468,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "C;C;T1;S;P0603;NA"
+			(property "MPN" "C;M;10u;10p;10V;S;0603"
 				(at 4 0 90)
 				(effects
 					(font
@@ -816,7 +816,7 @@
 					(hide yes)
 				)
 			)
-			(property "CPN" "BT01004-00001"
+			(property "CPN" "BT01005-00001"
 				(at -19.558 3.048 0)
 				(effects
 					(font
@@ -1009,6 +1009,24 @@
 						)
 					)
 					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "ENVREG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1722,7 +1740,7 @@
 			(symbol "PIC18F67J60T-I_PT_2_1"
 				(rectangle
 					(start 7.62 5.08)
-					(end 25.4 -35.56)
+					(end 43.18 -45.72)
 					(stroke
 						(width 0)
 						(type default)
@@ -1732,7 +1750,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -16.51 0)
+					(at 0 -10.16 0)
 					(length 7.62)
 					(name "VDDCORE/VCAP"
 						(effects
@@ -1742,24 +1760,6 @@
 						)
 					)
 					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -13.97 0)
-					(length 7.62)
-					(name "ENVREG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1786,7 +1786,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -31.75 0)
+					(at 0 -20.32 0)
 					(length 7.62)
 					(name "AVSS"
 						(effects
@@ -1804,8 +1804,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -21.59 0)
-					(length 7.62) hide
+					(at 0 -27.94 0)
+					(length 7.62)
 					(name "VSS"
 						(effects
 							(font
@@ -1823,7 +1823,7 @@
 				)
 				(pin unspecified line
 					(at 0 -2.54 0)
-					(length 7.62) hide
+					(length 7.62)
 					(name "VDD"
 						(effects
 							(font
@@ -1840,8 +1840,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 7.62) hide
+					(at 0 -5.08 0)
+					(length 7.62)
 					(name "VDD"
 						(effects
 							(font
@@ -1858,8 +1858,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -21.59 0)
-					(length 7.62) hide
+					(at 0 -30.48 0)
+					(length 7.62)
 					(name "VSS"
 						(effects
 							(font
@@ -1876,7 +1876,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -26.67 0)
+					(at 0 -38.1 0)
 					(length 7.62)
 					(name "VSSRX"
 						(effects
@@ -1894,7 +1894,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -8.89 0)
+					(at 0 -15.24 0)
 					(length 7.62)
 					(name "VDDRX"
 						(effects
@@ -1912,7 +1912,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -11.43 0)
+					(at 0 -17.78 0)
 					(length 7.62)
 					(name "VDDTX"
 						(effects
@@ -1930,7 +1930,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -29.21 0)
+					(at 0 -40.64 0)
 					(length 7.62)
 					(name "VSSTX"
 						(effects
@@ -1948,7 +1948,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -6.35 0)
+					(at 0 -12.7 0)
 					(length 7.62)
 					(name "VDDPLL"
 						(effects
@@ -1966,7 +1966,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -24.13 0)
+					(at 0 -35.56 0)
 					(length 7.62)
 					(name "VSSPLL"
 						(effects
@@ -1984,7 +1984,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -21.59 0)
+					(at 0 -33.02 0)
 					(length 7.62)
 					(name "VSS"
 						(effects
@@ -2002,7 +2002,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -2.54 0)
+					(at 0 -7.62 0)
 					(length 7.62)
 					(name "VDD"
 						(effects
@@ -2020,8 +2020,8 @@
 					)
 				)
 				(pin unspecified line
-					(at 0 -21.59 0)
-					(length 7.62) hide
+					(at 0 -25.4 0)
+					(length 7.62)
 					(name "VSS"
 						(effects
 							(font
@@ -2703,7 +2703,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
+			(property "MPN" "R;G;10K;10P0;S;0603"
 				(at 0 0 90)
 				(effects
 					(font
@@ -2842,7 +2842,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
+			(property "MPN" "R;G;2K2;10P0;S;0603"
 				(at 0 0 90)
 				(effects
 					(font
@@ -2981,7 +2981,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
+			(property "MPN" "R;G;620R;10P0;S;0603"
 				(at 0 0 90)
 				(effects
 					(font
@@ -6873,7 +6873,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 69.85 129.73 90)
 			(effects
 				(font
@@ -7027,7 +7027,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 276.86 166.37 90)
 			(effects
 				(font
@@ -7181,7 +7181,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 242.57 88.9 90)
 			(effects
 				(font
@@ -7335,7 +7335,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 92.71 113.03 90)
 			(effects
 				(font
@@ -7422,7 +7422,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 311.34 38.1 90)
 			(effects
 				(font
@@ -7510,7 +7510,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 274.32 116.84 90)
 			(effects
 				(font
@@ -7599,7 +7599,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT01004-00001"
+		(property "CPN" "BT01005-00001"
 			(at 374.65 33.02 0)
 			(effects
 				(font
@@ -7873,7 +7873,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 62.23 237.49 90)
 			(effects
 				(font
@@ -7960,7 +7960,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT01004-00001"
+		(property "CPN" "BT01005-00001"
 			(at 110.49 123.19 0)
 			(effects
 				(font
@@ -8233,7 +8233,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 170.37 243.84 90)
 			(effects
 				(font
@@ -8321,7 +8321,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 290.83 167.64 90)
 			(effects
 				(font
@@ -8540,7 +8540,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 344.36 38.1 90)
 			(effects
 				(font
@@ -9025,7 +9025,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 281.94 116.84 90)
 			(effects
 				(font
@@ -9310,7 +9310,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 322.77 38.1 90)
 			(effects
 				(font
@@ -9397,7 +9397,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 288.48 38.1 90)
 			(effects
 				(font
@@ -9484,7 +9484,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 264.35 92.71 90)
 			(effects
 				(font
@@ -9570,7 +9570,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;2K2;10P0;S;0603"
 			(at 232.41 177.8 90)
 			(effects
 				(font
@@ -10054,7 +10054,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 101.79 247.65 90)
 			(effects
 				(font
@@ -10339,7 +10339,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 332.93 38.1 90)
 			(effects
 				(font
@@ -10855,7 +10855,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 355.79 38.1 90)
 			(effects
 				(font
@@ -11008,7 +11008,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 299.91 38.1 90)
 			(effects
 				(font
@@ -11377,7 +11377,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;10u;10p;10V;S;0603"
 			(at 355.79 53.34 90)
 			(effects
 				(font
@@ -11629,7 +11629,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;620R;10P0;S;0603"
 			(at 252.73 177.8 90)
 			(effects
 				(font
@@ -11717,7 +11717,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 292.1 116.84 90)
 			(effects
 				(font

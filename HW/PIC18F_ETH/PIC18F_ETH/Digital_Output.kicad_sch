@@ -403,7 +403,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A"
+			(property "Datasheet" "https://www.mouser.se/datasheet/2/408/TLP241B_datasheet_en_20230524-1952620.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -413,7 +413,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, SO4"
+			(property "Description" "MOSFET Photorelay , Voff 100V, Ion 2A, WSO4"
 				(at 0.508 7.62 0)
 				(effects
 					(font
@@ -974,7 +974,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
+			(property "MPN" "R;G;200R;10P0;S;0603"
 				(at 0 0 90)
 				(effects
 					(font
@@ -3864,7 +3864,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 74.93 87.63 90)
 			(effects
 				(font
@@ -4144,7 +4144,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 67.31 147.32 90)
 			(effects
 				(font
@@ -4232,7 +4232,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 67.31 91.44 90)
 			(effects
 				(font
@@ -4318,7 +4318,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 261.62 208.28 90)
 			(effects
 				(font
@@ -4569,7 +4569,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 252.73 123.19 90)
 			(effects
 				(font
@@ -4985,7 +4985,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 252.73 212.09 90)
 			(effects
 				(font
@@ -5137,7 +5137,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 261.62 149.86 90)
 			(effects
 				(font
@@ -5223,7 +5223,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 74.93 171.45 90)
 			(effects
 				(font
@@ -5309,7 +5309,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 261.62 177.8 90)
 			(effects
 				(font
@@ -5981,7 +5981,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 261.62 236.22 90)
 			(effects
 				(font
@@ -6326,7 +6326,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 252.73 153.67 90)
 			(effects
 				(font
@@ -6836,7 +6836,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 67.31 116.84 90)
 			(effects
 				(font
@@ -6924,7 +6924,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 67.31 205.74 90)
 			(effects
 				(font
@@ -7269,7 +7269,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 252.73 181.61 90)
 			(effects
 				(font
@@ -7615,7 +7615,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 252.73 46.99 90)
 			(effects
 				(font
@@ -7703,7 +7703,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 67.31 40.64 90)
 			(effects
 				(font
@@ -7886,7 +7886,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 74.93 143.51 90)
 			(effects
 				(font
@@ -8491,7 +8491,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 74.93 36.83 90)
 			(effects
 				(font
@@ -8671,7 +8671,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 261.62 43.18 90)
 			(effects
 				(font
@@ -8759,7 +8759,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 67.31 63.5 90)
 			(effects
 				(font
@@ -9591,7 +9591,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 261.62 119.38 90)
 			(effects
 				(font
@@ -10360,7 +10360,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 261.62 93.98 90)
 			(effects
 				(font
@@ -11278,7 +11278,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 74.93 229.87 90)
 			(effects
 				(font
@@ -11366,7 +11366,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 252.73 69.85 90)
 			(effects
 				(font
@@ -11552,7 +11552,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 252.73 97.79 90)
 			(effects
 				(font
@@ -11798,7 +11798,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 74.93 113.03 90)
 			(effects
 				(font
@@ -11886,7 +11886,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 60.96 233.68 90)
 			(effects
 				(font
@@ -12169,7 +12169,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 252.73 240.03 90)
 			(effects
 				(font
@@ -12421,7 +12421,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 66.04 175.26 90)
 			(effects
 				(font
@@ -12736,7 +12736,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 74.93 59.69 90)
 			(effects
 				(font
@@ -12822,7 +12822,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 261.62 66.04 90)
 			(effects
 				(font
@@ -13068,7 +13068,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 74.93 201.93 90)
 			(effects
 				(font

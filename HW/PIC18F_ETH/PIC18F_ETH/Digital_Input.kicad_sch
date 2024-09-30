@@ -10,1146 +10,6 @@
 		(comment 1 "BT_0001-1")
 	)
 	(lib_symbols
-		(symbol "PESD2USB3UXT-Q_1"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0.254 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PESD2USB3UXT-Q"
-				(at 0.762 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-				(at 1.016 -17.526 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.se/datasheet/2/916/PESD2USB3UXT_Q-3435971.pdf"
-				(at 0.254 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "TVS dual 3v3"
-				(at 1.27 12.192 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "CPN" "BT09002-00001"
-				(at -9.398 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "PESD2USB3UXT-Q"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "dual TVS zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PESD2USB3UXT-Q_1_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -1.27) (xy -0.762 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 3.81) (xy -0.762 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.27 -1.27) (xy -1.27 -2.54) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 3.81) (xy -1.27 2.54) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 3.81 2.54) (xy 3.81 0) (xy 3.81 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PESD2USB3UXT-Q_1_1_1"
-				(pin passive line
-					(at -3.81 2.54 0)
-					(length 2.54)
-					(name "K1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -2.54 0)
-					(length 2.54)
-					(name "K2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "CA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PESD2USB3UXT-Q_2"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0.254 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PESD2USB3UXT-Q"
-				(at 0.762 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-				(at 1.016 -17.526 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.se/datasheet/2/916/PESD2USB3UXT_Q-3435971.pdf"
-				(at 0.254 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "TVS dual 3v3"
-				(at 1.27 12.192 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "CPN" "BT09002-00001"
-				(at -9.398 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "PESD2USB3UXT-Q"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "dual TVS zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PESD2USB3UXT-Q_2_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -1.27) (xy -0.762 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 3.81) (xy -0.762 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.27 -1.27) (xy -1.27 -2.54) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 3.81) (xy -1.27 2.54) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 3.81 2.54) (xy 3.81 0) (xy 3.81 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PESD2USB3UXT-Q_2_1_1"
-				(pin passive line
-					(at -3.81 2.54 0)
-					(length 2.54)
-					(name "K1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -2.54 0)
-					(length 2.54)
-					(name "K2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "CA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PESD2USB3UXT-Q_3"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0.254 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PESD2USB3UXT-Q"
-				(at 0.762 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-				(at 1.016 -17.526 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.se/datasheet/2/916/PESD2USB3UXT_Q-3435971.pdf"
-				(at 0.254 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "TVS dual 3v3"
-				(at 1.27 12.192 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "CPN" "BT09002-00001"
-				(at -9.398 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "PESD2USB3UXT-Q"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "dual TVS zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PESD2USB3UXT-Q_3_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -1.27) (xy -0.762 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 3.81) (xy -0.762 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.27 -1.27) (xy -1.27 -2.54) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 3.81) (xy -1.27 2.54) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 3.81 2.54) (xy 3.81 0) (xy 3.81 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PESD2USB3UXT-Q_3_1_1"
-				(pin passive line
-					(at -3.81 2.54 0)
-					(length 2.54)
-					(name "K1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -2.54 0)
-					(length 2.54)
-					(name "K2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "CA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PESD2USB3UXT-Q_4"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0.254 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PESD2USB3UXT-Q"
-				(at 0.762 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-				(at 1.016 -17.526 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.se/datasheet/2/916/PESD2USB3UXT_Q-3435971.pdf"
-				(at 0.254 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "TVS dual 3v3"
-				(at 1.27 12.192 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "CPN" "BT09002-00001"
-				(at -9.398 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "PESD2USB3UXT-Q"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "dual TVS zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PESD2USB3UXT-Q_4_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -1.27) (xy -0.762 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 3.81) (xy -0.762 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.27 -1.27) (xy -1.27 -2.54) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 3.81) (xy -1.27 2.54) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 3.81 2.54) (xy 3.81 0) (xy 3.81 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PESD2USB3UXT-Q_4_1_1"
-				(pin passive line
-					(at -3.81 2.54 0)
-					(length 2.54)
-					(name "K1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -2.54 0)
-					(length 2.54)
-					(name "K2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "CA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PESD2USB3UXT-Q_5"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0.254 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PESD2USB3UXT-Q"
-				(at 0.762 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-				(at 1.016 -17.526 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.mouser.se/datasheet/2/916/PESD2USB3UXT_Q-3435971.pdf"
-				(at 0.254 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "TVS dual 3v3"
-				(at 1.27 12.192 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "CPN" "BT09002-00001"
-				(at -9.398 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "PESD2USB3UXT-Q"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "dual TVS zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PESD2USB3UXT-Q_5_0_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy -1.27 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -1.27) (xy -0.762 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 3.81) (xy -0.762 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.27 -1.27) (xy -1.27 -2.54) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 3.81) (xy -1.27 2.54) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 3.81 2.54) (xy 3.81 0) (xy 3.81 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PESD2USB3UXT-Q_5_1_1"
-				(pin passive line
-					(at -3.81 2.54 0)
-					(length 2.54)
-					(name "K1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.81 -2.54 0)
-					(length 2.54)
-					(name "K2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "CA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "bt_ESD_protection:PESD2USB3UXT-Q"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -1429,7 +289,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "C;C;T1;S;P0603;NA"
+			(property "MPN" "C;M;100n;10p;25V;S;0603"
 				(at 4 0 90)
 				(effects
 					(font
@@ -1745,7 +605,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
+			(property "MPN" "R;G;10K;10P0;S;0603"
 				(at 0 0 90)
 				(effects
 					(font
@@ -1884,7 +744,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
+			(property "MPN" "R;G;200R;10P0;S;0603"
 				(at 0 0 90)
 				(effects
 					(font
@@ -5851,7 +4711,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 256.73 158.75 90)
 			(effects
 				(font
@@ -5936,7 +4796,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 276.86 72.39 90)
 			(effects
 				(font
@@ -6021,7 +4881,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 115.57 60.96 90)
 			(effects
 				(font
@@ -6106,7 +4966,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 115.57 66.04 90)
 			(effects
 				(font
@@ -6191,7 +5051,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 107.95 140.97 90)
 			(effects
 				(font
@@ -6278,7 +5138,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 246.57 158.75 90)
 			(effects
 				(font
@@ -6312,7 +5172,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PESD2USB3UXT-Q_1")
 		(lib_id "bt_ESD_protection:PESD2USB3UXT-Q")
 		(at 298.45 55.88 90)
 		(unit 1)
@@ -6555,7 +5414,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 335.28 125.73 90)
 			(effects
 				(font
@@ -6640,7 +5499,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 115.57 55.88 90)
 			(effects
 				(font
@@ -6826,7 +5685,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 170.18 48.26 90)
 			(effects
 				(font
@@ -6913,7 +5772,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 99.25 80.01 90)
 			(effects
 				(font
@@ -6998,7 +5857,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 276.86 143.51 90)
 			(effects
 				(font
@@ -7086,7 +5945,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 167.64 128.27 90)
 			(effects
 				(font
@@ -7173,7 +6032,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 99.25 163.83 90)
 			(effects
 				(font
@@ -7456,7 +6315,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 70.04 163.83 90)
 			(effects
 				(font
@@ -7609,7 +6468,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 237.68 87.63 90)
 			(effects
 				(font
@@ -7891,7 +6750,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 276.86 138.43 90)
 			(effects
 				(font
@@ -7979,7 +6838,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 140.97 128.27 90)
 			(effects
 				(font
@@ -8133,7 +6992,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 335.28 54.61 90)
 			(effects
 				(font
@@ -8318,7 +7177,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 266.89 87.63 90)
 			(effects
 				(font
@@ -8403,7 +7262,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 107.95 146.05 90)
 			(effects
 				(font
@@ -8491,7 +7350,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 152.4 48.26 90)
 			(effects
 				(font
@@ -8576,7 +7435,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 276.86 67.31 90)
 			(effects
 				(font
@@ -8664,7 +7523,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 149.86 128.27 90)
 			(effects
 				(font
@@ -8749,7 +7608,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 107.95 151.13 90)
 			(effects
 				(font
@@ -8901,7 +7760,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 89.09 80.01 90)
 			(effects
 				(font
@@ -9131,7 +7990,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PESD2USB3UXT-Q_5")
 		(lib_id "bt_ESD_protection:PESD2USB3UXT-Q")
 		(at 134.62 80.01 270)
 		(unit 1)
@@ -9273,7 +8131,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 276.86 148.59 90)
 			(effects
 				(font
@@ -9307,7 +8165,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PESD2USB3UXT-Q_4")
 		(lib_id "bt_ESD_protection:PESD2USB3UXT-Q")
 		(at 134.62 46.99 90)
 		(unit 1)
@@ -9616,7 +8473,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 143.51 48.26 90)
 			(effects
 				(font
@@ -10031,7 +8888,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 266.89 158.75 90)
 			(effects
 				(font
@@ -10251,7 +9108,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 326.39 54.61 90)
 			(effects
 				(font
@@ -10338,7 +9195,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 80.2 80.01 90)
 			(effects
 				(font
@@ -10426,7 +9283,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 326.39 125.73 90)
 			(effects
 				(font
@@ -10513,7 +9370,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 80.2 163.83 90)
 			(effects
 				(font
@@ -10666,7 +9523,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 70.04 80.01 90)
 			(effects
 				(font
@@ -10909,7 +9766,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 256.73 87.63 90)
 			(effects
 				(font
@@ -10994,7 +9851,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 276.86 133.35 90)
 			(effects
 				(font
@@ -11079,7 +9936,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 107.95 135.89 90)
 			(effects
 				(font
@@ -11461,7 +10318,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 161.29 48.26 90)
 			(effects
 				(font
@@ -11612,7 +10469,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 115.57 71.12 90)
 			(effects
 				(font
@@ -11700,7 +10557,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 317.5 54.61 90)
 			(effects
 				(font
@@ -11854,7 +10711,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 308.61 125.73 90)
 			(effects
 				(font
@@ -12137,7 +10994,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 89.09 163.83 90)
 			(effects
 				(font
@@ -12269,7 +11126,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PESD2USB3UXT-Q_1")
 		(lib_id "bt_ESD_protection:PESD2USB3UXT-Q")
 		(at 298.45 127 90)
 		(unit 1)
@@ -12411,7 +11267,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 276.86 77.47 90)
 			(effects
 				(font
@@ -12499,7 +11355,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 317.5 125.73 90)
 			(effects
 				(font
@@ -12652,7 +11508,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 246.57 87.63 90)
 			(effects
 				(font
@@ -12686,7 +11542,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PESD2USB3UXT-Q_2")
 		(lib_id "bt_ESD_protection:PESD2USB3UXT-Q")
 		(at 294.64 157.48 270)
 		(unit 1)
@@ -12994,7 +11849,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 308.61 54.61 90)
 			(effects
 				(font
@@ -13081,7 +11936,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 237.68 158.75 90)
 			(effects
 				(font
@@ -13267,7 +12122,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 158.75 128.27 90)
 			(effects
 				(font
@@ -13301,7 +12156,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PESD2USB3UXT-Q_2")
 		(lib_id "bt_ESD_protection:PESD2USB3UXT-Q")
 		(at 294.64 86.36 270)
 		(unit 1)
@@ -13443,7 +12297,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 276.86 62.23 90)
 			(effects
 				(font
@@ -13477,7 +12331,6 @@
 		)
 	)
 	(symbol
-		(lib_name "PESD2USB3UXT-Q_3")
 		(lib_id "bt_ESD_protection:PESD2USB3UXT-Q")
 		(at 129.54 125.73 90)
 		(unit 1)

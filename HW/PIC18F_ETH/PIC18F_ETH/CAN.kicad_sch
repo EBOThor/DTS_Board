@@ -61,7 +61,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "C;C;T1;S;P0603;NA"
+			(property "MPN" "C;M;100n;10p;25V;S;0603"
 				(at 4 0 90)
 				(effects
 					(font
@@ -260,24 +260,6 @@
 				)
 			)
 			(symbol "ATA6561-GAQW_0_1"
-				(pin unspecified line
-					(at 5.08 -3.81 0)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_out line
 					(at 16.51 -15.24 90)
 					(length 2.54)
@@ -307,42 +289,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -6.35 0)
-					(length 2.54)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 2.54 0)
-					(length 2.54)
-					(name "VIO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -386,7 +332,74 @@
 						)
 					)
 				)
-				(pin unspecified line
+			)
+			(symbol "ATA6561-GAQW_1_1"
+				(rectangle
+					(start 7.62 5.08)
+					(end 25.4 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 5.08 -3.81 0)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 5.08 -6.35 0)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 2.54 0)
+					(length 2.54)
+					(name "VIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at 5.08 0 0)
 					(length 2.54)
 					(name "STBY"
@@ -402,19 +415,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "ATA6561-GAQW_1_1"
-				(rectangle
-					(start 7.62 5.08)
-					(end 25.4 -12.7)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
@@ -471,7 +471,7 @@
 					(hide yes)
 				)
 			)
-			(property "CPN" "BT02006-00001 MCP2515"
+			(property "CPN" "BT02006-00001"
 				(at 3.81 15.494 0)
 				(effects
 					(font
@@ -733,24 +733,6 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 16.51 -33.02 90)
-					(length 2.54)
-					(name "EPAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at 0 -7.62 0)
 					(length 2.54)
@@ -883,6 +865,24 @@
 						)
 					)
 					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 16.51 -33.02 90)
+					(length 2.54)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1334,7 +1334,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
+			(property "MPN" "R;G;0R;10P0;S;0603"
 				(at 3.048 9.398 90)
 				(effects
 					(font
@@ -1473,7 +1473,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
+			(property "MPN" "R;G;10K;10P0;S;0603"
 				(at 0 0 90)
 				(effects
 					(font
@@ -1612,7 +1612,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
+			(property "MPN" "R;G;120R;10P0;S;0603"
 				(at 0 0 90)
 				(effects
 					(font
@@ -3466,7 +3466,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;120R;10P0;S;0603"
 			(at 360.68 113.03 90)
 			(effects
 				(font
@@ -3886,7 +3886,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 119.38 139.7 90)
 			(effects
 				(font
@@ -4039,7 +4039,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 320.23 87.63 90)
 			(effects
 				(font
@@ -4193,7 +4193,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 175.26 100.33 90)
 			(effects
 				(font
@@ -4527,7 +4527,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;0R;10P0;S;0603"
 			(at 250.952 130.048 90)
 			(effects
 				(font
@@ -4705,7 +4705,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 255.27 101.6 90)
 			(effects
 				(font
@@ -4857,7 +4857,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;0R;10P0;S;0603"
 			(at 169.672 118.872 90)
 			(effects
 				(font
@@ -5143,7 +5143,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 273.24 87.63 90)
 			(effects
 				(font
@@ -5296,7 +5296,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 153.86 161.29 90)
 			(effects
 				(font
@@ -5383,7 +5383,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT02006-00001 MCP2515"
+		(property "CPN" "BT02006-00001"
 			(at 195.58 106.68 0)
 			(effects
 				(font
@@ -5536,7 +5536,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 227.52 83.82 90)
 			(effects
 				(font
@@ -5623,7 +5623,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 163.83 111.95 90)
 			(effects
 				(font

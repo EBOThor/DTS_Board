@@ -1091,7 +1091,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "C;C;T1;S;P0603;NA"
+			(property "MPN" "C;M;100n;10p;25V;S;0603"
 				(at 4 0 90)
 				(effects
 					(font
@@ -1243,7 +1243,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "C;C;T1;S;P0603;NA"
+			(property "MPN" "C;M;10u;10p;10V;S;0603"
 				(at 4 0 90)
 				(effects
 					(font
@@ -1395,7 +1395,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "C;C;T1;S;P0603;NA"
+			(property "MPN" "C;M;10u;10p;50V;S;0603"
 				(at 4 0 90)
 				(effects
 					(font
@@ -2125,7 +2125,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1A, 4 to 85V Input, High Voltage Input integrated switch step-down regulator, SOT-23-6"
+			(property "Description" "1A, 4 to 65V Input, High Voltage Input integrated switch step-down regulator, SOT-23-6"
 				(at -0.762 -15.494 0)
 				(effects
 					(font
@@ -2543,7 +2543,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
+			(property "MPN" "R;G;10K;10P0;S;0603"
 				(at 0 0 90)
 				(effects
 					(font
@@ -2682,7 +2682,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
+			(property "MPN" "R;G;16K;10P0;S;0603"
 				(at 0 0 90)
 				(effects
 					(font
@@ -2821,7 +2821,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
+			(property "MPN" "R;G;200R;10P0;S;0603"
 				(at 0 0 90)
 				(effects
 					(font
@@ -2960,7 +2960,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
+			(property "MPN" "R;G;2K2;10P0;S;0603"
 				(at 0 0 90)
 				(effects
 					(font
@@ -3099,7 +3099,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
+			(property "MPN" "R;G;3K;10P0;S;0603"
 				(at 0 0 90)
 				(effects
 					(font
@@ -3238,7 +3238,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
+			(property "MPN" "R;G;43K;10P0;S;0603"
 				(at 0 0 90)
 				(effects
 					(font
@@ -4814,7 +4814,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;3K;10P0;S;0603"
 			(at 204.47 138.43 90)
 			(effects
 				(font
@@ -4902,7 +4902,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;10u;10p;50V;S;0603"
 			(at 223.71 133.35 90)
 			(effects
 				(font
@@ -4990,7 +4990,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;10K;10P0;S;0603"
 			(at 209.55 228.6 90)
 			(effects
 				(font
@@ -5241,7 +5241,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;2K2;10P0;S;0603"
 			(at 209.55 209.55 90)
 			(effects
 				(font
@@ -5532,7 +5532,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;200R;10P0;S;0603"
 			(at 270.51 210.82 90)
 			(effects
 				(font
@@ -5819,7 +5819,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;10u;10p;50V;S;0603"
 			(at 240.22 133.35 90)
 			(effects
 				(font
@@ -5907,7 +5907,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;16K;10P0;S;0603"
 			(at 204.47 128.27 90)
 			(effects
 				(font
@@ -6149,7 +6149,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;10u;10p;50V;S;0603"
 			(at 119.57 209.55 90)
 			(effects
 				(font
@@ -6412,7 +6412,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;10u;10p;10V;S;0603"
 			(at 246.57 210.82 90)
 			(effects
 				(font
@@ -6630,7 +6630,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
 			(at 166.37 107.76 90)
 			(effects
 				(font
@@ -6718,7 +6718,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;10u;10p;50V;S;0603"
 			(at 255.46 133.35 90)
 			(effects
 				(font
@@ -6806,7 +6806,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;10u;10p;10V;S;0603"
 			(at 228.79 210.82 90)
 			(effects
 				(font
@@ -6960,7 +6960,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;43K;10P0;S;0603"
 			(at 209.55 218.44 90)
 			(effects
 				(font
