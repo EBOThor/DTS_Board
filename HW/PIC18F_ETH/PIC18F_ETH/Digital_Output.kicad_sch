@@ -74,6 +74,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "SMT" "n"
@@ -82,6 +83,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -4032,7 +4034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/408/TLP241B_datasheet_en_20230524-1952620.pdf"
 			(at 96.52 232.41 0)
 			(effects
 				(font
@@ -4042,7 +4044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, SO4"
+		(property "Description" "MOSFET Photorelay , Voff 100V, Ion 2A, WSO4"
 			(at 97.028 224.79 0)
 			(effects
 				(font
@@ -5511,7 +5513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/408/TLP241B_datasheet_en_20230524-1952620.pdf"
 			(at 96.52 173.99 0)
 			(effects
 				(font
@@ -5521,7 +5523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, SO4"
+		(property "Description" "MOSFET Photorelay , Voff 100V, Ion 2A, WSO4"
 			(at 97.028 166.37 0)
 			(effects
 				(font
@@ -6214,7 +6216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/408/TLP241B_datasheet_en_20230524-1952620.pdf"
 			(at 283.21 210.82 0)
 			(effects
 				(font
@@ -6224,7 +6226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, SO4"
+		(property "Description" "MOSFET Photorelay , Voff 100V, Ion 2A, WSO4"
 			(at 283.718 203.2 0)
 			(effects
 				(font
@@ -6626,7 +6628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/408/TLP241B_datasheet_en_20230524-1952620.pdf"
 			(at 283.21 180.34 0)
 			(effects
 				(font
@@ -6636,7 +6638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, SO4"
+		(property "Description" "MOSFET Photorelay , Voff 100V, Ion 2A, WSO4"
 			(at 283.718 172.72 0)
 			(effects
 				(font
@@ -7091,7 +7093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/408/TLP241B_datasheet_en_20230524-1952620.pdf"
 			(at 283.21 238.76 0)
 			(effects
 				(font
@@ -7101,7 +7103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, SO4"
+		(property "Description" "MOSFET Photorelay , Voff 100V, Ion 2A, WSO4"
 			(at 283.718 231.14 0)
 			(effects
 				(font
@@ -7437,7 +7439,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/408/TLP241B_datasheet_en_20230524-1952620.pdf"
 			(at 283.21 45.72 0)
 			(effects
 				(font
@@ -7447,7 +7449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, SO4"
+		(property "Description" "MOSFET Photorelay , Voff 100V, Ion 2A, WSO4"
 			(at 283.718 38.1 0)
 			(effects
 				(font
@@ -7956,7 +7958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/408/TLP241B_datasheet_en_20230524-1952620.pdf"
 			(at 283.21 152.4 0)
 			(effects
 				(font
@@ -7966,7 +7968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, SO4"
+		(property "Description" "MOSFET Photorelay , Voff 100V, Ion 2A, WSO4"
 			(at 283.718 144.78 0)
 			(effects
 				(font
@@ -8561,7 +8563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/408/TLP241B_datasheet_en_20230524-1952620.pdf"
 			(at 96.52 115.57 0)
 			(effects
 				(font
@@ -8571,7 +8573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, SO4"
+		(property "Description" "MOSFET Photorelay , Voff 100V, Ion 2A, WSO4"
 			(at 97.028 107.95 0)
 			(effects
 				(font
@@ -9186,7 +9188,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/408/TLP241B_datasheet_en_20230524-1952620.pdf"
 			(at 96.52 204.47 0)
 			(effects
 				(font
@@ -9196,7 +9198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, SO4"
+		(property "Description" "MOSFET Photorelay , Voff 100V, Ion 2A, WSO4"
 			(at 97.028 196.85 0)
 			(effects
 				(font
@@ -10430,7 +10432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/408/TLP241B_datasheet_en_20230524-1952620.pdf"
 			(at 96.52 62.23 0)
 			(effects
 				(font
@@ -10440,7 +10442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, SO4"
+		(property "Description" "MOSFET Photorelay , Voff 100V, Ion 2A, WSO4"
 			(at 97.028 54.61 0)
 			(effects
 				(font
@@ -10524,7 +10526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/408/TLP241B_datasheet_en_20230524-1952620.pdf"
 			(at 96.52 39.37 0)
 			(effects
 				(font
@@ -10534,7 +10536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, SO4"
+		(property "Description" "MOSFET Photorelay , Voff 100V, Ion 2A, WSO4"
 			(at 97.028 31.75 0)
 			(effects
 				(font
@@ -10618,7 +10620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/408/TLP241B_datasheet_en_20230524-1952620.pdf"
 			(at 283.21 96.52 0)
 			(effects
 				(font
@@ -10628,7 +10630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, SO4"
+		(property "Description" "MOSFET Photorelay , Voff 100V, Ion 2A, WSO4"
 			(at 283.718 88.9 0)
 			(effects
 				(font
@@ -11008,7 +11010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/408/TLP241B_datasheet_en_20230524-1952620.pdf"
 			(at 96.52 90.17 0)
 			(effects
 				(font
@@ -11018,7 +11020,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, SO4"
+		(property "Description" "MOSFET Photorelay , Voff 100V, Ion 2A, WSO4"
 			(at 97.028 82.55 0)
 			(effects
 				(font
@@ -11168,7 +11170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/408/TLP241B_datasheet_en_20230524-1952620.pdf"
 			(at 283.21 121.92 0)
 			(effects
 				(font
@@ -11178,7 +11180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, SO4"
+		(property "Description" "MOSFET Photorelay , Voff 100V, Ion 2A, WSO4"
 			(at 283.718 114.3 0)
 			(effects
 				(font
@@ -11688,7 +11690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/408/TLP241B_datasheet_en_20230524-1952620.pdf"
 			(at 96.52 146.05 0)
 			(effects
 				(font
@@ -11698,7 +11700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, SO4"
+		(property "Description" "MOSFET Photorelay , Voff 100V, Ion 2A, WSO4"
 			(at 97.028 138.43 0)
 			(effects
 				(font
@@ -12892,7 +12894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=17036&prodName=TLP222A"
+		(property "Datasheet" "https://www.mouser.se/datasheet/2/408/TLP241B_datasheet_en_20230524-1952620.pdf"
 			(at 283.21 68.58 0)
 			(effects
 				(font
@@ -12902,7 +12904,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MOSFET Photorelay 1-Form-A, Voff 60V, Ion 0,5A, SO4"
+		(property "Description" "MOSFET Photorelay , Voff 100V, Ion 2A, WSO4"
 			(at 283.718 60.96 0)
 			(effects
 				(font

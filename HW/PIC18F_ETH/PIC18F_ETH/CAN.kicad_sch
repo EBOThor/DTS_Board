@@ -5354,7 +5354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "bt_footprints:QFN20_4x4MC_MCH"
+		(property "Footprint" "QFN20_4x4MC_MCH"
 			(at 195.58 106.68 0)
 			(effects
 				(font

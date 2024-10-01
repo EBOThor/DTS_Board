@@ -1560,6 +1560,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "SMT" "n"
@@ -1568,6 +1569,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -6294,7 +6296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1A, 4 to 85V Input, High Voltage Input integrated switch step-down regulator, SOT-23-6"
+		(property "Description" "1A, 4 to 65V Input, High Voltage Input integrated switch step-down regulator, SOT-23-6"
 			(at 146.558 137.414 0)
 			(effects
 				(font
