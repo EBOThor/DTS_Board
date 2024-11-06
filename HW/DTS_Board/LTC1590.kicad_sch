@@ -2524,7 +2524,6 @@
 	(hierarchical_label "Ch400Hz"
 		(shape input)
 		(at 52.07 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2532,6 +2531,16 @@
 			(justify right)
 		)
 		(uuid "8585e69d-9529-4af9-9718-917a7d458a3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.656 118.618 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right bottom)
+			)
+		)
 	)
 	(hierarchical_label "CLRn"
 		(shape input)

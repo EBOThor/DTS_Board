@@ -1939,7 +1939,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 80.01) (xy 247.65 80.01)
+			(xy 231.14 80.01) (xy 248.92 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2396,8 +2396,7 @@
 	)
 	(hierarchical_label "Ch400Hz"
 		(shape output)
-		(at 247.65 80.01 0)
-		(fields_autoplaced yes)
+		(at 248.92 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2405,6 +2404,16 @@
 			(justify left)
 		)
 		(uuid "e8d7c16f-31c6-4bd2-961e-f81ce293f4d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 252.476 83.058 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(hierarchical_label "Raw400hz-"
 		(shape input)
