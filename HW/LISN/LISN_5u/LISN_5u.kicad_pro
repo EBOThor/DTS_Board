@@ -507,7 +507,7 @@
       "pos_files": "./PnP/",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "./svg/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
