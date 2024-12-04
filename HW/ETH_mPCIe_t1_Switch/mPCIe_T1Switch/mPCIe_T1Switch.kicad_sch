@@ -1,0 +1,167 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "35c16f53-2908-4c19-8371-633bea9adc2a")
+	(paper "A3")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 160.02 105.41) (xy 222.25 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67de7543-2d77-473d-a6cd-55d1c4f3cbc9")
+	)
+	(sheet
+		(at 111.76 90.17)
+		(size 48.26 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0be42dd2-569f-485b-91d8-bc57794893ab")
+		(property "Sheetname" "PCI_ETH_Controller"
+			(at 111.76 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 111.76 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PCIE{PCIE}" input
+			(at 111.76 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "33257e8e-5309-4e96-8102-969c0b561098")
+		)
+		(pin "RGMII{RGMII}" input
+			(at 160.02 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "bea8c7a3-9e47-40ef-8bc1-58efe2e3a7a0")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 90.17)
+		(size 54.61 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5373f408-5f1e-469a-8abd-82497cfedf8b")
+		(property "Sheetname" "PCIe_connector"
+			(at 35.56 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PCIe_connector.kicad_sch"
+			(at 35.56 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 222.25 90.17)
+		(size 53.34 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "855628a6-386a-4082-b355-91c0fef1b439")
+		(property "Sheetname" "4Port_T1_switch"
+			(at 222.25 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4Port_T1_switch.kicad_sch"
+			(at 222.25 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RGMII{RGMII}" input
+			(at 222.25 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "865a5eed-23c7-49ea-b5ee-563f26deffa7")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
