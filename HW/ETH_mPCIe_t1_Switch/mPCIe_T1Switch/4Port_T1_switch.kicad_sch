@@ -180,6 +180,158 @@
 				)
 			)
 		)
+		(symbol "bt_capacitor:C;M;100n;10p;25V;S;0603"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "100n 25V"
+				(at 4.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at -2.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "C;M;100n;10p;25V;S;0603"
+				(at 4 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "CPN" "BT00008-091000"
+				(at 4 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C;M;100n;10p;25V;S;0603_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C;M;100n;10p;25V;S;0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "bt_capacitor:C;M;10u;10p;10V;S;0603"
 			(pin_numbers hide)
 			(pin_names
@@ -2554,10 +2706,22 @@
 		)
 	)
 	(junction
+		(at 119.38 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "006dfc74-853e-41ec-a7c4-a25e734092e9")
+	)
+	(junction
 		(at 105.41 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "011c14f6-f7fb-4ef1-9422-8d273ec2c661")
+	)
+	(junction
+		(at 158.75 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02083c9c-1e9f-4b17-8040-1626d1e99203")
 	)
 	(junction
 		(at 171.45 198.12)
@@ -2572,10 +2736,40 @@
 		(uuid "069de98b-d825-452f-bea5-a2e6459c32ba")
 	)
 	(junction
+		(at 229.87 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06b93d67-6726-45ae-a76b-97399e7cc0d4")
+	)
+	(junction
+		(at 259.08 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0996b28a-bec9-427c-82b1-421c4de104fd")
+	)
+	(junction
+		(at 267.97 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a49804c-4eec-4201-a093-575714bab503")
+	)
+	(junction
+		(at 256.54 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0becef7b-b893-4c8c-a6b4-07f32db36fec")
+	)
+	(junction
 		(at 229.87 232.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "11bbf685-70f4-4792-b57a-2d28bcb54067")
+	)
+	(junction
+		(at 254 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "120d66a5-c2e5-430d-b51f-be11b961b01d")
 	)
 	(junction
 		(at 217.17 193.04)
@@ -2584,10 +2778,28 @@
 		(uuid "12aa2912-7842-4fee-be55-8324a45bb6bb")
 	)
 	(junction
+		(at 264.16 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1914a737-4e10-4f40-b3ff-767134e6890f")
+	)
+	(junction
+		(at 102.87 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "198511af-005f-48f0-91a4-c45b4d417bb6")
+	)
+	(junction
 		(at 29.21 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b6ab999-caea-412b-888d-664e5618824d")
+	)
+	(junction
+		(at 229.87 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b7109e8-729c-4375-8308-f6fc1c406a67")
 	)
 	(junction
 		(at 171.45 195.58)
@@ -2608,10 +2820,52 @@
 		(uuid "25b3d6b0-5c66-45a2-9458-b5a8892a1671")
 	)
 	(junction
+		(at 275.59 247.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a139f5f-7f08-4b96-b2ee-841de8a9ad5b")
+	)
+	(junction
 		(at 171.45 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cd9e841-c053-4605-9840-168d227e21c4")
+	)
+	(junction
+		(at 158.75 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fb13ebb-7c33-4144-8f3b-678a77922ef0")
+	)
+	(junction
+		(at 120.65 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "320806e3-32e0-41d6-8bd2-3dcc4cbde996")
+	)
+	(junction
+		(at 254 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ab9624e-a42c-40ea-875c-469bbeee3b05")
+	)
+	(junction
+		(at 229.87 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3add74df-8bc4-4f6a-b5bf-b84a46256f17")
+	)
+	(junction
+		(at 104.14 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44722665-3896-4f7a-bc3a-f459bf60468f")
+	)
+	(junction
+		(at 275.59 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "495123bd-ce13-4ebf-ade1-40d2631af8e0")
 	)
 	(junction
 		(at 194.31 269.24)
@@ -2626,6 +2880,12 @@
 		(uuid "58adc6fd-1b69-4618-b1bf-193d3331df8d")
 	)
 	(junction
+		(at 111.76 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bc0805e-184b-4d4d-aea4-7f22e42171b9")
+	)
+	(junction
 		(at 158.75 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2636,6 +2896,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62c335a2-ae6f-48d6-9f60-5f6aeaa0f6a2")
+	)
+	(junction
+		(at 104.14 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c11d9ab-5bbb-4ce5-931f-ba0b74abf06b")
+	)
+	(junction
+		(at 119.38 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7346847d-d45f-4dde-91d9-34effdefac0c")
+	)
+	(junction
+		(at 137.16 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "739fc420-b20b-47e4-89ff-34d69921e010")
 	)
 	(junction
 		(at 43.18 247.65)
@@ -2650,10 +2928,52 @@
 		(uuid "8373a665-ea74-4704-9ddd-3a8753a5d930")
 	)
 	(junction
+		(at 241.3 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83882b1c-330a-4b45-883d-d67c38716e74")
+	)
+	(junction
+		(at 102.87 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85dde269-5913-4b5f-8257-124a2c2dfbdc")
+	)
+	(junction
+		(at 259.08 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "875c86ae-1d3f-4b3b-b6c1-05c1fdec8862")
+	)
+	(junction
+		(at 120.65 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fe88d46-849b-4023-a448-2fb2a849478a")
+	)
+	(junction
+		(at 256.54 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91c0c0bf-dfe8-4386-b73e-7bd44b2cd7e0")
+	)
+	(junction
 		(at 229.87 217.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92256f91-f23b-4f9f-b481-4f9fc1cb75cc")
+	)
+	(junction
+		(at 260.35 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f7b1198-9f27-499e-a07b-40161f9b0da6")
+	)
+	(junction
+		(at 237.49 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3f83ad3-92fb-4513-b869-45cbd6b5ca1f")
 	)
 	(junction
 		(at 158.75 237.49)
@@ -2666,6 +2986,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a555deb4-e2b9-490e-80a8-c6d73d187fd1")
+	)
+	(junction
+		(at 113.03 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaf8272f-084a-4e5f-a1c6-a21f1801645f")
 	)
 	(junction
 		(at 114.3 265.43)
@@ -2686,16 +3012,34 @@
 		(uuid "ae7b9125-bb11-4353-95e7-6264da1ec3fe")
 	)
 	(junction
+		(at 135.89 210.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae9ae556-f728-4c92-b0f4-2d7b9bfc36a2")
+	)
+	(junction
 		(at 158.75 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b59958d2-a3e2-4526-b660-21ee102874ec")
 	)
 	(junction
+		(at 158.75 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b916164b-48c4-4f6c-a68b-205d10925c8e")
+	)
+	(junction
 		(at 229.87 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c00d4ba1-5d99-432a-8046-c8fcca40cef7")
+	)
+	(junction
+		(at 229.87 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cee67031-b5a7-471f-8495-dff48178c253")
 	)
 	(junction
 		(at 217.17 208.28)
@@ -2714,6 +3058,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2cd098f-1a46-49d3-98cc-8f8f8e26cc75")
+	)
+	(junction
+		(at 238.76 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8269d01-91cb-48fa-9006-ff121c43ff51")
 	)
 	(junction
 		(at 229.87 237.49)
@@ -2858,6 +3208,16 @@
 		)
 		(uuid "006f962f-1b93-4675-86e0-01ea114fa044")
 	)
+	(wire
+		(pts
+			(xy 229.87 240.03) (xy 241.3 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01383da1-146b-4274-99ac-40ec540fe92f")
+	)
 	(bus
 		(pts
 			(xy 106.68 86.36) (xy 106.68 81.28)
@@ -2867,6 +3227,26 @@
 			(type default)
 		)
 		(uuid "036ee09f-5b3a-4fe4-8916-e47db55650f1")
+	)
+	(wire
+		(pts
+			(xy 135.89 210.82) (xy 158.75 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c91797-aa11-4c56-ba65-3ce617d6babf")
+	)
+	(wire
+		(pts
+			(xy 241.3 247.65) (xy 259.08 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056329c4-c3ba-4251-968f-143ea992c2dc")
 	)
 	(wire
 		(pts
@@ -2920,7 +3300,27 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 193.04) (xy 229.87 205.74)
+			(xy 140.97 236.22) (xy 140.97 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14953944-68ea-46ff-9e79-184eaf215b37")
+	)
+	(wire
+		(pts
+			(xy 264.16 210.82) (xy 271.78 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14a5488b-a801-4252-8d07-31c1baace9f1")
+	)
+	(wire
+		(pts
+			(xy 229.87 193.04) (xy 229.87 203.2)
 		)
 		(stroke
 			(width 0)
@@ -2937,6 +3337,16 @@
 			(type default)
 		)
 		(uuid "1d77f0c2-c7fe-4e3f-b314-d60413bbc017")
+	)
+	(wire
+		(pts
+			(xy 104.14 196.85) (xy 113.03 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2166f781-c3a6-4c3a-96d2-844fe2ec768c")
 	)
 	(wire
 		(pts
@@ -2970,6 +3380,36 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 240.03) (xy 229.87 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e360533-cc33-4174-8e64-9cad400ca189")
+	)
+	(wire
+		(pts
+			(xy 237.49 186.69) (xy 254 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ed7f902-284a-48c5-981e-1659b54eed45")
+	)
+	(wire
+		(pts
+			(xy 229.87 203.2) (xy 229.87 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31ceb165-d3bb-4501-ac2c-5b3acfd89cf8")
+	)
+	(wire
+		(pts
 			(xy 217.17 217.17) (xy 229.87 217.17)
 		)
 		(stroke
@@ -3000,6 +3440,36 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 219.71) (xy 229.87 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35bf23d3-b5d1-4162-8dd2-5c4e2348c18b")
+	)
+	(wire
+		(pts
+			(xy 275.59 240.03) (xy 292.1 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3615889b-c034-47de-b4cb-0df69f8c2b42")
+	)
+	(wire
+		(pts
+			(xy 85.09 210.82) (xy 102.87 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3828038c-2382-4cde-94f3-b84f00dbd99a")
+	)
+	(wire
+		(pts
 			(xy 92.71 247.65) (xy 104.14 247.65)
 		)
 		(stroke
@@ -3020,6 +3490,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 210.82) (xy 264.16 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aec7aa8-b9ca-4f8d-9a55-ff1c92ab6729")
+	)
+	(wire
+		(pts
 			(xy 229.87 242.57) (xy 229.87 247.65)
 		)
 		(stroke
@@ -3027,6 +3507,16 @@
 			(type default)
 		)
 		(uuid "3b59c4e7-a0e7-40d2-b51d-4d2dfcf1cf3c")
+	)
+	(wire
+		(pts
+			(xy 238.76 203.2) (xy 256.54 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3beca759-cad7-405a-80c7-3333f1d764c4")
 	)
 	(wire
 		(pts
@@ -3040,6 +3530,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 194.31) (xy 260.35 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d06d0de-bc7b-4759-b832-d5d0c45f08d8")
+	)
+	(wire
+		(pts
 			(xy 109.22 55.88) (xy 167.64 55.88)
 		)
 		(stroke
@@ -3047,6 +3547,16 @@
 			(type default)
 		)
 		(uuid "3e301352-05ab-4418-a87e-4022b8132ea1")
+	)
+	(wire
+		(pts
+			(xy 137.16 189.23) (xy 158.75 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed9ce57-0daf-47b7-956f-cae8dd37a3f1")
 	)
 	(wire
 		(pts
@@ -3080,6 +3590,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 210.82) (xy 158.75 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45fbb2be-b715-4b29-9ac2-334bd628a157")
+	)
+	(wire
+		(pts
 			(xy 109.22 93.98) (xy 167.64 93.98)
 		)
 		(stroke
@@ -3087,6 +3607,16 @@
 			(type default)
 		)
 		(uuid "4718486f-9478-4ed6-8643-5bb245c0bce7")
+	)
+	(wire
+		(pts
+			(xy 267.97 247.65) (xy 275.59 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47e439ec-f786-4da3-8260-912b8dc96451")
 	)
 	(wire
 		(pts
@@ -3120,6 +3650,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 203.2) (xy 271.78 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf14e25-990f-4899-9140-9a446865bf45")
+	)
+	(wire
+		(pts
 			(xy 109.22 91.44) (xy 167.64 91.44)
 		)
 		(stroke
@@ -3127,6 +3667,36 @@
 			(type default)
 		)
 		(uuid "4d439e89-1538-4551-8e35-981aec4bc30d")
+	)
+	(wire
+		(pts
+			(xy 275.59 247.65) (xy 292.1 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d53bcfa-efd5-46fc-8e5b-1a66d32d9973")
+	)
+	(wire
+		(pts
+			(xy 113.03 196.85) (xy 120.65 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ecd0fe-03f2-4e53-aaa6-eb79ed42f908")
+	)
+	(wire
+		(pts
+			(xy 158.75 226.06) (xy 158.75 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55206e11-a01e-4182-a267-6ed927776886")
 	)
 	(wire
 		(pts
@@ -3157,6 +3727,16 @@
 			(type default)
 		)
 		(uuid "5a826a5d-15fe-4e33-af66-0a2fb14367d0")
+	)
+	(wire
+		(pts
+			(xy 85.09 218.44) (xy 102.87 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ff352f6-ddb0-42a9-ba41-f900b7a084e6")
 	)
 	(wire
 		(pts
@@ -3200,6 +3780,36 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 196.85) (xy 113.03 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6830d8b6-124a-4be4-ac31-c9a4f32c6f71")
+	)
+	(wire
+		(pts
+			(xy 254 186.69) (xy 269.24 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6888069a-fc5f-42fb-a30a-09769a9d816e")
+	)
+	(wire
+		(pts
+			(xy 104.14 189.23) (xy 120.65 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6d1654-b2f8-4ab6-a3b5-cf532cd1e4a3")
+	)
+	(wire
+		(pts
 			(xy 217.17 252.73) (xy 229.87 252.73)
 		)
 		(stroke
@@ -3240,13 +3850,33 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 184.15) (xy 229.87 193.04)
+			(xy 86.36 196.85) (xy 104.14 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75690367-8c19-45db-89a2-8d14df13cf2a")
+	)
+	(wire
+		(pts
+			(xy 229.87 184.15) (xy 229.87 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "75abc096-16d6-4445-8ce8-7828fdf79932")
+	)
+	(wire
+		(pts
+			(xy 229.87 186.69) (xy 237.49 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7808757d-74d7-4e14-afed-d66e081cd7ad")
 	)
 	(wire
 		(pts
@@ -3310,6 +3940,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 218.44) (xy 111.76 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875d9612-e5b1-47b4-a9f3-7d1e46d0ecc8")
+	)
+	(wire
+		(pts
 			(xy 158.75 193.04) (xy 171.45 193.04)
 		)
 		(stroke
@@ -3340,6 +3980,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 194.31) (xy 254 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97fc0bc5-e592-483e-856a-3e281bf65a46")
+	)
+	(wire
+		(pts
 			(xy 158.75 237.49) (xy 171.45 237.49)
 		)
 		(stroke
@@ -3347,6 +3997,16 @@
 			(type default)
 		)
 		(uuid "9a781cfb-9f82-4d47-989d-82823c1c3960")
+	)
+	(wire
+		(pts
+			(xy 229.87 186.69) (xy 229.87 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9af4a45b-dd7a-439c-a48b-f1134c18e846")
 	)
 	(wire
 		(pts
@@ -3418,6 +4078,16 @@
 		)
 		(uuid "a416f099-c917-44d0-8385-b1ded27a5719")
 	)
+	(wire
+		(pts
+			(xy 267.97 247.65) (xy 267.97 250.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4b8500d-1812-4222-9c8c-ea2de5876ce5")
+	)
 	(bus
 		(pts
 			(xy 106.68 73.66) (xy 106.68 67.31)
@@ -3438,6 +4108,16 @@
 		)
 		(uuid "a826fa72-573d-4663-9e5e-f31e66a96201")
 	)
+	(wire
+		(pts
+			(xy 102.87 210.82) (xy 119.38 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb2d4d0-b0c6-4227-a9f7-c19259a306f4")
+	)
 	(bus
 		(pts
 			(xy 106.68 78.74) (xy 106.68 76.2)
@@ -3447,6 +4127,16 @@
 			(type default)
 		)
 		(uuid "abe45143-a212-4bdb-9e47-f38d450083e6")
+	)
+	(wire
+		(pts
+			(xy 238.76 227.33) (xy 238.76 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb2fea8-0f99-4716-8d50-e9a61f1038fb")
 	)
 	(wire
 		(pts
@@ -3520,6 +4210,56 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 218.44) (xy 135.89 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b772b8e2-d068-42c8-88c9-29944ebb0643")
+	)
+	(wire
+		(pts
+			(xy 259.08 240.03) (xy 275.59 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba60e33e-cd6c-4153-9d63-8556b3a92460")
+	)
+	(wire
+		(pts
+			(xy 140.97 226.06) (xy 158.75 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bae99b58-a7b8-49ad-b121-d3decc1d62ad")
+	)
+	(wire
+		(pts
+			(xy 120.65 196.85) (xy 137.16 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc702215-811a-43ee-aac4-8d3e4c3dff32")
+	)
+	(wire
+		(pts
+			(xy 86.36 189.23) (xy 104.14 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb889de-ba5b-48a6-afb2-ad604f3f59ed")
+	)
+	(wire
+		(pts
 			(xy 82.55 252.73) (xy 68.58 252.73)
 		)
 		(stroke
@@ -3550,13 +4290,33 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 193.04) (xy 158.75 224.79)
+			(xy 238.76 210.82) (xy 256.54 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c79aa8f8-ec88-43c2-a8c8-a5c2775e4331")
+	)
+	(wire
+		(pts
+			(xy 158.75 193.04) (xy 158.75 210.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c972778c-92f8-4d66-bb24-b85f5089e0b3")
+	)
+	(wire
+		(pts
+			(xy 260.35 194.31) (xy 260.35 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cccd8beb-9021-4a13-a4ad-0c47929020c0")
 	)
 	(bus
 		(pts
@@ -3608,6 +4368,16 @@
 		)
 		(uuid "d24183c0-76e6-4fee-a3e8-c11353b556d9")
 	)
+	(wire
+		(pts
+			(xy 119.38 210.82) (xy 135.89 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2945549-6f28-4f0d-a6e1-91835e670550")
+	)
 	(bus
 		(pts
 			(xy 106.68 55.88) (xy 106.68 53.34)
@@ -3650,6 +4420,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 189.23) (xy 137.16 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7810895-0798-4172-bc96-dbde3a44e8b0")
+	)
+	(wire
+		(pts
 			(xy 217.17 193.04) (xy 229.87 193.04)
 		)
 		(stroke
@@ -3657,6 +4437,26 @@
 			(type default)
 		)
 		(uuid "d7998448-e773-46a6-883b-c59d8eb8534f")
+	)
+	(wire
+		(pts
+			(xy 260.35 194.31) (xy 269.24 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d876cfe7-2e6d-44ea-b1fc-abe4cd8c97d0")
+	)
+	(wire
+		(pts
+			(xy 259.08 247.65) (xy 267.97 247.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da63d4bc-ed8e-42d3-8e2f-155d4b108b02")
 	)
 	(wire
 		(pts
@@ -3680,6 +4480,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 219.71) (xy 238.76 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e029207e-bb0f-4e78-b152-c307998a5757")
+	)
+	(wire
+		(pts
 			(xy 194.31 269.24) (xy 194.31 271.78)
 		)
 		(stroke
@@ -3690,13 +4500,23 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 237.49) (xy 229.87 242.57)
+			(xy 229.87 237.49) (xy 229.87 240.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e3563a53-dd14-4f77-8aee-1ab5eadfff93")
+	)
+	(wire
+		(pts
+			(xy 111.76 218.44) (xy 111.76 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e368253d-dc86-4f42-857d-64cfac68b21c")
 	)
 	(wire
 		(pts
@@ -3710,7 +4530,17 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 217.17) (xy 229.87 232.41)
+			(xy 264.16 210.82) (xy 264.16 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f08c52-795a-4158-83ff-e6dd843ff3fa")
+	)
+	(wire
+		(pts
+			(xy 229.87 217.17) (xy 229.87 219.71)
 		)
 		(stroke
 			(width 0)
@@ -3750,7 +4580,27 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 224.79) (xy 158.75 232.41)
+			(xy 241.3 240.03) (xy 259.08 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4ff067-4e8a-41da-8db8-c8fc8276075f")
+	)
+	(wire
+		(pts
+			(xy 229.87 203.2) (xy 238.76 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f003c603-6c28-4c84-be1d-f07c778fa3d3")
+	)
+	(wire
+		(pts
+			(xy 158.75 224.79) (xy 158.75 226.06)
 		)
 		(stroke
 			(width 0)
@@ -3810,6 +4660,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 228.6) (xy 140.97 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9d044a5-d638-4e08-af5f-2a044a7d6b72")
+	)
+	(wire
+		(pts
 			(xy 114.3 247.65) (xy 114.3 252.73)
 		)
 		(stroke
@@ -3817,6 +4677,16 @@
 			(type default)
 		)
 		(uuid "f9df4b7f-f159-4343-8e71-2e15a9438613")
+	)
+	(wire
+		(pts
+			(xy 111.76 218.44) (xy 119.38 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca7c9d8-54b0-4303-8d61-8cf91c559402")
 	)
 	(bus
 		(pts
@@ -3993,7 +4863,7 @@
 		(uuid "fc6fb8f6-f01d-48a8-a577-b8741ad096d4")
 	)
 	(hierarchical_label "RGMII{RGMII}"
-		(shape input)
+		(shape bidirectional)
 		(at 55.88 53.34 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4003,6 +4873,160 @@
 			(justify right)
 		)
 		(uuid "77480091-90ab-4a9f-98c9-cdadf4896b17")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.35 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "04bd7c4d-15e4-4e22-8927-fdf765707e76")
+		(property "Reference" "#PWR03005"
+			(at 260.35 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 260.35 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64c53b28-a883-4fa2-bcd4-4321d0f40a18")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "#PWR03005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 135.89 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ea6f448-fdb4-4e53-8b32-7e2e517e7536")
+		(property "Reference" "C3007"
+			(at 139.7 213.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 139.7 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 133.112 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 135.89 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 139.89 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 139.89 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a04feed-303f-47b6-8630-d38983f82d3c")
+		)
+		(pin "1"
+			(uuid "244b379d-30a5-4d66-9681-c8d834ee6dea")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3007")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4065,6 +5089,181 @@
 			(project "mPCIe_T1Switch"
 				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
 					(reference "#PWR0306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 237.49 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e2bac61-c80e-43ef-8e58-7b2c8643ef24")
+		(property "Reference" "C3010"
+			(at 240.03 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 240.03 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 234.712 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 237.49 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 241.49 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 241.49 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03b535b7-bf87-48cd-846c-a83e2879ab6d")
+		)
+		(pin "1"
+			(uuid "77da2ff0-81a1-4bd7-b9bd-ad6799e50181")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 254 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2562c115-396d-437f-a42d-3a5c7ac13854")
+		(property "Reference" "C3014"
+			(at 257.81 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 257.81 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 251.222 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 254 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 258 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 258 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "212c754e-5f4d-4b6b-87c6-e6c1572171a4")
+		)
+		(pin "1"
+			(uuid "d380f172-2591-48c4-bca5-f30a48edacd8")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3014")
 					(unit 1)
 				)
 			)
@@ -4137,6 +5336,270 @@
 		)
 	)
 	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 120.65 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3095e3c3-41df-4951-8f15-285c57fbe74e")
+		(property "Reference" "C3006"
+			(at 124.46 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 124.46 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 117.872 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 120.65 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 124.65 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 124.65 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba368a97-c050-4d91-b5cd-87b4ad43de17")
+		)
+		(pin "1"
+			(uuid "284cd3e7-d60b-420e-b745-2d0fdbd9f5f1")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 102.87 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3173203e-396a-436d-8d89-b354859600ff")
+		(property "Reference" "C3003"
+			(at 106.68 213.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 106.68 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 100.092 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 102.87 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 106.87 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 106.87 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "649a2290-6c7d-4c0c-8ae8-41a05d4a8296")
+		)
+		(pin "1"
+			(uuid "3a466c2f-231e-4f50-8bf2-1d3a693e4772")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 85.09 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35635629-9a8a-40b7-9994-bd7dab2e515d")
+		(property "Reference" "C3001"
+			(at 88.9 213.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 88.9 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 82.312 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 85.09 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 89.09 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 89.09 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d5b70360-0408-4c42-a637-1a4a1475c73f")
+		)
+		(pin "1"
+			(uuid "2d64ab42-eeb3-40e2-a136-057df60f92cf")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 29.21 262.89 0)
 		(unit 1)
@@ -4203,6 +5666,182 @@
 		)
 	)
 	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 238.76 223.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f5d531a-b3e3-4a9e-bf7a-f775971bfb63")
+		(property "Reference" "C3012"
+			(at 242.57 222.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 242.57 224.7899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 235.982 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 238.76 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 242.76 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 242.76 223.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0f444878-9bc2-41f8-8228-b265a08ece22")
+		)
+		(pin "1"
+			(uuid "d9ef9fbd-94c1-4eb9-9818-8e8f0716fbbf")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 104.14 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43cadf36-cf40-461b-9c19-5652eb6e1efd")
+		(property "Reference" "C3004"
+			(at 107.95 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 107.95 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 101.362 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 104.14 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 108.14 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 108.14 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35e17bb1-99a8-4ce3-a03f-f233215379f9")
+		)
+		(pin "1"
+			(uuid "589eef23-1a3b-4288-a3f9-4aba3d521ebb")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 92.71 270.51 0)
 		(unit 1)
@@ -4263,6 +5902,94 @@
 			(project "mPCIe_T1Switch"
 				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
 					(reference "#PWR0305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 137.16 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "527c4e57-ca0f-495e-a9ac-c933c03ec7ce")
+		(property "Reference" "C3008"
+			(at 140.97 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 140.97 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 134.382 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 137.16 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 141.16 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 141.16 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a96f7a6-b64e-499a-97d5-7125868cccf5")
+		)
+		(pin "1"
+			(uuid "fe55b5a7-1e56-4b1d-9768-fe48605fae9b")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3008")
 					(unit 1)
 				)
 			)
@@ -4454,6 +6181,94 @@
 		)
 	)
 	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 271.78 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "622a1784-8c8c-4c96-83c2-1511e384b28b")
+		(property "Reference" "C3018"
+			(at 275.59 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 275.59 208.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 269.002 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 271.78 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 275.78 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 275.78 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6807f6c6-31ed-40c0-9589-fcfb1cf11ff6")
+		)
+		(pin "1"
+			(uuid "3ab2afc0-a5e2-4c93-934d-fe7bb2ac5752")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V1")
 		(at 105.41 241.3 0)
 		(unit 1)
@@ -4580,6 +6395,160 @@
 			(project ""
 				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
 					(reference "#PWR0303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 275.59 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ba3d000-ebee-4ed8-a87c-9f46b53d94a5")
+		(property "Reference" "C3019"
+			(at 279.4 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 279.4 245.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 272.812 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 275.59 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 279.59 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 279.59 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be2e94ac-18ae-4ce2-9721-5e8311b985ba")
+		)
+		(pin "1"
+			(uuid "8431db0a-f115-4d25-a34f-213d775f4a5c")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c204c64-8e16-4325-a293-3cbcf9cc759f")
+		(property "Reference" "#PWR03007"
+			(at 113.03 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4a193e2-1087-499d-942d-7730b640e52e")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "#PWR03007")
 					(unit 1)
 				)
 			)
@@ -4821,6 +6790,247 @@
 			(project ""
 				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
 					(reference "C301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 267.97 250.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92f8d418-ea60-4067-a6a4-97c9926ac269")
+		(property "Reference" "#PWR03003"
+			(at 267.97 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3d3141c-8b6b-4bc2-81fd-c2956c788e9c")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "#PWR03003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 140.97 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99662e98-94b6-4269-8b2f-deb40969f8b5")
+		(property "Reference" "C3009"
+			(at 144.78 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 144.78 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 138.192 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 140.97 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 144.97 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 144.97 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4851f76b-c7df-4cf2-bf1c-3c48effb164a")
+		)
+		(pin "1"
+			(uuid "4cd4040b-f728-4cb4-a30a-59c80d1a2512")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 238.76 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1879c20-8fc9-41a0-a360-1e422d901bc2")
+		(property "Reference" "C3011"
+			(at 242.57 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 242.57 208.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 235.982 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 238.76 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 242.76 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 242.76 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e601fe7-79e4-4487-95f3-5f04d5f43ddd")
+		)
+		(pin "1"
+			(uuid "6858fa17-83ae-4274-a375-f69683a48899")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3011")
 					(unit 1)
 				)
 			)
@@ -5104,6 +7314,160 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 140.97 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acbe5634-f04c-4abb-aedf-8a34820bfb57")
+		(property "Reference" "#PWR03009"
+			(at 140.97 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad01a91f-4eb0-4b24-9ccc-ff28048f51c6")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "#PWR03009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 119.38 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad3abb00-93f3-4f94-8a41-ec43ec086476")
+		(property "Reference" "C3005"
+			(at 123.19 213.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 123.19 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 116.602 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 119.38 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 123.38 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 123.38 214.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e87977f7-1794-4404-bab7-fc79ced75c6c")
+		)
+		(pin "1"
+			(uuid "4ebc3c46-2a89-4240-beac-1e572a63a010")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bt_communication:LAN9370-V_KCXVAO")
 		(at 175.26 48.26 0)
 		(unit 1)
@@ -5381,6 +7745,248 @@
 		)
 	)
 	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 259.08 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1b9f4f8-59b7-44b5-8645-9171efdc1b70")
+		(property "Reference" "C3016"
+			(at 262.89 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 262.89 245.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 256.302 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 259.08 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 263.08 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 263.08 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a3c9748-df5c-4afe-9d00-888a8a47c1a8")
+		)
+		(pin "1"
+			(uuid "ece7de45-7139-44c3-81ce-2b2969e1b0d2")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 256.54 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c30a197a-111b-4b11-9571-413299b445f7")
+		(property "Reference" "C3015"
+			(at 260.35 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 260.35 208.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 253.762 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 256.54 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 260.54 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 260.54 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ed30a3a-ea00-479a-9e76-0ff903fd6135")
+		)
+		(pin "1"
+			(uuid "1790bbb2-eb21-484f-b377-ff64a2e71e11")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 238.76 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c54046a9-8610-4180-80e0-cf5ef58be4fa")
+		(property "Reference" "#PWR03006"
+			(at 238.76 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bd55449-6f9c-4bc2-b115-42d91f905a83")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "#PWR03006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bt_resistors:R;G;12K;10P0;S;0603")
 		(at 92.71 264.16 0)
 		(unit 1)
@@ -5555,6 +8161,160 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V1")
+		(at 158.75 189.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7a29d4b-2609-483c-9f72-ed705a77ae40")
+		(property "Reference" "#PWR03001"
+			(at 158.75 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V1"
+			(at 158.75 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V1\""
+			(at 158.75 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c56578a1-9073-49ec-b9be-9b906dc52496")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "#PWR03001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 292.1 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d9d30094-93e0-46e9-b6df-b2ec888f18b0")
+		(property "Reference" "C3020"
+			(at 295.91 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 295.91 245.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 289.322 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 292.1 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 296.1 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 296.1 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "21043090-a34c-4706-a5c1-fdb17aaccf7f")
+		)
+		(pin "1"
+			(uuid "c6f090f9-7a07-4d65-9cdd-808145817b44")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bt_resistors:R;G;10K;10P0;S;0603")
 		(at 92.71 254 0)
 		(unit 1)
@@ -5643,6 +8403,226 @@
 		)
 	)
 	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 269.24 190.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebbe4fb0-1102-4a77-85a6-03d85468b1f1")
+		(property "Reference" "C3017"
+			(at 273.05 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 273.05 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 266.462 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 269.24 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 273.24 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 273.24 190.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9d53c629-387f-4ef5-b767-731bd38d6944")
+		)
+		(pin "1"
+			(uuid "c7caba35-2cc3-465c-ab45-a41d27a6f72b")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 264.16 213.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec0288e2-51f7-4d24-81f4-d05631293f1f")
+		(property "Reference" "#PWR03004"
+			(at 264.16 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.16 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 264.16 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c7de0d4-1573-4c11-bbca-fe4feee28e2d")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "#PWR03004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 220.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeba9a13-250e-46b8-8dd3-b4f270d22036")
+		(property "Reference" "#PWR03008"
+			(at 111.76 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b38c2898-e552-49ce-832c-528c77aed258")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "#PWR03008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bt_capacitor:C;M;10u;10p;10V;S;0603")
 		(at 114.3 256.54 0)
 		(unit 1)
@@ -5724,6 +8704,248 @@
 			(project "mPCIe_T1Switch"
 				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
 					(reference "C303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 86.36 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7402ccc-7ff7-41b8-b38a-ee67b83c1a03")
+		(property "Reference" "C3002"
+			(at 90.17 191.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 90.17 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 83.582 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 86.36 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 90.36 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 90.36 193.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9e7e849e-ad88-4162-823f-7620f004a369")
+		)
+		(pin "1"
+			(uuid "deaf197b-960f-4389-97bd-582e515fa492")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 229.87 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8774336-6979-4875-994d-ad5f36ce9018")
+		(property "Reference" "#PWR03002"
+			(at 229.87 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 229.87 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 229.87 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8995f6ec-893b-4790-87d4-b70b49d2ae50")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "#PWR03002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 241.3 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fef3cd28-8106-4463-8505-52747d4918f0")
+		(property "Reference" "C3013"
+			(at 245.11 242.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 245.11 245.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 238.522 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 241.3 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 245.3 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 245.3 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a5dd14e-91fc-4768-b8b5-daaa79c56d33")
+		)
+		(pin "1"
+			(uuid "cf657410-aa8d-4907-9675-f7c861077e3e")
+		)
+		(instances
+			(project "mPCIe_T1Switch"
+				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/855628a6-386a-4082-b355-91c0fef1b439"
+					(reference "C3013")
 					(unit 1)
 				)
 			)

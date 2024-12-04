@@ -6701,94 +6701,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_resistors:R;G;510R;10P0;S;0603")
-		(at 242.57 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fe75ad3-289f-48b5-8767-7f5492ad7810")
-		(property "Reference" "R111"
-			(at 245.11 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "510R"
-			(at 245.11 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 240.792 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 242.57 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
-			(at 242.57 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" "BT00002-05100"
-			(at 242.57 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fa46dcc5-8a83-4914-a838-0be6c13dee85")
-		)
-		(pin "1"
-			(uuid "d0b68386-a856-4620-bee6-cadb50043404")
-		)
-		(instances
-			(project ""
-				(path "/9ee63066-e0a3-4b76-abdc-aa559f95c965"
-					(reference "R111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 193.04 125.73 0)
 		(unit 1)
@@ -8403,6 +8315,94 @@
 		)
 	)
 	(symbol
+		(lib_id "bt_resistors:R;G;510R;10P0;S;0603")
+		(at 271.78 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cfa5f5e-c540-4324-a2ac-46d2156fce62")
+		(property "Reference" "R112"
+			(at 274.32 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "510R"
+			(at 274.32 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 270.002 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 271.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 271.78 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "R;G;T1;S;P0603;NA"
+			(at 271.78 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00002-05100"
+			(at 271.78 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f7546c6-d111-4f8d-b81b-e3db4d1306b4")
+		)
+		(pin "2"
+			(uuid "936c9279-8bcd-406a-bb11-619cc564fdbd")
+		)
+		(instances
+			(project ""
+				(path "/9ee63066-e0a3-4b76-abdc-aa559f95c965"
+					(reference "R112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bt_resistors:R;G;820R;10P0;S;0603")
 		(at 127 85.09 0)
 		(unit 1)
@@ -9477,6 +9477,94 @@
 		)
 	)
 	(symbol
+		(lib_id "bt_resistors:R;G;510R;10P0;S;0603")
+		(at 242.57 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c99217b7-d91c-49ae-b0a6-b0ef35ae5c5f")
+		(property "Reference" "R111"
+			(at 245.11 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "510R"
+			(at 245.11 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 240.792 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 242.57 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "R;G;T1;S;P0603;NA"
+			(at 242.57 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00002-05100"
+			(at 242.57 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ff69210-c0bd-4be6-afef-dd0e1f5f33d7")
+		)
+		(pin "2"
+			(uuid "7aa01995-920a-4791-977a-7b14346d63a5")
+		)
+		(instances
+			(project "LISN_5u"
+				(path "/9ee63066-e0a3-4b76-abdc-aa559f95c965"
+					(reference "R111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 191.77 256.54 0)
 		(unit 1)
@@ -10447,94 +10535,6 @@
 			(project ""
 				(path "/9ee63066-e0a3-4b76-abdc-aa559f95c965"
 					(reference "C103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bt_resistors:R;G;680R;10P0;S;0603")
-		(at 271.78 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9b4925f-d336-40d0-b904-3cfd44ade062")
-		(property "Reference" "R112"
-			(at 274.32 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "680R"
-			(at 274.32 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 270.002 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 271.78 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 271.78 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
-			(at 271.78 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" "BT00002-06800"
-			(at 271.78 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "042f22b2-f92b-4a89-af3e-b733fab87733")
-		)
-		(pin "1"
-			(uuid "4fdf3e18-7965-41af-b166-1db26ee5cc10")
-		)
-		(instances
-			(project "LISN_5u"
-				(path "/9ee63066-e0a3-4b76-abdc-aa559f95c965"
-					(reference "R112")
 					(unit 1)
 				)
 			)

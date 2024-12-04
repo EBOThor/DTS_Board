@@ -2445,7 +2445,7 @@
 		(uuid "eed99e0b-870d-4eef-96f2-3aa5445ca711")
 	)
 	(hierarchical_label "PCIE{PCIE}"
-		(shape input)
+		(shape bidirectional)
 		(at 100.33 116.84 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2465,7 +2465,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c3274ac-c483-4034-b481-fa76c5acab1b")
-		(property "Reference" "X?"
+		(property "Reference" "X4001"
 			(at 218.186 87.63 0)
 			(effects
 				(font
@@ -2723,7 +2723,7 @@
 		(instances
 			(project ""
 				(path "/35c16f53-2908-4c19-8371-633bea9adc2a/5373f408-5f1e-469a-8abd-82497cfedf8b"
-					(reference "X?")
+					(reference "X4001")
 					(unit 1)
 				)
 			)

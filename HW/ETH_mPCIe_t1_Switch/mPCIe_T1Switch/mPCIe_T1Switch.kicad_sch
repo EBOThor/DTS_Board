@@ -15,6 +15,27 @@
 		)
 		(uuid "67de7543-2d77-473d-a6cd-55d1c4f3cbc9")
 	)
+	(bus
+		(pts
+			(xy 90.17 104.14) (xy 111.76 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4552672-3a25-4f42-9713-34bf65b0306f")
+	)
+	(label "PCIE{PCIE}"
+		(at 95.25 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a225b765-5d26-4e5c-b4d7-801e4797e317")
+	)
 	(sheet
 		(at 111.76 90.17)
 		(size 48.26 40.64)
@@ -45,7 +66,7 @@
 				(justify left top)
 			)
 		)
-		(pin "PCIE{PCIE}" input
+		(pin "PCIE{PCIE}" bidirectional
 			(at 111.76 104.14 180)
 			(effects
 				(font
@@ -102,6 +123,16 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "PCIE{PCIE}" bidirectional
+			(at 90.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4061c471-8cc3-4c56-8ce7-e19678905b63")
 		)
 		(instances
 			(project "mPCIe_T1Switch"
