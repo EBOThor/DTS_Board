@@ -4329,7 +4329,7 @@
 	)
 	(bus_alias "RGMII"
 		(members "TXD0" "TXD1" "TXD2" "TXD3" "TX_CTL" "TX_CLK" "RXD0" "RXD1" "RXD2"
-			"RXD3" "RX_CTL" "RX_CLK" "RX_ER"
+			"RXD3" "RX_CTL" "RX_CLK"
 		)
 	)
 	(junction
@@ -4668,6 +4668,22 @@
 		(color 0 0 0 0)
 		(uuid "ff1ffb93-dd38-442e-9f3b-1e9bf36ea0ff")
 	)
+	(no_connect
+		(at 139.7 113.03)
+		(uuid "05ece127-4741-44b1-bd62-d400481baca1")
+	)
+	(no_connect
+		(at 139.7 118.11)
+		(uuid "073795e2-b091-4870-a4a5-1c76bceac9f5")
+	)
+	(no_connect
+		(at 139.7 120.65)
+		(uuid "b6e4b74b-c64c-48f5-9223-b147ee1e0a30")
+	)
+	(no_connect
+		(at 139.7 115.57)
+		(uuid "e091c133-ae63-41de-a99a-884747292f2e")
+	)
 	(bus_entry
 		(at 246.38 78.74)
 		(size -2.54 2.54)
@@ -4775,15 +4791,6 @@
 			(type default)
 		)
 		(uuid "900e717a-6559-43fc-a313-15df70647827")
-	)
-	(bus_entry
-		(at 246.38 87.63)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97a5e4e3-0d5d-481d-8d4b-925cfb712afb")
 	)
 	(bus_entry
 		(at 246.38 63.5)
@@ -5018,6 +5025,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 93.98) (xy 139.7 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "192831f7-cc78-4ed2-a3e0-e405f7588fc9")
+	)
+	(wire
+		(pts
 			(xy 130.81 190.5) (xy 143.51 190.5)
 		)
 		(stroke
@@ -5116,9 +5133,19 @@
 		)
 		(uuid "3110713c-e0c8-4048-a08b-4e310a76878b")
 	)
+	(wire
+		(pts
+			(xy 207.01 121.92) (xy 266.7 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "331c410f-2038-4695-8904-c80455b46f4d")
+	)
 	(bus
 		(pts
-			(xy 246.38 90.17) (xy 246.38 87.63)
+			(xy 246.38 83.82) (xy 246.38 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5188,6 +5215,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 124.46) (xy 266.7 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ac086a8-2998-40a0-883b-4c7214064dd6")
+	)
+	(wire
+		(pts
 			(xy 143.51 201.93) (xy 143.51 204.47)
 		)
 		(stroke
@@ -5216,16 +5253,6 @@
 		)
 		(uuid "3d3f7e1f-381a-4da9-9964-8ac330e988cf")
 	)
-	(bus
-		(pts
-			(xy 246.38 83.82) (xy 246.38 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dbe4584-39ac-4012-a432-3685d2124420")
-	)
 	(wire
 		(pts
 			(xy 25.4 181.61) (xy 41.91 181.61)
@@ -5235,26 +5262,6 @@
 			(type default)
 		)
 		(uuid "3e643649-0e64-4726-92ef-0f01633dd9a9")
-	)
-	(bus
-		(pts
-			(xy 105.41 86.36) (xy 105.41 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f796225-7bd7-4269-b0f9-721b9cb10abc")
-	)
-	(bus
-		(pts
-			(xy 246.38 92.71) (xy 246.38 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "409512fd-3596-4001-a904-933a4004dcd0")
 	)
 	(wire
 		(pts
@@ -5588,6 +5595,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 96.52) (xy 139.7 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71e2d703-cedb-4709-9246-95fc885b23f0")
+	)
+	(wire
+		(pts
 			(xy 107.95 81.28) (xy 139.7 81.28)
 		)
 		(stroke
@@ -5615,6 +5632,16 @@
 			(type default)
 		)
 		(uuid "734a2b1f-b121-4123-b9ab-6d66952e4efc")
+	)
+	(wire
+		(pts
+			(xy 207.01 115.57) (xy 266.7 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7435c4f3-790b-4d79-b789-154c8ff7024c")
 	)
 	(wire
 		(pts
@@ -5865,6 +5892,16 @@
 			(type default)
 		)
 		(uuid "9a8505eb-3760-406c-8f0c-05f997c46f1c")
+	)
+	(wire
+		(pts
+			(xy 207.01 118.11) (xy 266.7 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ab49f2d-b0a1-4776-8590-c3e57813dba6")
 	)
 	(wire
 		(pts
@@ -6236,6 +6273,16 @@
 		)
 		(uuid "d690815d-bb9f-46cd-af2e-c2fec6e1a11a")
 	)
+	(wire
+		(pts
+			(xy 119.38 99.06) (xy 139.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7898693-d33d-4a8f-b313-2f0782d3d12a")
+	)
 	(bus
 		(pts
 			(xy 246.38 58.42) (xy 246.38 60.96)
@@ -6458,16 +6505,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 90.17) (xy 243.84 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f73b1dbb-6a97-41bd-a871-ac4d876e8ea2")
-	)
-	(wire
-		(pts
 			(xy 143.51 190.5) (xy 143.51 193.04)
 		)
 		(stroke
@@ -6485,6 +6522,16 @@
 			(type default)
 		)
 		(uuid "fe8ca2d1-55e3-44b3-8af8-490505e40836")
+	)
+	(text "JTAG"
+		(exclude_from_sim no)
+		(at 133.604 117.602 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6b6e76fe-8b55-4f39-84cb-c8787b6f6210")
 	)
 	(label "PCIE{PCIE}"
 		(at 81.28 58.42 0)
@@ -6540,17 +6587,6 @@
 			(justify left bottom)
 		)
 		(uuid "132b27e3-3685-452f-92bb-1cc2f4095bc0")
-	)
-	(label "RGMII.RX_ER"
-		(at 243.84 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1ee6e9e4-5c1f-4f6c-a8b9-eed9d0d7fa61")
 	)
 	(label "PCIE.WAKE#"
 		(at 109.22 86.36 0)
@@ -6761,6 +6797,42 @@
 		)
 		(uuid "fd49f5d5-0aa0-4b84-b29c-af38c326eaba")
 	)
+	(hierarchical_label "PHY_Int#"
+		(shape bidirectional)
+		(at 266.7 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f0249b6-52f7-4490-a414-a48483babee9")
+	)
+	(hierarchical_label "MDC"
+		(shape bidirectional)
+		(at 266.7 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bf032d0-6aad-4d3f-9c07-5868581df98c")
+	)
+	(hierarchical_label "MDIO"
+		(shape bidirectional)
+		(at 266.7 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f14ca25-4437-4b27-b43b-68cd1d97dddc")
+	)
 	(hierarchical_label "RGMII{RGMII}"
 		(shape bidirectional)
 		(at 297.18 55.88 0)
@@ -6784,6 +6856,18 @@
 			(justify right)
 		)
 		(uuid "bcb60b29-d0b4-4a35-bbc0-69356a57d6b2")
+	)
+	(hierarchical_label "PHY_Reset#"
+		(shape bidirectional)
+		(at 266.7 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de962c32-c505-44fb-837a-eadd5e96270a")
 	)
 	(symbol
 		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")

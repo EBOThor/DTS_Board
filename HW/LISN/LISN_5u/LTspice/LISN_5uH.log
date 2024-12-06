@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\work\GitHub\DTS_Board\HW\LISN\LISN_5u\LTspice\LISN_5uH.asc
-Start Time: Thu Nov 28 09:57:53 2024
+Start Time: Fri Dec  6 12:43:33 2024
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -19,5 +19,5 @@ Ignoring empty pin current: Ix(u1:1)
 Ignoring empty pin current: Ix(u1:2)
 Ignoring empty pin current: Ix(u1:1)
 Ignoring empty pin current: Ix(u1:2)
-Total elapsed time: 0.088 seconds.
+Total elapsed time: 0.066 seconds.
 

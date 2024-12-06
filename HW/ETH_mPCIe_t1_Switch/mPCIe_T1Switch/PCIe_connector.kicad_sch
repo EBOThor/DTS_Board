@@ -2334,6 +2334,16 @@
 		)
 		(uuid "ff9f06ac-83bc-4415-b38d-ad44462aefee")
 	)
+	(text "Check Pinning"
+		(exclude_from_sim no)
+		(at 159.258 118.364 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f464bb66-9a3d-45c7-90d2-4a8a8098944b")
+	)
 	(label "PCIE.CLK_N"
 		(at 140.97 133.35 0)
 		(fields_autoplaced yes)

@@ -5,6 +5,36 @@
 	(uuid "35c16f53-2908-4c19-8371-633bea9adc2a")
 	(paper "A3")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 160.02 107.95) (xy 222.25 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b6b94d-8c55-4d65-b85c-f01b0a90c321")
+	)
+	(wire
+		(pts
+			(xy 160.02 115.57) (xy 222.25 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45908b1b-b7d9-4fb9-9d9b-ce1b67e29ab2")
+	)
+	(wire
+		(pts
+			(xy 160.02 113.03) (xy 222.25 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54df6139-d24f-4586-ad18-122aa21c76cf")
+	)
 	(bus
 		(pts
 			(xy 160.02 105.41) (xy 222.25 105.41)
@@ -24,6 +54,59 @@
 			(type default)
 		)
 		(uuid "b4552672-3a25-4f42-9713-34bf65b0306f")
+	)
+	(wire
+		(pts
+			(xy 160.02 110.49) (xy 222.25 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c471ad22-4b0a-4a29-ace7-7f8410952280")
+	)
+	(text "MDIO"
+		(exclude_from_sim no)
+		(at 183.896 115.062 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "734dd213-8a27-4381-9bfd-0c297a7f812c")
+	)
+	(label "MDC"
+		(at 181.61 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d953ca4-499b-4191-904c-47d0d52425d5")
+	)
+	(label "PHY_Reset#"
+		(at 181.61 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d550559-007b-47ec-8a41-413b1deff60d")
+	)
+	(label "PHY_Int#"
+		(at 181.61 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9a8f53b6-f08e-4873-8a5e-e92bf782d918")
 	)
 	(label "PCIE{PCIE}"
 		(at 95.25 104.14 0)
@@ -85,6 +168,46 @@
 				(justify right)
 			)
 			(uuid "bea8c7a3-9e47-40ef-8bc1-58efe2e3a7a0")
+		)
+		(pin "PHY_Int#" bidirectional
+			(at 160.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4e431086-aaad-4f9f-aa3b-dc323f9c05e2")
+		)
+		(pin "PHY_Reset#" bidirectional
+			(at 160.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9445b193-03d1-4ac8-bb46-5d8626d59f31")
+		)
+		(pin "MDC" bidirectional
+			(at 160.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9d5e0351-df80-4d9d-8fef-d569884c9c8d")
+		)
+		(pin "MDIO" bidirectional
+			(at 160.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a8d37a58-45ec-41be-8b60-b2508d450082")
 		)
 		(instances
 			(project "mPCIe_T1Switch"
@@ -181,6 +304,76 @@
 				(justify left)
 			)
 			(uuid "865a5eed-23c7-49ea-b5ee-563f26deffa7")
+		)
+		(pin "MDC" bidirectional
+			(at 222.25 113.03 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "af488164-2627-4e54-8c3a-1a0aadad1922")
+		)
+		(pin "PHY_Int#" bidirectional
+			(at 222.25 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "39937888-f81e-4a31-94c7-f88d114dfd3b")
+		)
+		(pin "MDIO" bidirectional
+			(at 222.25 115.57 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "643a2908-8652-45ff-aba5-23d775080ba9")
+		)
+		(pin "PHY_Reset#" bidirectional
+			(at 222.25 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "934ed332-1167-46cb-b848-701bac8b8187")
+		)
+		(pin "WAKE_OUT" bidirectional
+			(at 246.38 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eccc9c1d-2a73-40a8-a450-9313cf30c2b5")
+		)
+		(pin "INH" bidirectional
+			(at 248.92 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "78f40f1a-0421-42aa-b14f-b6d823ae7cf3")
+		)
+		(pin "SPI{SPI}" bidirectional
+			(at 254 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2b62b6dd-a3d1-4e9e-a91f-a4f56cdb5c84")
 		)
 		(instances
 			(project "mPCIe_T1Switch"
