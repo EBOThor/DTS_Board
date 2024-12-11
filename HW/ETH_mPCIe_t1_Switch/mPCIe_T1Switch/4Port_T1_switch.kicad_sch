@@ -180,7 +180,7 @@
 				)
 			)
 		)
-		(symbol "bt_capacitor:C;M;100n;10p;25V;S;0603"
+		(symbol "bt_capacitor:C;M;100n;10p;16V;S;0402"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0.254)
@@ -204,7 +204,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 				(at -2.778 0 90)
 				(effects
 					(font
@@ -231,7 +231,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(property "MPN" "C;M;100n;10p;16V;S;0402"
 				(at 4 0 90)
 				(effects
 					(font
@@ -240,7 +240,7 @@
 					(hide yes)
 				)
 			)
-			(property "CPN" "BT00008-091000"
+			(property "CPN" "BT00024-091000"
 				(at 4 0 90)
 				(effects
 					(font
@@ -267,7 +267,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C;M;100n;10p;25V;S;0603_0_1"
+			(symbol "C;M;100n;10p;16V;S;0402_0_1"
 				(polyline
 					(pts
 						(xy -2.032 -0.762) (xy 2.032 -0.762)
@@ -293,7 +293,7 @@
 					)
 				)
 			)
-			(symbol "C;M;100n;10p;25V;S;0603_1_1"
+			(symbol "C;M;100n;10p;16V;S;0402_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -4929,6 +4929,7 @@
 	)
 	(label "SPI.MISO"
 		(at 133.35 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4972,6 +4973,7 @@
 	)
 	(label "SPI.CLK"
 		(at 133.35 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5048,6 +5050,7 @@
 	)
 	(label "SPI.CS#"
 		(at 133.35 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5080,6 +5083,7 @@
 	)
 	(label "SPI.MOSI"
 		(at 133.35 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5251,7 +5255,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 135.89 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5278,7 +5282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 133.112 214.63 90)
 			(effects
 				(font
@@ -5305,7 +5309,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 139.89 214.63 90)
 			(effects
 				(font
@@ -5314,7 +5318,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 139.89 214.63 90)
 			(effects
 				(font
@@ -5405,7 +5409,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 237.49 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5423,15 +5427,14 @@
 			)
 		)
 		(property "Value" "100n 25V"
-			(at 240.03 193.0399 0)
+			(at 242.125 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 234.712 190.5 90)
 			(effects
 				(font
@@ -5458,7 +5461,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 241.49 190.5 90)
 			(effects
 				(font
@@ -5467,7 +5470,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 241.49 190.5 90)
 			(effects
 				(font
@@ -5492,7 +5495,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 254 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5519,7 +5522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 251.222 190.5 90)
 			(effects
 				(font
@@ -5546,7 +5549,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 258 190.5 90)
 			(effects
 				(font
@@ -5555,7 +5558,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 258 190.5 90)
 			(effects
 				(font
@@ -5712,7 +5715,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 120.65 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5739,7 +5742,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 117.872 193.04 90)
 			(effects
 				(font
@@ -5766,7 +5769,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 124.65 193.04 90)
 			(effects
 				(font
@@ -5775,7 +5778,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 124.65 193.04 90)
 			(effects
 				(font
@@ -5800,7 +5803,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 102.87 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5827,7 +5830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.092 214.63 90)
 			(effects
 				(font
@@ -5854,7 +5857,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 106.87 214.63 90)
 			(effects
 				(font
@@ -5863,7 +5866,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 106.87 214.63 90)
 			(effects
 				(font
@@ -5888,7 +5891,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 85.09 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5915,7 +5918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 82.312 214.63 90)
 			(effects
 				(font
@@ -5942,7 +5945,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 89.09 214.63 90)
 			(effects
 				(font
@@ -5951,7 +5954,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 89.09 214.63 90)
 			(effects
 				(font
@@ -6042,7 +6045,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 238.76 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6069,7 +6072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 235.982 223.52 90)
 			(effects
 				(font
@@ -6096,7 +6099,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 242.76 223.52 90)
 			(effects
 				(font
@@ -6105,7 +6108,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 242.76 223.52 90)
 			(effects
 				(font
@@ -6130,7 +6133,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 104.14 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6157,7 +6160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 101.362 193.04 90)
 			(effects
 				(font
@@ -6184,7 +6187,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 108.14 193.04 90)
 			(effects
 				(font
@@ -6193,7 +6196,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 108.14 193.04 90)
 			(effects
 				(font
@@ -6372,7 +6375,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 137.16 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6399,7 +6402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 134.382 193.04 90)
 			(effects
 				(font
@@ -6426,7 +6429,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 141.16 193.04 90)
 			(effects
 				(font
@@ -6435,7 +6438,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 141.16 193.04 90)
 			(effects
 				(font
@@ -6645,7 +6648,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 271.78 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6672,7 +6675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 269.002 207.01 90)
 			(effects
 				(font
@@ -6699,7 +6702,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 275.78 207.01 90)
 			(effects
 				(font
@@ -6708,7 +6711,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 275.78 207.01 90)
 			(effects
 				(font
@@ -6865,7 +6868,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 275.59 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6892,7 +6895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 272.812 243.84 90)
 			(effects
 				(font
@@ -6919,7 +6922,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 279.59 243.84 90)
 			(effects
 				(font
@@ -6928,7 +6931,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 279.59 243.84 90)
 			(effects
 				(font
@@ -7326,7 +7329,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 140.97 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7353,7 +7356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.192 232.41 90)
 			(effects
 				(font
@@ -7380,7 +7383,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 144.97 232.41 90)
 			(effects
 				(font
@@ -7389,7 +7392,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 144.97 232.41 90)
 			(effects
 				(font
@@ -7414,7 +7417,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 238.76 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7432,15 +7435,14 @@
 			)
 		)
 		(property "Value" "100n 25V"
-			(at 242.57 208.2799 0)
+			(at 243.395 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 235.982 207.01 90)
 			(effects
 				(font
@@ -7467,7 +7469,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 242.76 207.01 90)
 			(effects
 				(font
@@ -7476,7 +7478,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 242.76 207.01 90)
 			(effects
 				(font
@@ -7844,7 +7846,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 119.38 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7871,7 +7873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 116.602 214.63 90)
 			(effects
 				(font
@@ -7898,7 +7900,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 123.38 214.63 90)
 			(effects
 				(font
@@ -7907,7 +7909,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 123.38 214.63 90)
 			(effects
 				(font
@@ -8209,7 +8211,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 259.08 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8236,7 +8238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 256.302 243.84 90)
 			(effects
 				(font
@@ -8263,7 +8265,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 263.08 243.84 90)
 			(effects
 				(font
@@ -8272,7 +8274,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 263.08 243.84 90)
 			(effects
 				(font
@@ -8297,7 +8299,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 256.54 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8324,7 +8326,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 253.762 207.01 90)
 			(effects
 				(font
@@ -8351,7 +8353,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 260.54 207.01 90)
 			(effects
 				(font
@@ -8360,7 +8362,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 260.54 207.01 90)
 			(effects
 				(font
@@ -8691,7 +8693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 292.1 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8718,7 +8720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 289.322 243.84 90)
 			(effects
 				(font
@@ -8745,7 +8747,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 296.1 243.84 90)
 			(effects
 				(font
@@ -8754,7 +8756,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 296.1 243.84 90)
 			(effects
 				(font
@@ -8867,7 +8869,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 269.24 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8894,7 +8896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 266.462 190.5 90)
 			(effects
 				(font
@@ -8921,7 +8923,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 273.24 190.5 90)
 			(effects
 				(font
@@ -8930,7 +8932,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 273.24 190.5 90)
 			(effects
 				(font
@@ -9174,7 +9176,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 86.36 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9201,7 +9203,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 83.582 193.04 90)
 			(effects
 				(font
@@ -9228,7 +9230,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 90.36 193.04 90)
 			(effects
 				(font
@@ -9237,7 +9239,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 90.36 193.04 90)
 			(effects
 				(font
@@ -9328,7 +9330,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(lib_id "bt_capacitor:C;M;100n;10p;16V;S;0402")
 		(at 241.3 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9355,7 +9357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 238.522 243.84 90)
 			(effects
 				(font
@@ -9382,7 +9384,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;M;100n;10p;25V;S;0603"
+		(property "MPN" "C;M;100n;10p;16V;S;0402"
 			(at 245.3 243.84 90)
 			(effects
 				(font
@@ -9391,7 +9393,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00008-091000"
+		(property "CPN" "BT00024-091000"
 			(at 245.3 243.84 90)
 			(effects
 				(font
