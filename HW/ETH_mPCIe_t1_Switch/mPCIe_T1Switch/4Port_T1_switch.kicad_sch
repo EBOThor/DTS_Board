@@ -4929,6 +4929,7 @@
 	)
 	(label "SPI.MISO"
 		(at 133.35 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4972,6 +4973,7 @@
 	)
 	(label "SPI.CLK"
 		(at 133.35 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5048,6 +5050,7 @@
 	)
 	(label "SPI.CS#"
 		(at 133.35 104.14 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5080,6 +5083,7 @@
 	)
 	(label "SPI.MOSI"
 		(at 133.35 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

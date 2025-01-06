@@ -140,7 +140,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "PCI_ETH_Controller.kicad_sch"
 			(at 111.76 131.3946 0)
 			(effects
 				(font
