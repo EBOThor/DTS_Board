@@ -1,6 +1,6 @@
 LTspice 24.0.12 for Windows
 Circuit: * C:\work\GitHub\DTS_Board\HW\LISN\LISN_5u\LTspice\LISN_5uH.asc
-Start Time: Fri Dec  6 12:43:33 2024
+Start Time: Mon Dec 16 08:00:53 2024
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -13,11 +13,12 @@ c4: Increased Cpar to 4.7e-13
 c6: Increased Cpar to 2.2e-11
 c7: Increased Cpar to 2.2e-12
 WARNING: Node N010 is floating.
+WARNING: Node N026 is floating.
 
 .OP point found by inspection.
 Ignoring empty pin current: Ix(u1:1)
 Ignoring empty pin current: Ix(u1:2)
 Ignoring empty pin current: Ix(u1:1)
 Ignoring empty pin current: Ix(u1:2)
-Total elapsed time: 0.066 seconds.
+Total elapsed time: 0.096 seconds.
 
