@@ -554,11 +554,11 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "fab",
+      "pos_files": "pos",
       "specctra_dsn": "",
       "step": "",
-      "svg": "",
+      "svg": "./svg/",
       "vrml": ""
     },
     "page_layout_descr_file": ""
