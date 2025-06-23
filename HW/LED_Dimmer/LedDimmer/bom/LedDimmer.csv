@@ -1,20 +1,23 @@
-"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
-1;"R21,R20,R19,R18,R9,R5";"R_0603_1608Metric";6;"10K";;;
-2;"C5,C10,C11,C2,C8,C3,C9";"C_0603_1608Metric";7;"100n 25V";;;
-3;"D6,D2,D1";"D_SMA";3;"VS-10MQ100HM3";;;
-4;"J5,J1,J4,J3";"PinHeader_1x03_P2.54mm_Vertical";4;"Screw_Terminal_01x03";;;
-5;"D4,D5,D3";"LED_0603_1608Metric";3;"LED R";;;
-6;"R7,R6,R8";"R_0603_1608Metric";3;"24R";;;
-7;"R11,R3,R12,R14,R10";"R_0603_1608Metric";5;"5K0";;;
-8;"Q3,Q2";"SOT-23";2;"BSS138";;;
-9;"U2";"SOIC-8_3.9x4.9mm_P1.27mm";1;"PIC12F1572";;;
-10;"R1";"R_0603_1608Metric";1;"100K";;;
-11;"J2,J6";"PinHeader_1x02_P2.54mm_Vertical";2;"Screw_Terminal_01x02";;;
-12;"R4";"R_0603_1608Metric";1;"30K";;;
-13;"L1";"L_Bourns_bt_SRR1050HA";1;"2.2uH 7.2A";;;
-14;"R13,R2";"R_0603_1608Metric";2;"130K";;;
-15;"C6";"C_0603_1608Metric";1;"47p 50V";;;
-16;"Q4,Q1";"SOT-323_SC-70";2;"SSM3J133TU";;;
-17;"C7,C4";"C_0603_1608Metric";2;"4u7 10V";;;
-18;"U1";"SOT-563";1;"TPS561243";;;
-19;"C1,C14";"C_0805_2012Metric";2;"10u 50V";;;
+"CPN","Qty","Reference","Value","MPN","Footprint","DNP"
+"BT00003-060100","2","C1,C14","10u 50V","GRM21BR61H106KE43L","Capacitor_SMD:C_0805_2012Metric",""
+"BT00008-091000","9","C2,C3,C5,C8,C9,C10,C11,C15,C16","100n 25V","C;M;100n;10p;25V;S;0603","Capacitor_SMD:C_0603_1608Metric",""
+"BT00010-060047","2","C4,C7","4u7 10V","C;C;T1;S;P0603;NA","Capacitor_SMD:C_0603_1608Metric",""
+"BT00007-120470","1","C6","47p 50V","C;C;T1;S;P0603;NA","Capacitor_SMD:C_0603_1608Metric",""
+"BT00027-00001","3","D1,D2,D6","VS-10MQ100HM3","VS-10MQ100HM3/5AT","Diode_SMD:D_SMA",""
+"BT13001-00001","3","D3,D4,D5","LED R","D;LED;R;3V;25mA","LED_SMD:LED_0603_1608Metric",""
+"","4","J1,J3,J4,J5","Screw_Terminal_01x03","","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",""
+"","2","J2,J6","Screw_Terminal_01x02","","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",""
+"BT00205-22072","1","L1","2.2uH 7.2A","SRR1050HA-2R2Y","bt_footprints:L_Bourns_bt_SRR1050HA",""
+"BT060004-00001","2","Q1,Q4","SSM3J133TU","SSM3J133TU,LF","Package_TO_SOT_SMD:SOT-323_SC-70",""
+"BT060001-0001","2","Q2,Q3","BSS138","BSS138","Package_TO_SOT_SMD:SOT-23",""
+"BT060005-00001","2","Q5,Q6","BVSS84LT1G","BVSS84LT1G","Package_TO_SOT_SMD:SOT-23",""
+"BT00002-31000","1","R1","100K","R;G;T1;S;P0603;NA","Resistor_SMD:R_0603_1608Metric",""
+"BT00002-31300","2","R2,R13","130K","R;G;T1;S;P0603;NA","Resistor_SMD:R_0603_1608Metric",""
+"BT00002-30050","5","R3,R10,R11,R12,R14","5K0","R;G;T1;S;P0603;NA","Resistor_SMD:R_0603_1608Metric",""
+"BT00002-30300","1","R4","30K","R;G;T1;S;P0603;NA","Resistor_SMD:R_0603_1608Metric",""
+"BT00002-30100","4","R5,R9,R18,R21","10K","R;G;10K;10P0;S;0603","Resistor_SMD:R_0603_1608Metric",""
+"BT00002-00560","2","R6,R8","56R","R;G;T1;S;P0603;NA","Resistor_SMD:R_0603_1608Metric",""
+"BT00002-00240","1","R7","24R","R;G;T1;S;P0603;NA","Resistor_SMD:R_0603_1608Metric",""
+"","8","TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8","TestPoint","","TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm",""
+"BT03010-00001","1","U1","TPS561243","TPS561243DRLR","Package_TO_SOT_SMD:SOT-563",""
+"BT01007-00001","1","U2","PIC12F1572","  PIC12F1572-I/SN","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",""

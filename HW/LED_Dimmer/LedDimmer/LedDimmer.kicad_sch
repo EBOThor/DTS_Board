@@ -2897,185 +2897,6 @@
 				)
 			)
 		)
-		(symbol "bt_power:TPV809R-3TR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 1.016 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPV809R-3TR"
-				(at 13.97 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-				(at 28.448 -12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://static.3peak.com/res/doc/ds/Datasheet_TPV803-TPV809-TPV810.pdf"
-				(at 1.016 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Low-Voltage Supervisory Circuit 2.63V 140ms"
-				(at 9.652 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "CPN" "BT03012-26140"
-				(at 27.686 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "TPV809R-3TR"
-				(at 13.208 2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SMD" "y"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Low-Voltage Supervisory Circuit 2.63V 140ms"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPV809R-3TR_0_0"
-				(pin passive line
-					(at 6.35 -8.89 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 -2.54 180)
-					(length 2.54)
-					(name "RST#"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TPV809R-3TR_0_1"
-				(rectangle
-					(start 0 -0.254)
-					(end 15.24 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TPV809R-3TR_1_1"
-				(polyline
-					(pts
-						(xy 8.382 -5.842) (xy 10.16 -4.318) (xy 12.446 -4.318)
-					)
-					(stroke
-						(width 0)
-						(type dot)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 -5.842) (xy 11.176 -5.842) (xy 12.7 -4.318) (xy 14.478 -4.318)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
 		(symbol "bt_resistors:R;G;0R;10P0;S;0603"
 			(pin_numbers hide)
 			(pin_names
@@ -4788,7 +4609,7 @@
 				)
 			)
 		)
-		(symbol "bt_transistor:T;Np;SSM3J133TU;SOT323F"
+		(symbol "bt_transistor:T;Mp;BVSS84LT1G;SOT23-3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4800,7 +4621,7 @@
 					)
 				)
 			)
-			(property "Value" "SSM3J133TU"
+			(property "Value" "BVSS84LT1G"
 				(at 8.382 1.524 0)
 				(effects
 					(font
@@ -4808,7 +4629,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 28.448 -32.512 0)
 				(effects
 					(font
@@ -4817,7 +4638,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://toshiba.semicon-storage.com/info/SSM3J332R_datasheet_en_20250523.pdf?did=2620&prodName=SSM3J332R"
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bss84lt1-d.pdf"
 				(at 20.32 -35.814 0)
 				(effects
 					(font
@@ -4826,7 +4647,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "T;Np;SSM3J133TU;SOT323F"
+			(property "Description" "T;Mp;BVSS84LT1G;SOT23-3"
 				(at 26.924 -29.718 0)
 				(effects
 					(font
@@ -4835,7 +4656,7 @@
 					(hide yes)
 				)
 			)
-			(property "CPN" "BT060004-00001"
+			(property "CPN" "BT060005-00001"
 				(at -26.67 -31.496 0)
 				(effects
 					(font
@@ -4844,7 +4665,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "SSM3J133TU,LF"
+			(property "MPN" "BVSS84LT1G"
 				(at 38.354 -27.178 0)
 				(effects
 					(font
@@ -4862,7 +4683,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "T;Np;SSM3J133TU;SOT323F_0_1"
+			(symbol "T;Mp;BVSS84LT1G;SOT23-3_0_1"
 				(circle
 					(center -0.889 0)
 					(radius 2.794)
@@ -5077,7 +4898,353 @@
 					)
 				)
 			)
-			(symbol "T;Np;SSM3J133TU;SOT323F_1_1"
+			(symbol "T;Mp;BVSS84LT1G;SOT23-3_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "bt_transistor:T;Mp;SSM3J133TU;SOT323F"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at -3.81 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SSM3J133TU"
+				(at 8.382 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+				(at 28.448 -32.512 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://toshiba.semicon-storage.com/info/SSM3J332R_datasheet_en_20250523.pdf?did=2620&prodName=SSM3J332R"
+				(at 20.32 -35.814 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "T;Mp;SSM3J133TU;SOT323F"
+				(at 26.924 -29.718 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "CPN" "BT060004-00001"
+				(at -26.67 -31.496 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "SSM3J133TU,LF"
+				(at 38.354 -27.178 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "SMD" "y"
+				(at 14.986 -14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "T;Mp;SSM3J133TU;SOT323F_0_1"
+				(circle
+					(center -0.889 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 1.905) (xy -2.286 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -1.27) (xy -1.778 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 0.508) (xy -1.778 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -1.778 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.048) (xy -4.572 -3.048) (xy -4.572 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 0) (xy -1.778 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.9156 -1.2682) (xy -4.9041 -1.5207) (xy -4.1421 -1.5207) (xy -4.1441 -1.8382)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.5597 -1.6576) (xy -4.1787 -2.2926) (xy -4.9407 -2.2926) (xy -4.5597 -1.6576)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.5555 -1.3855) (xy -4.9365 -0.7505) (xy -4.1745 -0.7505) (xy -4.5555 -1.3855)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 1.778) (xy 0.762 1.778) (xy 0.762 -1.778) (xy -1.778 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 0) (xy -1.27 0.381) (xy -1.27 -0.381) (xy -0.254 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.508) (xy 0.381 -0.381) (xy 1.143 -0.381) (xy 1.27 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.381) (xy 0.381 0.254) (xy 1.143 0.254) (xy 0.762 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "T;Mp;SSM3J133TU;SOT323F_1_1"
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -5370,22 +5537,10 @@
 		(uuid "0379555c-e0e4-48b2-8598-be358fe44928")
 	)
 	(junction
-		(at 194.31 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a0fc286-78ba-4d79-b231-f20f246faff4")
-	)
-	(junction
 		(at 322.58 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0bb21be9-3560-469a-bd82-abccf3b52332")
-	)
-	(junction
-		(at 121.92 161.3364)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d9e1a46-6331-4d22-b583-0b938fe893f4")
 	)
 	(junction
 		(at 207.01 49.53)
@@ -5410,6 +5565,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2799255a-624a-4378-b8bb-4f047270fd49")
+	)
+	(junction
+		(at 121.92 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c072afc-8332-4e7f-bf75-c57e775bc054")
 	)
 	(junction
 		(at 99.06 33.02)
@@ -5466,34 +5627,16 @@
 		(uuid "62c27ac3-be59-4a80-a790-8af9a1b8954a")
 	)
 	(junction
-		(at 266.7 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65dbb0c4-9e4d-4e84-9efc-dce48e56a6d0")
-	)
-	(junction
 		(at 337.82 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c3f327c-6640-4268-b00c-250e20b9e7c3")
 	)
 	(junction
-		(at 370.84 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71e0374b-805f-4b86-aad2-c203b2f1d3c4")
-	)
-	(junction
 		(at 167.64 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74f0965f-1c95-4c8b-8e89-1e47fafabbbb")
-	)
-	(junction
-		(at 266.7 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e8056ff-5f14-41c2-9b8f-0ab6c5d11ad4")
 	)
 	(junction
 		(at 77.47 179.07)
@@ -5530,18 +5673,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "999d999d-1589-4f2d-b7c3-54f582472b4b")
-	)
-	(junction
-		(at 170.18 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad9a3e15-1d64-45d0-8023-4fa8350955cb")
-	)
-	(junction
-		(at 347.98 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b226ca78-de96-47f3-b5d3-a2627b0f9f76")
 	)
 	(junction
 		(at 180.34 36.83)
@@ -5604,12 +5735,6 @@
 		(uuid "cef0c860-9428-40f3-8f2a-c9dab56b2cd8")
 	)
 	(junction
-		(at 252.73 171.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf065f9f-33ca-454b-85be-97fe3501aa5b")
-	)
-	(junction
 		(at 255.27 241.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5634,24 +5759,6 @@
 		(uuid "e420e4ba-44dc-4db2-ac77-b2dde0192018")
 	)
 	(junction
-		(at 288.29 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4a65b1b-5267-494e-8fd7-953a91feeb06")
-	)
-	(junction
-		(at 347.98 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e539f504-5442-4f5c-91fb-8a0f47b3fd6e")
-	)
-	(junction
-		(at 332.74 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ea10c0d9-3167-417a-8011-d35418e52ef6")
-	)
-	(junction
 		(at 193.04 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5666,36 +5773,6 @@
 	(no_connect
 		(at 228.6 256.54)
 		(uuid "90ab298d-e299-4617-83ee-4243042c5cd0")
-	)
-	(wire
-		(pts
-			(xy 332.74 180.34) (xy 340.36 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0215c6f7-bebb-48e3-b2a6-a98a046f61ac")
-	)
-	(wire
-		(pts
-			(xy 256.54 160.02) (xy 252.73 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03b39a61-3301-452d-bfb9-3e8462f5bb4d")
-	)
-	(wire
-		(pts
-			(xy 344.17 167.64) (xy 347.98 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0577ed17-cf8c-4e1a-8c29-cbea9e5bc96b")
 	)
 	(wire
 		(pts
@@ -5729,16 +5806,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 167.64) (xy 336.55 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cb2b0ea-32c5-4fd8-aa5e-8ac1db47beb0")
-	)
-	(wire
-		(pts
 			(xy 161.29 127) (xy 162.56 127)
 		)
 		(stroke
@@ -5756,6 +5823,16 @@
 			(type default)
 		)
 		(uuid "0e7a5a94-94d6-4f8c-90e4-32e847e0098b")
+	)
+	(wire
+		(pts
+			(xy 281.94 144.78) (xy 281.94 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0efeb55c-47ab-4bf5-bc44-22b9b4d7271f")
 	)
 	(wire
 		(pts
@@ -5819,16 +5896,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 162.56) (xy 266.7 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1746eed4-20b2-44ed-af93-b313d08b085a")
-	)
-	(wire
-		(pts
 			(xy 180.34 58.42) (xy 180.34 59.69)
 		)
 		(stroke
@@ -5849,7 +5916,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 157.48) (xy 266.7 160.02)
+			(xy 266.7 146.05) (xy 266.7 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5889,16 +5956,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 160.02) (xy 266.7 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22a4d2b4-9496-45bf-bfae-7e2a2cd936ea")
-	)
-	(wire
-		(pts
 			(xy 170.18 123.19) (xy 170.18 127)
 		)
 		(stroke
@@ -5916,16 +5973,6 @@
 			(type default)
 		)
 		(uuid "27323af6-2538-41a4-afc9-b30b0ab68a3e")
-	)
-	(wire
-		(pts
-			(xy 321.31 147.32) (xy 326.39 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27fe926a-810c-4cc6-846b-92ce555840f2")
 	)
 	(wire
 		(pts
@@ -5949,16 +5996,6 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 147.32) (xy 347.98 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b919941-dc47-4c73-9fc6-92b18f6cb7f6")
-	)
-	(wire
-		(pts
 			(xy 49.53 110.49) (xy 49.53 118.11)
 		)
 		(stroke
@@ -5976,16 +6013,6 @@
 			(type default)
 		)
 		(uuid "2f41c819-bd1b-4485-be4a-33b885f8a86e")
-	)
-	(wire
-		(pts
-			(xy 347.98 147.32) (xy 347.98 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f8da5c6-4bf3-4db7-97c8-2714b4267806")
 	)
 	(wire
 		(pts
@@ -6099,7 +6126,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 167.64) (xy 347.98 170.18)
+			(xy 347.98 152.4) (xy 347.98 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6209,6 +6236,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 156.21) (xy 266.7 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408ded33-df08-406f-acf6-b91672ab8eeb")
+	)
+	(wire
+		(pts
 			(xy 290.83 100.33) (xy 302.26 100.33)
 		)
 		(stroke
@@ -6266,16 +6303,6 @@
 			(type default)
 		)
 		(uuid "469e3872-15f0-46b4-872e-d690ace88065")
-	)
-	(wire
-		(pts
-			(xy 266.7 139.7) (xy 266.7 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "493ce8bc-f378-49b4-9061-6aaf7db608b9")
 	)
 	(wire
 		(pts
@@ -6359,16 +6386,6 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 186.69) (xy 370.84 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53a1cb9c-e2b7-4a4f-8236-94f21c256fe6")
-	)
-	(wire
-		(pts
 			(xy 77.47 179.07) (xy 86.36 179.07)
 		)
 		(stroke
@@ -6386,6 +6403,16 @@
 			(type default)
 		)
 		(uuid "55c88549-245d-4ab9-a479-56c6387a67a1")
+	)
+	(wire
+		(pts
+			(xy 361.95 142.24) (xy 361.95 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5831515c-e94a-45a7-aa01-dd0f31c57111")
 	)
 	(wire
 		(pts
@@ -6419,16 +6446,6 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 170.18) (xy 347.98 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a5d5275-d29a-4fab-9b89-23f31835e831")
-	)
-	(wire
-		(pts
 			(xy 173.99 241.3) (xy 199.39 241.3)
 		)
 		(stroke
@@ -6446,16 +6463,6 @@
 			(type default)
 		)
 		(uuid "5e7480c3-fa83-41ee-a4e9-af8555880ccc")
-	)
-	(wire
-		(pts
-			(xy 347.98 165.1) (xy 347.98 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f53f6bc-3f19-49f6-95c0-cd9b29d6ff0b")
 	)
 	(wire
 		(pts
@@ -6536,16 +6543,6 @@
 			(type default)
 		)
 		(uuid "694f786e-25e4-4259-9916-0b0693830fb4")
-	)
-	(wire
-		(pts
-			(xy 288.29 162.56) (xy 295.91 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b3cb908-5d66-4e7f-babe-99a613df3a06")
 	)
 	(wire
 		(pts
@@ -6649,17 +6646,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 170.18) (xy 170.18 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c05ad45-de31-40a8-99dd-133b3ea7ea94")
-	)
-	(wire
-		(pts
-			(xy 237.49 135.89) (xy 237.49 139.7)
+			(xy 266.7 133.35) (xy 266.7 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6749,7 +6736,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 180.34) (xy 332.74 180.34)
+			(xy 327.66 180.34) (xy 340.36 180.34)
 		)
 		(stroke
 			(width 0)
@@ -6759,13 +6746,23 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 171.45) (xy 259.08 171.45)
+			(xy 246.38 171.45) (xy 259.08 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "86c2ba92-a4dd-49b0-911a-f3432a5b92d3")
+	)
+	(wire
+		(pts
+			(xy 347.98 163.83) (xy 347.98 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86fa1a10-f8bf-4113-b4bb-71178bb6bda6")
 	)
 	(wire
 		(pts
@@ -6819,23 +6816,13 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 143.51) (xy 321.31 147.32)
+			(xy 347.98 139.7) (xy 347.98 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "94834ba2-bdec-417d-8922-50470f128b06")
-	)
-	(wire
-		(pts
-			(xy 246.38 171.45) (xy 252.73 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9495fe62-1b33-4ed9-a9ad-4a474395c776")
 	)
 	(wire
 		(pts
@@ -6856,6 +6843,16 @@
 			(type default)
 		)
 		(uuid "95d89494-da24-42bb-b6be-6ad475f9e512")
+	)
+	(wire
+		(pts
+			(xy 281.94 134.62) (xy 281.94 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965cf5fa-8330-4b9b-81f2-5a5150bc377b")
 	)
 	(wire
 		(pts
@@ -6939,16 +6936,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 180.34) (xy 194.31 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cf61293-470c-4d03-92c6-d0e7ff3c9e11")
-	)
-	(wire
-		(pts
 			(xy 101.6 36.83) (xy 99.06 36.83)
 		)
 		(stroke
@@ -6989,16 +6976,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 162.56) (xy 288.29 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4734a23-27ba-47c2-9a15-e69abfff76fe")
-	)
-	(wire
-		(pts
 			(xy 167.64 36.83) (xy 180.34 36.83)
 		)
 		(stroke
@@ -7009,7 +6986,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 160.02) (xy 121.92 161.3364)
+			(xy 121.92 157.48) (xy 121.92 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7019,13 +6996,13 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 184.15) (xy 288.29 186.69)
+			(xy 121.92 158.75) (xy 121.92 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a80d7495-75ac-4164-af30-03e4ab731a9c")
+		(uuid "a86aeaa8-5b45-4a54-b205-de3443d80d56")
 	)
 	(wire
 		(pts
@@ -7199,16 +7176,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 139.7) (xy 266.7 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7476111-7e2f-4b10-912a-bfe48b0e1bcb")
-	)
-	(wire
-		(pts
 			(xy 322.58 40.64) (xy 308.61 40.64)
 		)
 		(stroke
@@ -7226,16 +7193,6 @@
 			(type default)
 		)
 		(uuid "b8a0dcd3-579b-47b8-b599-bda7812600a7")
-	)
-	(wire
-		(pts
-			(xy 288.29 162.56) (xy 288.29 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8c2843b-7832-4101-a230-b86c24d7d3c9")
 	)
 	(wire
 		(pts
@@ -7289,16 +7246,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 160.02) (xy 266.7 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf943433-88d0-4bd6-898f-e9f455a56d29")
-	)
-	(wire
-		(pts
 			(xy 50.8 181.61) (xy 50.8 191.77)
 		)
 		(stroke
@@ -7329,26 +7276,6 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 170.18) (xy 370.84 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1ab0bcb-3f9f-43f0-851d-30b3016d6ef6")
-	)
-	(wire
-		(pts
-			(xy 252.73 160.02) (xy 252.73 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c32dff24-8b0b-4f37-acee-f3787793ad4d")
-	)
-	(wire
-		(pts
 			(xy 308.61 63.5) (xy 322.58 63.5)
 		)
 		(stroke
@@ -7359,16 +7286,6 @@
 	)
 	(wire
 		(pts
-			(xy 370.84 170.18) (xy 381 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5f39ba9-f036-4080-83da-fc3163dd2aec")
-	)
-	(wire
-		(pts
 			(xy 146.05 110.49) (xy 146.05 114.3)
 		)
 		(stroke
@@ -7376,16 +7293,6 @@
 			(type default)
 		)
 		(uuid "c6f8f073-fda5-43c9-a74a-f3a1250a019b")
-	)
-	(wire
-		(pts
-			(xy 194.31 170.18) (xy 194.31 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c79ed123-b3ef-4790-aae8-da11fee9884e")
 	)
 	(wire
 		(pts
@@ -7436,16 +7343,6 @@
 			(type default)
 		)
 		(uuid "d4802e65-4e73-43c0-a711-7414309d33d8")
-	)
-	(wire
-		(pts
-			(xy 121.92 161.3364) (xy 121.92 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4ba6105-ce61-4356-bffc-c0e897f77c4f")
 	)
 	(wire
 		(pts
@@ -7509,16 +7406,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 139.7) (xy 240.03 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db42d465-2ee6-4106-aa4e-a5b1113a6aa8")
-	)
-	(wire
-		(pts
 			(xy 58.42 41.91) (xy 58.42 44.45)
 		)
 		(stroke
@@ -7569,16 +7456,6 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 167.64) (xy 332.74 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e10176b9-cf84-497a-8aa3-7cfe202d12c6")
-	)
-	(wire
-		(pts
 			(xy 190.5 264.16) (xy 190.5 269.24)
 		)
 		(stroke
@@ -7599,6 +7476,16 @@
 	)
 	(wire
 		(pts
+			(xy 361.95 152.4) (xy 361.95 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e430194c-3a77-4e56-bd5e-bdfa6ce539ff")
+	)
+	(wire
+		(pts
 			(xy 99.06 33.02) (xy 113.03 33.02)
 		)
 		(stroke
@@ -7606,16 +7493,6 @@
 			(type default)
 		)
 		(uuid "e4b8ddcd-6e89-4261-bccf-43bf1f387fc2")
-	)
-	(wire
-		(pts
-			(xy 170.18 180.34) (xy 170.18 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4d90c62-b371-4292-93a5-a02187aad9a9")
 	)
 	(wire
 		(pts
@@ -7807,16 +7684,6 @@
 		)
 		(uuid "fb422383-3803-47fa-9a4e-b746fd6655d8")
 	)
-	(wire
-		(pts
-			(xy 347.98 170.18) (xy 370.84 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe21f7de-650b-45c3-b3df-f2c3ae41bb20")
-	)
 	(rectangle
 		(start 149.86 223.52)
 		(end 294.64 280.67)
@@ -7839,8 +7706,8 @@
 		)
 		(uuid "09026003-d425-4d2f-aab9-4ed69609b907")
 	)
-	(label "CH2_SW"
-		(at 363.22 170.18 0)
+	(label "CH2_LED"
+		(at 347.98 175.26 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7869,7 +7736,7 @@
 		)
 		(uuid "20b27c7f-1f25-44c6-8c43-3d60dcc5d6e9")
 	)
-	(label "CH2_SW"
+	(label "CH2"
 		(at 292.1 100.33 0)
 		(effects
 			(font
@@ -7939,8 +7806,8 @@
 		)
 		(uuid "92110eb4-1801-449a-a771-c49005ec0169")
 	)
-	(label "CH1_SW"
-		(at 294.64 46.99 0)
+	(label "CH1"
+		(at 292.1 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7989,8 +7856,8 @@
 		)
 		(uuid "c4929ba4-d36d-4693-b113-4a0b99cdd66b")
 	)
-	(label "CH1_SW"
-		(at 276.86 162.56 0)
+	(label "CH1_LED"
+		(at 266.7 165.1 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8492,72 +8359,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 194.31 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "093c084f-4ee2-4821-b3b1-3a0f4d489b79")
-		(property "Reference" "#PWR041"
-			(at 194.31 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 194.31 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 194.31 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73ac2635-790b-4286-abcf-b5f2982b147a")
-		)
-		(instances
-			(project "LedDimmer"
-				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "bt_capacitor:C;M;4u7;10p;10V;S;0603")
 		(at 273.05 250.19 0)
 		(unit 1)
@@ -8712,33 +8513,35 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_resistors:R;G;0R;10P0;S;0603")
-		(at 340.36 167.64 90)
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 281.94 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0bfc4f22-110a-4aae-833b-96ba3381c4f6")
-		(property "Reference" "R23"
-			(at 340.36 161.29 90)
+		(uuid "0ea925de-b68a-4186-841d-c3ff7aef460e")
+		(property "Reference" "C15"
+			(at 285.75 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "0R"
-			(at 340.36 163.83 90)
+		(property "Value" "100n 25V"
+			(at 285.75 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 340.36 171.958 90)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 284.718 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8747,7 +8550,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 340.36 167.64 0)
+			(at 281.94 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8755,8 +8558,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 346.964 169.672 90)
+		(property "Description" "Capacitor"
+			(at 281.94 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8764,8 +8567,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;0R;10P0;S;0603"
-			(at 330.962 164.592 90)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 277.94 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8773,25 +8576,25 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00002-00000"
-			(at 349.25 164.338 90)
+		(property "CPN" "BT00008-091000"
+			(at 277.94 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "c9566215-d239-47f4-a393-aa2417b237d0")
 		)
 		(pin "1"
-			(uuid "887de0e6-3ce7-4f18-ba75-e90316aeedfe")
+			(uuid "01a2a5ea-1ca3-4a1d-b3cd-db012bb9ec05")
+		)
+		(pin "2"
+			(uuid "ca51793b-744b-453d-8c90-02d21db9d151")
 		)
 		(instances
 			(project "LedDimmer"
 				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
-					(reference "R23")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -8858,104 +8661,6 @@
 			(project "LedDimmer"
 				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bt_power:TPV809R-3TR")
-		(at 242.57 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14c9efa9-716e-4cb1-a5f8-7e299c74ecb2")
-		(property "Reference" "U5"
-			(at 250.19 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPV809R-3TR"
-			(at 250.19 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 271.018 150.114 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://static.3peak.com/res/doc/ds/Datasheet_TPV803-TPV809-TPV810.pdf"
-			(at 243.586 132.842 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Voltage Supervisory Circuit 2.63V 140ms"
-			(at 252.222 131.572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" "BT03012-26140"
-			(at 270.256 134.366 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TPV809R-3TR"
-			(at 255.778 134.874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "y"
-			(at 242.57 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f49339d-58c2-41fd-9dbd-eee52b6c18d6")
-		)
-		(pin "3"
-			(uuid "26f067c6-a7bb-41f0-bd0a-65a71614641f")
-		)
-		(pin "1"
-			(uuid "9cd3d359-12a3-4a2e-905c-cd2b0b3187d6")
-		)
-		(instances
-			(project "LedDimmer"
-				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -9961,6 +9666,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 361.95 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ca3ea53-c1d0-4e57-8076-8f3df21870e5")
+		(property "Reference" "#PWR046"
+			(at 361.95 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 361.95 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 361.95 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9ee45ed-4668-425e-9e7a-61464e264932")
+		)
+		(instances
+			(project "LedDimmer"
+				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bt_transistor:T;Mn;BSS138;SOT23")
 		(at 307.34 100.33 0)
 		(unit 1)
@@ -10328,109 +10099,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_transistor:T;Mn;BSS138;SOT23")
-		(at 264.16 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47c69698-e5e4-4590-b47e-157adff460da")
-		(property "Reference" "Q5"
-			(at 270.51 170.1799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 270.51 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 269.24 173.355 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 269.24 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 264.16 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" "BT060001-0001"
-			(at 264.16 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BSS138"
-			(at 264.16 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "y"
-			(at 264.16 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fa2217a-f601-4664-97e1-2b0e0b92ee92")
-		)
-		(pin "2"
-			(uuid "ee03e858-ab71-4969-be4c-562e1663a17d")
-		)
-		(pin "3"
-			(uuid "e7683ccd-1cec-40a0-a9d7-337f2aac3b23")
-		)
-		(instances
-			(project "LedDimmer"
-				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
-					(reference "Q5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 50.8 260.35 0)
 		(unit 1)
@@ -10491,104 +10159,6 @@
 			(project "LedDimmer"
 				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
 					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bt_power:TPV809R-3TR")
-		(at 328.93 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4c42b758-e1ce-4d3c-9c78-c2c770a089aa")
-		(property "Reference" "U4"
-			(at 336.55 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPV809R-3TR"
-			(at 336.55 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 357.378 157.734 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://static.3peak.com/res/doc/ds/Datasheet_TPV803-TPV809-TPV810.pdf"
-			(at 329.946 140.462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Low-Voltage Supervisory Circuit 2.63V 140ms"
-			(at 338.582 139.192 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" "BT03012-26140"
-			(at 356.616 141.986 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TPV809R-3TR"
-			(at 342.138 142.494 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "y"
-			(at 328.93 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "01e0e95b-5a60-4f14-88ea-7e9f2ae6c555")
-		)
-		(pin "3"
-			(uuid "5d44783b-71c6-42ca-bc36-4984fe8dd4e5")
-		)
-		(pin "1"
-			(uuid "3b918242-ac70-46f5-9c8f-28544d911a64")
-		)
-		(instances
-			(project ""
-				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -10743,72 +10313,6 @@
 			(project "LedDimmer"
 				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 335.28 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "563a411d-93c1-424a-9a2b-8fc750960be2")
-		(property "Reference" "#PWR045"
-			(at 335.28 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 335.28 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 335.28 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 335.28 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 335.28 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd884119-d3df-4e86-84b6-534f6d849533")
-		)
-		(instances
-			(project "LedDimmer"
-				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -11102,72 +10606,6 @@
 			(project "LedDimmer"
 				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 248.92 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6478a2de-67e6-450d-80fe-0f6904807bef")
-		(property "Reference" "#PWR046"
-			(at 248.92 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 248.92 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8be8fc18-85e3-4dae-ac40-59a792f487d8")
-		)
-		(instances
-			(project "LedDimmer"
-				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -11484,7 +10922,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 121.92 160.02 0)
+		(at 121.92 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11493,7 +10931,7 @@
 		(fields_autoplaced yes)
 		(uuid "670b8eab-1279-4093-82c8-1e103c1ceead")
 		(property "Reference" "#PWR015"
-			(at 121.92 163.83 0)
+			(at 121.92 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11502,7 +10940,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 121.92 154.94 0)
+			(at 121.92 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11510,7 +10948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 160.02 0)
+			(at 121.92 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11519,7 +10957,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 160.02 0)
+			(at 121.92 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11528,7 +10966,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 121.92 160.02 0)
+			(at 121.92 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11940,8 +11378,108 @@
 		)
 	)
 	(symbol
+		(lib_id "bt_transistor:T;Mp;BVSS84LT1G;SOT23-3")
+		(at 347.98 180.34 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c1a8a72-1c9f-4a0d-8a18-a066630598a9")
+		(property "Reference" "Q6"
+			(at 351.79 181.5466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BVSS84LT1G"
+			(at 351.79 179.0066 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 376.428 147.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bss84lt1-d.pdf"
+			(at 368.3 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "T;Mp;BVSS84LT1G;SOT23-3"
+			(at 374.904 150.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT060005-00001"
+			(at 321.31 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BVSS84LT1G"
+			(at 386.334 153.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "y"
+			(at 362.966 165.862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd6ad7d7-d6d4-4052-b4f2-8c43e378da57")
+		)
+		(pin "2"
+			(uuid "b331afca-4203-4ac0-97da-115b926dc80f")
+		)
+		(pin "3"
+			(uuid "d982176e-ce76-4b7a-8ce0-48146966138d")
+		)
+		(instances
+			(project ""
+				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bt_opto:D;LED;R;2V;25mA")
-		(at 370.84 182.88 90)
+		(at 347.98 160.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11950,7 +11488,7 @@
 		(fields_autoplaced yes)
 		(uuid "709d175d-99ff-4817-8d67-33d9d64f01f1")
 		(property "Reference" "D5"
-			(at 374.65 183.1974 90)
+			(at 351.79 160.3374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11959,7 +11497,7 @@
 			)
 		)
 		(property "Value" "LED R"
-			(at 374.65 185.7374 90)
+			(at 351.79 162.8774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11968,7 +11506,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 370.84 182.88 0)
+			(at 347.98 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11977,7 +11515,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 370.84 182.88 0)
+			(at 347.98 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11986,7 +11524,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 370.84 182.88 0)
+			(at 347.98 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11995,7 +11533,7 @@
 			)
 		)
 		(property "CPN" "BT13001-00001"
-			(at 370.84 182.88 0)
+			(at 347.98 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12004,7 +11542,7 @@
 			)
 		)
 		(property "MPN" "D;LED;R;3V;25mA"
-			(at 370.84 182.88 0)
+			(at 347.98 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12013,7 +11551,7 @@
 			)
 		)
 		(property "SMT" "y"
-			(at 370.84 182.88 0)
+			(at 347.98 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12191,74 +11729,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 370.84 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "72f7a1a6-c115-4eb3-97ae-0078d48195f6")
-		(property "Reference" "#PWR048"
-			(at 370.84 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 370.84 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 370.84 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 370.84 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 370.84 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8a44ff6-656f-4f67-a854-949f279afdd3")
-		)
-		(instances
-			(project "LedDimmer"
-				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
-		(at 321.31 143.51 0)
+		(at 347.98 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12267,7 +11739,7 @@
 		(fields_autoplaced yes)
 		(uuid "74315be7-66a5-41ba-bea0-32e7670f0a01")
 		(property "Reference" "#PWR012"
-			(at 321.31 147.32 0)
+			(at 347.98 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12276,7 +11748,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 321.31 138.43 0)
+			(at 347.98 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12284,7 +11756,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 321.31 143.51 0)
+			(at 347.98 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12293,7 +11765,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 143.51 0)
+			(at 347.98 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12302,7 +11774,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 321.31 143.51 0)
+			(at 347.98 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12505,7 +11977,107 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_transistor:T;Np;SSM3J133TU;SOT323F")
+		(lib_id "bt_transistor:T;Mp;BVSS84LT1G;SOT23-3")
+		(at 266.7 171.45 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "78eca3fe-c3c9-4a6e-8117-73c46a16b6e4")
+		(property "Reference" "Q5"
+			(at 270.51 172.6566 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BVSS84LT1G"
+			(at 270.51 170.1166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 295.148 138.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bss84lt1-d.pdf"
+			(at 287.02 135.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "T;Mp;BVSS84LT1G;SOT23-3"
+			(at 293.624 141.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT060005-00001"
+			(at 240.03 139.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BVSS84LT1G"
+			(at 305.054 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SMD" "y"
+			(at 281.686 156.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "735a09ab-80fd-471a-8008-c7a6e7383941")
+		)
+		(pin "1"
+			(uuid "91592180-1c7f-401d-9de1-37cb4b934457")
+		)
+		(pin "3"
+			(uuid "84444583-d595-4e7c-ab4f-5590b422a6fb")
+		)
+		(instances
+			(project ""
+				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bt_transistor:T;Mp;SSM3J133TU;SOT323F")
 		(at 337.82 93.98 0)
 		(mirror x)
 		(unit 1)
@@ -12550,7 +12122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "T;Np;SSM3J133TU;SOT323F"
+		(property "Description" "T;Mp;SSM3J133TU;SOT323F"
 			(at 364.744 64.262 0)
 			(effects
 				(font
@@ -12956,6 +12528,94 @@
 		)
 	)
 	(symbol
+		(lib_id "bt_capacitor:C;M;100n;10p;25V;S;0603")
+		(at 361.95 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "839fe1db-3a0b-44e8-a49e-2bae70ec6fa6")
+		(property "Reference" "C16"
+			(at 365.76 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n 25V"
+			(at 365.76 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 364.728 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 361.95 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor"
+			(at 361.95 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C;M;100n;10p;25V;S;0603"
+			(at 357.95 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CPN" "BT00008-091000"
+			(at 357.95 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2448ee0-d9cb-4eb6-9c8c-d47aef73420b")
+		)
+		(pin "2"
+			(uuid "4c414d93-02d8-4865-aaab-6df969645e55")
+		)
+		(instances
+			(project "LedDimmer"
+				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bt_resistors:R;G;5K0;10P0;S;0603")
 		(at 170.18 119.38 0)
 		(unit 1)
@@ -13104,94 +12764,6 @@
 			(project "LedDimmer"
 				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bt_resistors:R;G;10K;10P0;S;0603")
-		(at 170.18 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89b71027-2a54-4abd-90ac-fd4ff7492176")
-		(property "Reference" "R19"
-			(at 172.72 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 172.72 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 168.402 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 170.18 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 170.18 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "R;G;10K;10P0;S;0603"
-			(at 170.18 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" "BT00002-30100"
-			(at 170.18 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c3f7e9d-3e47-4c42-8bab-0f484a7a2704")
-		)
-		(pin "2"
-			(uuid "190f9c7d-0933-4a48-bad6-5ebd2bb4fb07")
-		)
-		(instances
-			(project "LedDimmer"
-				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -13527,109 +13099,6 @@
 			(project "LedDimmer"
 				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bt_transistor:T;Mn;BSS138;SOT23")
-		(at 345.44 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92ade253-14ec-4dde-a280-36b70c71d412")
-		(property "Reference" "Q6"
-			(at 351.79 179.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS138"
-			(at 351.79 181.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 350.52 182.245 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 350.52 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 345.44 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" "BT060001-0001"
-			(at 345.44 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BSS138"
-			(at 345.44 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SMD" "y"
-			(at 345.44 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48c399a4-1e98-4275-8e14-10d611377903")
-		)
-		(pin "2"
-			(uuid "6343b58a-75c5-4641-be3d-0c14f26da675")
-		)
-		(pin "3"
-			(uuid "3c13ba53-68bf-4491-91ca-ca2d75eaab35")
-		)
-		(instances
-			(project "LedDimmer"
-				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -14077,6 +13546,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 281.94 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e04bef8-ab27-46c8-9723-1ffd7a942409")
+		(property "Reference" "#PWR040"
+			(at 281.94 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 281.94 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 281.94 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90f234f1-6c03-48b7-bee7-c4aa419082bb")
+		)
+		(instances
+			(project "LedDimmer"
+				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "bt_capacitor:C;M;10u;10p;50V;S;0805")
 		(at 68.58 38.1 0)
 		(unit 1)
@@ -14317,7 +13852,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 237.49 135.89 0)
+		(at 266.7 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14326,7 +13861,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2edfece-c449-4ed4-91f3-e4f044d60e45")
 		(property "Reference" "#PWR09"
-			(at 237.49 139.7 0)
+			(at 266.7 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14335,7 +13870,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 237.49 130.81 0)
+			(at 266.7 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14343,7 +13878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 237.49 135.89 0)
+			(at 266.7 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14352,7 +13887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 237.49 135.89 0)
+			(at 266.7 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14361,7 +13896,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 237.49 135.89 0)
+			(at 266.7 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14449,7 +13984,7 @@
 	)
 	(symbol
 		(lib_id "bt_resistors:R;G;56R;10P0;S;0603")
-		(at 266.7 153.67 0)
+		(at 266.7 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14458,7 +13993,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4c732ca-2b45-4d63-9b66-e77d1bbd3fdf")
 		(property "Reference" "R6"
-			(at 269.24 152.3999 0)
+			(at 269.24 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14467,7 +14002,7 @@
 			)
 		)
 		(property "Value" "56R"
-			(at 269.24 154.9399 0)
+			(at 269.24 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14476,7 +14011,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 264.922 153.67 90)
+			(at 264.922 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14485,7 +14020,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 153.67 0)
+			(at 266.7 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14494,7 +14029,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 266.7 153.67 0)
+			(at 266.7 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14503,7 +14038,7 @@
 			)
 		)
 		(property "MPN" "R;G;T1;S;P0603;NA"
-			(at 266.7 153.67 90)
+			(at 266.7 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14512,7 +14047,7 @@
 			)
 		)
 		(property "CPN" "BT00002-00560"
-			(at 266.7 153.67 90)
+			(at 266.7 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14704,6 +14239,72 @@
 			(project "LedDimmer"
 				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 281.94 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abb2d1e8-57a7-4438-b6aa-07f901e1e539")
+		(property "Reference" "#PWR041"
+			(at 281.94 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.94 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 281.94 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af7c17fb-b945-4659-956b-f8c012cb5719")
+		)
+		(instances
+			(project "LedDimmer"
+				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -15127,94 +14728,6 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_resistors:R;G;10K;10P0;S;0603")
-		(at 194.31 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b39dfbda-d5ab-4583-a90e-14722753cfd0")
-		(property "Reference" "R20"
-			(at 196.85 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 196.85 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 192.532 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 194.31 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 194.31 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "R;G;10K;10P0;S;0603"
-			(at 194.31 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" "BT00002-30100"
-			(at 194.31 176.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da53851c-a802-4d8d-bf67-e4ad1478f7f0")
-		)
-		(pin "2"
-			(uuid "0fc83354-d303-4ac0-b226-9228e8fbac73")
-		)
-		(instances
-			(project "LedDimmer"
-				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 246.38 48.26 0)
 		(unit 1)
@@ -15369,7 +14882,7 @@
 	)
 	(symbol
 		(lib_id "bt_resistors:R;G;56R;10P0;S;0603")
-		(at 347.98 161.29 0)
+		(at 347.98 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15378,7 +14891,7 @@
 		(fields_autoplaced yes)
 		(uuid "b98ed10b-6cdd-4423-a5c0-793eac414a34")
 		(property "Reference" "R8"
-			(at 350.52 160.0199 0)
+			(at 350.52 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15387,7 +14900,7 @@
 			)
 		)
 		(property "Value" "56R"
-			(at 350.52 162.5599 0)
+			(at 350.52 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15396,7 +14909,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 346.202 161.29 90)
+			(at 346.202 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15405,7 +14918,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 347.98 161.29 0)
+			(at 347.98 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15414,7 +14927,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 347.98 161.29 0)
+			(at 347.98 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15423,7 +14936,7 @@
 			)
 		)
 		(property "MPN" "R;G;T1;S;P0603;NA"
-			(at 347.98 161.29 90)
+			(at 347.98 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15432,7 +14945,7 @@
 			)
 		)
 		(property "CPN" "BT00002-00560"
-			(at 347.98 161.29 90)
+			(at 347.98 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15590,7 +15103,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_transistor:T;Np;SSM3J133TU;SOT323F")
+		(lib_id "bt_transistor:T;Mp;SSM3J133TU;SOT323F")
 		(at 336.55 40.64 0)
 		(mirror x)
 		(unit 1)
@@ -15635,7 +15148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "T;Np;SSM3J133TU;SOT323F"
+		(property "Description" "T;Mp;SSM3J133TU;SOT323F"
 			(at 363.474 10.922 0)
 			(effects
 				(font
@@ -16044,7 +15557,7 @@
 	)
 	(symbol
 		(lib_id "bt_misc:TestPoint_THD")
-		(at 121.92 161.3364 0)
+		(at 121.92 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16053,7 +15566,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf7d82a8-a898-4937-96b9-ea16a0d68e0e")
 		(property "Reference" "TP7"
-			(at 124.46 161.3363 0)
+			(at 124.46 158.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16062,7 +15575,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 121.92 159.3044 0)
+			(at 121.92 156.718 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16071,7 +15584,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 127.254 165.4004 0)
+			(at 127.254 162.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16080,7 +15593,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 161.3364 0)
+			(at 127 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16089,7 +15602,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 115.316 162.8604 0)
+			(at 115.316 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16170,6 +15683,72 @@
 			(project "LedDimmer"
 				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 361.95 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0d5beda-b785-4d13-98ad-7e8d5b119352")
+		(property "Reference" "#PWR045"
+			(at 361.95 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 361.95 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 361.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 361.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 361.95 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92104734-6e19-47ff-8b7f-751d5f1f5067")
+		)
+		(instances
+			(project "LedDimmer"
+				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -16752,7 +16331,7 @@
 	)
 	(symbol
 		(lib_id "bt_opto:D;LED;R;2V;25mA")
-		(at 288.29 180.34 90)
+		(at 266.7 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16761,7 +16340,7 @@
 		(fields_autoplaced yes)
 		(uuid "e449e772-e32c-4510-a3b2-11801d49f34b")
 		(property "Reference" "D3"
-			(at 292.1 180.6574 90)
+			(at 270.51 152.7174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16770,7 +16349,7 @@
 			)
 		)
 		(property "Value" "LED R"
-			(at 292.1 183.1974 90)
+			(at 270.51 155.2574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16779,7 +16358,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 288.29 180.34 0)
+			(at 266.7 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16788,7 +16367,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 288.29 180.34 0)
+			(at 266.7 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16797,7 +16376,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 288.29 180.34 0)
+			(at 266.7 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16806,7 +16385,7 @@
 			)
 		)
 		(property "CPN" "BT13001-00001"
-			(at 288.29 180.34 0)
+			(at 266.7 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16815,7 +16394,7 @@
 			)
 		)
 		(property "MPN" "D;LED;R;3V;25mA"
-			(at 288.29 180.34 0)
+			(at 266.7 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16824,7 +16403,7 @@
 			)
 		)
 		(property "SMT" "y"
-			(at 288.29 180.34 0)
+			(at 266.7 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17229,72 +16808,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 288.29 186.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2ecf871-dacb-4e80-8bfb-6660dd4c1b45")
-		(property "Reference" "#PWR047"
-			(at 288.29 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 288.29 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 288.29 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 288.29 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 288.29 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d1343ae-095c-4825-9cd6-4cfcbc91b5e8")
-		)
-		(instances
-			(project "LedDimmer"
-				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 194.31 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17509,158 +17022,6 @@
 			(project "LedDimmer"
 				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bt_resistors:R;G;0R;10P0;S;0603")
-		(at 260.35 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "fec2c602-7ee4-4846-b069-853715d06904")
-		(property "Reference" "R22"
-			(at 260.35 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 260.35 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 260.35 164.338 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 260.35 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 266.954 162.052 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "R;G;0R;10P0;S;0603"
-			(at 250.952 156.972 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CPN" "BT00002-00000"
-			(at 269.24 156.718 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "11a57013-bd8e-4360-a921-031421625382")
-		)
-		(pin "1"
-			(uuid "9c244c6c-672b-460e-ae2b-e8a7bfe51ff4")
-		)
-		(instances
-			(project ""
-				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 170.18 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffa64cc9-d8c7-4862-9e86-31b45748e052")
-		(property "Reference" "#PWR040"
-			(at 170.18 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 170.18 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 170.18 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3bcc60f-5c07-4c45-a361-785298c76755")
-		)
-		(instances
-			(project "LedDimmer"
-				(path "/c42604ad-6923-4da9-900a-f6bf8d585b83"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)

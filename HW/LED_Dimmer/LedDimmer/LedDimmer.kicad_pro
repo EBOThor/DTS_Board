@@ -253,7 +253,11 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|1130300|330200|04433dbc-be24-4d59-a85a-90d63b7c8975|00000000-0000-0000-0000-000000000000|/c42604ad-6923-4da9-900a-f6bf8d585b83|/c42604ad-6923-4da9-900a-f6bf8d585b83|",
+      "power_pin_not_driven|2133600|622300|acad07d3-9302-409e-ae16-e40b0afbe608|00000000-0000-0000-0000-000000000000|/c42604ad-6923-4da9-900a-f6bf8d585b83|/c42604ad-6923-4da9-900a-f6bf8d585b83|",
+      "power_pin_not_driven|2298700|304800|09110b76-23a0-4425-8f7e-2cbc4c19dafa|00000000-0000-0000-0000-000000000000|/c42604ad-6923-4da9-900a-f6bf8d585b83|/c42604ad-6923-4da9-900a-f6bf8d585b83|"
+    ],
     "meta": {
       "version": 0
     },
@@ -552,12 +556,12 @@
   "pcbnew": {
     "last_paths": {
       "gencad": "",
-      "idf": "",
+      "idf": "idf/LedDimmer.emn",
       "netlist": "",
       "plot": "fab",
       "pos_files": "pos",
       "specctra_dsn": "",
-      "step": "",
+      "step": "LedDimmer.step",
       "svg": "./svg/",
       "vrml": ""
     },
@@ -565,7 +569,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "bom\\LedDimmer.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -576,10 +580,117 @@
       "ref_range_delimiter": "",
       "string_delimiter": "\""
     },
-    "bom_presets": [],
+    "bom_presets": [
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": true,
+            "label": "CPN",
+            "name": "CPN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MPN",
+            "name": "MPN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "SMD",
+            "name": "SMD",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "SMT",
+            "name": "SMT",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Sim.Device",
+            "name": "Sim.Device",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Sim.Pins",
+            "name": "Sim.Pins",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "name": "My_presetbom",
+        "sort_asc": true,
+        "sort_field": "CPN"
+      }
+    ],
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
+        {
+          "group_by": true,
+          "label": "CPN",
+          "name": "CPN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
         {
           "group_by": false,
           "label": "Reference",
@@ -596,6 +707,12 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
           "show": true
         },
         {
@@ -606,22 +723,52 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SMD",
+          "name": "SMD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SMT",
+          "name": "SMT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "CPN"
     },
     "connection_grid_size": 50.0,
     "drawing": {
