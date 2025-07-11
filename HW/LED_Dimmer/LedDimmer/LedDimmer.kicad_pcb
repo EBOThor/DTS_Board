@@ -1090,7 +1090,7 @@
 		(path "/88814af1-2e9b-4d14-82d7-42c91be1556d")
 		(sheetname "Root")
 		(sheetfile "LedDimmer.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.602064 -1.36)
 			(end 0.602064 -1.36)
@@ -2275,7 +2275,7 @@
 				)
 			)
 		)
-		(property "Value" "56R"
+		(property "Value" "24R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "1e73244f-1f5c-41ca-a92e-d3c897a2ae1b")
@@ -2338,7 +2338,7 @@
 				)
 			)
 		)
-		(property "CPN" "BT00002-00560"
+		(property "CPN" "BT00002-00240"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3239,7 +3239,7 @@
 				)
 			)
 		)
-		(property "Value" "5K0"
+		(property "Value" "5K1"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "71aef113-5e15-4e25-9d77-43e6a53a77a2")
@@ -3289,7 +3289,7 @@
 				)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;5K1;S;P0603;NA"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3302,7 +3302,7 @@
 				)
 			)
 		)
-		(property "CPN" "BT00002-30050"
+		(property "CPN" "BT00002-30051"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4889,7 +4889,7 @@
 				)
 			)
 		)
-		(property "Value" "5K0"
+		(property "Value" "5K1"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "09d40578-79cf-4b71-840c-cdd7a24a0f67")
@@ -4939,7 +4939,7 @@
 				)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;5K1;S;P0603;NA"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4952,7 +4952,7 @@
 				)
 			)
 		)
-		(property "CPN" "BT00002-30050"
+		(property "CPN" "BT00002-30051"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5367,7 +5367,7 @@
 				)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "130K"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "2f744aa2-8e14-43ea-963a-994ef6949ec3")
@@ -5430,7 +5430,7 @@
 				)
 			)
 		)
-		(property "CPN" "BT00002-31000"
+		(property "CPN" "BT00002-31300"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6320,7 +6320,7 @@
 		(path "/c266d78a-5bd1-4f05-b2ba-35860361e244")
 		(sheetname "Root")
 		(sheetfile "LedDimmer.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -5.76 -5.26)
 			(end -5.76 -2.76)
@@ -7658,7 +7658,7 @@
 				)
 			)
 		)
-		(property "Value" "4u7 10V"
+		(property "Value" "10u 50V"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "13f50bb0-0024-450b-9404-956ca3c3d254")
@@ -7708,7 +7708,7 @@
 				)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;10u;10p;50V;S;0603"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7721,7 +7721,7 @@
 				)
 			)
 		)
-		(property "CPN" "BT00010-060047"
+		(property "CPN" "BT00007-060100"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9147,7 +9147,7 @@
 				)
 			)
 		)
-		(property "Value" "56R"
+		(property "Value" "24R"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "49eb9a68-7380-4b7c-94c0-0af4d20af831")
@@ -9210,7 +9210,7 @@
 				)
 			)
 		)
-		(property "CPN" "BT00002-00560"
+		(property "CPN" "BT00002-00240"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11141,7 +11141,7 @@
 				)
 			)
 		)
-		(property "Value" "5K0"
+		(property "Value" "5K1"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "875869ab-bde0-4921-bdf8-fac79444f8a0")
@@ -11191,7 +11191,7 @@
 				)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;5K1;S;P0603;NA"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11204,7 +11204,7 @@
 				)
 			)
 		)
-		(property "CPN" "BT00002-30050"
+		(property "CPN" "BT00002-30051"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11897,7 +11897,7 @@
 				)
 			)
 		)
-		(property "Value" "4u7 10V"
+		(property "Value" "10u 50V"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "eee68bb3-9e63-4b9b-939c-938328b5ca0c")
@@ -11947,7 +11947,7 @@
 				)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;10u;10p;50V;S;0603"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11960,7 +11960,7 @@
 				)
 			)
 		)
-		(property "CPN" "BT00010-060047"
+		(property "CPN" "BT00007-060100"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12493,7 +12493,7 @@
 				)
 			)
 		)
-		(property "Value" "5K0"
+		(property "Value" "5K1"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "9b40abf4-2b58-4028-b688-83d31c208e89")
@@ -12543,7 +12543,7 @@
 				)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;5K1;S;P0603;NA"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12556,7 +12556,7 @@
 				)
 			)
 		)
-		(property "CPN" "BT00002-30050"
+		(property "CPN" "BT00002-30051"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13325,7 +13325,7 @@
 				)
 			)
 		)
-		(property "Value" "5K0"
+		(property "Value" "5K1"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f36036fa-4bf7-4de5-ae90-a8defa738eb3")
@@ -13375,7 +13375,7 @@
 				)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;5K1;S;P0603;NA"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13388,7 +13388,7 @@
 				)
 			)
 		)
-		(property "CPN" "BT00002-30050"
+		(property "CPN" "BT00002-30051"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

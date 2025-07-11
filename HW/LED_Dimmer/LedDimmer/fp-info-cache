@@ -1,4 +1,4 @@
-24765974310241418
+24771229964471857
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99372,6 +99372,13 @@ Audio_trafo_6_pin
 8
 6
 bt_footprints
+CM5_connector_pnp
+
+
+0
+0
+0
+bt_footprints
 DLM0NSM900HY2D
 
 
@@ -99441,6 +99448,13 @@ inductor Wuerth hci smd
 0
 2
 2
+bt_footprints
+M.2 M Key socket
+
+
+0
+73
+73
 bt_footprints
 M.2_Full
 
@@ -99581,6 +99595,13 @@ RJ45_LED_Shield
 0
 14
 13
+bt_footprints
+Raspberry-Pi-5-Compute-Module
+Raspberry Pi 5 Compute Module
+Raspberry Pi 5 Compute Module
+0
+200
+200
 bt_footprints
 SLB4_6x6mm
 

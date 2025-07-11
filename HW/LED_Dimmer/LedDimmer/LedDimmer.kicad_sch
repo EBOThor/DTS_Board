@@ -1392,6 +1392,158 @@
 				)
 			)
 		)
+		(symbol "bt_capacitor:C;M;10u;10p;50V;S;0603"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10u 50V"
+				(at 4.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at -2.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "C;M;10u;10p;50V;S;0603"
+				(at 4 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "CPN" "BT00007-060100"
+				(at 4 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C;M;10u;10p;50V;S;0603_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C;M;10u;10p;50V;S;0603_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "bt_capacitor:C;M;10u;10p;50V;S;0805"
 			(pin_numbers hide)
 			(pin_names
@@ -3290,145 +3442,6 @@
 				)
 			)
 		)
-		(symbol "bt_resistors:R;G;100K;10P0;S;0603"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "100K"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "CPN" "BT00002-31000"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R;G;100K;10P0;S;0603_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R;G;100K;10P0;S;0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "bt_resistors:R;G;10K;10P0;S;0603"
 			(pin_numbers hide)
 			(pin_names
@@ -4263,7 +4276,7 @@
 				)
 			)
 		)
-		(symbol "bt_resistors:R;G;56R;10P0;S;0603"
+		(symbol "bt_resistors:R;G;5K1;10P0;S;0603"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -4279,7 +4292,7 @@
 					)
 				)
 			)
-			(property "Value" "56R"
+			(property "Value" "5K1"
 				(at 0 0 90)
 				(effects
 					(font
@@ -4314,7 +4327,7 @@
 					(hide yes)
 				)
 			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
+			(property "MPN" "R;G;5K1;S;P0603;NA"
 				(at 0 0 90)
 				(effects
 					(font
@@ -4323,146 +4336,7 @@
 					(hide yes)
 				)
 			)
-			(property "CPN" "BT00002-00560"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R;G;56R;10P0;S;0603_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R;G;56R;10P0;S;0603_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "bt_resistors:R;G;5K0;10P0;S;0603"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "5K0"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "R;G;T1;S;P0603;NA"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "CPN" "BT00002-30050"
+			(property "CPN" "BT00002-30051"
 				(at 0 0 90)
 				(effects
 					(font
@@ -4489,7 +4363,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R;G;5K0;10P0;S;0603_0_1"
+			(symbol "R;G;5K1;10P0;S;0603_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -4502,7 +4376,7 @@
 					)
 				)
 			)
-			(symbol "R;G;5K0;10P0;S;0603_1_1"
+			(symbol "R;G;5K1;10P0;S;0603_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -5881,6 +5755,12 @@
 		(uuid "62c27ac3-be59-4a80-a790-8af9a1b8954a")
 	)
 	(junction
+		(at 71.12 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "687950d8-6b28-4c9f-bc90-68c343852cd2")
+	)
+	(junction
 		(at 337.82 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5903,12 +5783,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c1d819a-6563-4364-b3ed-39916c3710b2")
-	)
-	(junction
-		(at 68.58 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e6fbe9e-9e1c-45a8-8cf8-a29f7fa921aa")
 	)
 	(junction
 		(at 322.58 63.5)
@@ -6424,7 +6298,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 33.02) (xy 68.58 34.29)
+			(xy 71.12 33.02) (xy 71.12 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6481,6 +6355,16 @@
 			(type default)
 		)
 		(uuid "3bf22bcd-5b72-4477-bac2-04bfd52db278")
+	)
+	(wire
+		(pts
+			(xy 71.12 33.02) (xy 86.36 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c290177-639c-46c0-b2cb-b0d0cccdf8f4")
 	)
 	(wire
 		(pts
@@ -7664,7 +7548,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 41.91) (xy 68.58 45.72)
+			(xy 71.12 41.91) (xy 71.12 45.72)
 		)
 		(stroke
 			(width 0)
@@ -7814,16 +7698,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 33.02) (xy 86.36 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e59a1155-677e-46e5-a61e-7153c57e1a26")
-	)
-	(wire
-		(pts
 			(xy 247.65 171.45) (xy 259.08 171.45)
 		)
 		(stroke
@@ -7854,7 +7728,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 33.02) (xy 68.58 33.02)
+			(xy 58.42 33.02) (xy 71.12 33.02)
 		)
 		(stroke
 			(width 0)
@@ -8023,6 +7897,16 @@
 			(type none)
 		)
 		(uuid 3c450b86-f242-4a66-bcf0-2a56c2c5d332)
+	)
+	(text "2025-07-11:schamatic updated with mountet values"
+		(exclude_from_sim no)
+		(at 380.746 266.954 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e3c4d88a-e67e-4f0f-b202-b18f9ce0466c")
 	)
 	(label "CH2_LED"
 		(at 347.98 175.26 90)
@@ -8661,7 +8545,7 @@
 		(at 273.05 250.19 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10600,10 +10484,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "56327d44-becb-4257-9001-032668a69c58")
 		(property "Reference" "C2"
-			(at 90.17 36.8299 0)
+			(at 87.122 36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10612,7 +10495,7 @@
 			)
 		)
 		(property "Value" "100n 25V"
-			(at 90.17 39.3699 0)
+			(at 86.868 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11533,7 +11416,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_resistors:R;G;5K0;10P0;S;0603")
+		(lib_id "bt_resistors:R;G;5K1;10P0;S;0603")
 		(at 180.34 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11551,7 +11434,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5K0"
+		(property "Value" "5K1"
 			(at 182.88 54.6099 0)
 			(effects
 				(font
@@ -11587,7 +11470,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;5K1;S;P0603;NA"
 			(at 180.34 53.34 90)
 			(effects
 				(font
@@ -11596,7 +11479,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00002-30050"
+		(property "CPN" "BT00002-30051"
 			(at 180.34 53.34 90)
 			(effects
 				(font
@@ -12773,7 +12656,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_resistors:R;G;5K0;10P0;S;0603")
+		(lib_id "bt_resistors:R;G;5K1;10P0;S;0603")
 		(at 63.5 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12790,7 +12673,7 @@
 				)
 			)
 		)
-		(property "Value" "5K0"
+		(property "Value" "5K1"
 			(at 63.5 116.84 90)
 			(effects
 				(font
@@ -12825,7 +12708,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;5K1;S;P0603;NA"
 			(at 63.5 120.65 90)
 			(effects
 				(font
@@ -12834,7 +12717,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00002-30050"
+		(property "CPN" "BT00002-30051"
 			(at 63.5 120.65 90)
 			(effects
 				(font
@@ -12947,7 +12830,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_resistors:R;G;5K0;10P0;S;0603")
+		(lib_id "bt_resistors:R;G;5K1;10P0;S;0603")
 		(at 170.18 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12965,7 +12848,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5K0"
+		(property "Value" "5K1"
 			(at 172.72 120.6499 0)
 			(effects
 				(font
@@ -13001,7 +12884,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;5K1;S;P0603;NA"
 			(at 170.18 119.38 90)
 			(effects
 				(font
@@ -13010,7 +12893,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00002-30050"
+		(property "CPN" "BT00002-30051"
 			(at 170.18 119.38 90)
 			(effects
 				(font
@@ -13107,7 +12990,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88814af1-2e9b-4d14-82d7-42c91be1556d")
 		(property "Reference" "L3"
@@ -13743,7 +13626,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;4u7;10p;10V;S;0603")
+		(lib_id "bt_capacitor:C;M;10u;10p;50V;S;0603")
 		(at 222.25 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13761,7 +13644,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7 10V"
+		(property "Value" "10u 50V"
 			(at 226.06 44.4499 0)
 			(effects
 				(font
@@ -13797,7 +13680,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;10u;10p;50V;S;0603"
 			(at 226.25 43.18 90)
 			(effects
 				(font
@@ -13806,7 +13689,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00010-060047"
+		(property "CPN" "BT00007-060100"
 			(at 226.25 43.18 90)
 			(effects
 				(font
@@ -14094,16 +13977,15 @@
 	)
 	(symbol
 		(lib_id "bt_capacitor:C;M;10u;10p;50V;S;0805")
-		(at 68.58 38.1 0)
+		(at 71.12 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a14e66db-b6f0-45cc-9c75-6944607485d9")
 		(property "Reference" "C1"
-			(at 72.39 36.8299 0)
+			(at 72.39 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14112,7 +13994,7 @@
 			)
 		)
 		(property "Value" "10u 50V"
-			(at 72.39 39.3699 0)
+			(at 71.882 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14121,7 +14003,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 65.802 38.1 90)
+			(at 68.342 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14130,7 +14012,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BR61H106KE43-01A.pdf"
-			(at 68.58 38.1 0)
+			(at 71.12 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14139,7 +14021,7 @@
 			)
 		)
 		(property "Description" "Capacitor"
-			(at 68.58 38.1 0)
+			(at 71.12 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14148,7 +14030,7 @@
 			)
 		)
 		(property "MPN" "GRM21BR61H106KE43L"
-			(at 72.58 38.1 90)
+			(at 75.12 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14157,7 +14039,7 @@
 			)
 		)
 		(property "CPN" "BT00003-060100"
-			(at 72.58 38.1 90)
+			(at 75.12 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14247,7 +14129,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_resistors:R;G;100K;10P0;S;0603")
+		(lib_id "bt_resistors:R;G;130K;10P0;S;0603")
 		(at 105.41 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14263,8 +14145,8 @@
 				)
 			)
 		)
-		(property "Value" "100K"
-			(at 109.474 38.862 90)
+		(property "Value" "130K"
+			(at 105.41 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14307,7 +14189,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00002-31000"
+		(property "CPN" "BT00002-31300"
 			(at 105.41 36.83 90)
 			(effects
 				(font
@@ -14464,7 +14346,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_resistors:R;G;56R;10P0;S;0603")
+		(lib_id "bt_resistors:R;G;24R;10P0;S;0603")
 		(at 266.7 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14482,7 +14364,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56R"
+		(property "Value" "24R"
 			(at 269.24 143.5099 0)
 			(effects
 				(font
@@ -14527,7 +14409,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00002-00560"
+		(property "CPN" "BT00002-00240"
 			(at 266.7 142.24 90)
 			(effects
 				(font
@@ -14559,10 +14441,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a6cc9626-140c-4f58-bd55-a9f1b812a732")
 		(property "Reference" "C14"
-			(at 62.23 36.8299 0)
+			(at 59.436 36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14571,7 +14452,7 @@
 			)
 		)
 		(property "Value" "10u 50V"
-			(at 62.23 39.3699 0)
+			(at 59.69 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14640,7 +14521,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_resistors:R;G;5K0;10P0;S;0603")
+		(lib_id "bt_resistors:R;G;5K1;10P0;S;0603")
 		(at 63.5 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14657,7 +14538,7 @@
 				)
 			)
 		)
-		(property "Value" "5K0"
+		(property "Value" "5K1"
 			(at 63.5 175.26 90)
 			(effects
 				(font
@@ -14692,7 +14573,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;5K1;S;P0603;NA"
 			(at 63.5 179.07 90)
 			(effects
 				(font
@@ -14701,7 +14582,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00002-30050"
+		(property "CPN" "BT00002-30051"
 			(at 63.5 179.07 90)
 			(effects
 				(font
@@ -15054,7 +14935,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_capacitor:C;M;4u7;10p;10V;S;0603")
+		(lib_id "bt_capacitor:C;M;10u;10p;50V;S;0603")
 		(at 207.01 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15072,7 +14953,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7 10V"
+		(property "Value" "10u 50V"
 			(at 210.82 44.4499 0)
 			(effects
 				(font
@@ -15108,7 +14989,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C;C;T1;S;P0603;NA"
+		(property "MPN" "C;M;10u;10p;50V;S;0603"
 			(at 211.01 43.18 90)
 			(effects
 				(font
@@ -15117,7 +14998,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00010-060047"
+		(property "CPN" "BT00007-060100"
 			(at 211.01 43.18 90)
 			(effects
 				(font
@@ -15362,7 +15243,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_resistors:R;G;56R;10P0;S;0603")
+		(lib_id "bt_resistors:R;G;24R;10P0;S;0603")
 		(at 347.98 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15380,7 +15261,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "56R"
+		(property "Value" "24R"
 			(at 350.52 149.8599 0)
 			(effects
 				(font
@@ -15425,7 +15306,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00002-00560"
+		(property "CPN" "BT00002-00240"
 			(at 347.98 148.59 90)
 			(effects
 				(font
@@ -15756,7 +15637,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c266d78a-5bd1-4f05-b2ba-35860361e244")
 		(property "Reference" "L1"
@@ -16493,7 +16374,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 45.72 0)
+		(at 71.12 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16502,7 +16383,7 @@
 		(fields_autoplaced yes)
 		(uuid "d82e37d5-5248-40c2-b3f2-c72f7ce30dd8")
 		(property "Reference" "#PWR06"
-			(at 68.58 52.07 0)
+			(at 71.12 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16511,7 +16392,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 50.8 0)
+			(at 71.12 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16519,7 +16400,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 45.72 0)
+			(at 71.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16528,7 +16409,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 45.72 0)
+			(at 71.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16537,7 +16418,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 45.72 0)
+			(at 71.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17230,7 +17111,7 @@
 		)
 	)
 	(symbol
-		(lib_id "bt_resistors:R;G;5K0;10P0;S;0603")
+		(lib_id "bt_resistors:R;G;5K1;10P0;S;0603")
 		(at 66.04 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17247,7 +17128,7 @@
 				)
 			)
 		)
-		(property "Value" "5K0"
+		(property "Value" "5K1"
 			(at 66.04 80.01 90)
 			(effects
 				(font
@@ -17282,7 +17163,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "R;G;T1;S;P0603;NA"
+		(property "MPN" "R;G;5K1;S;P0603;NA"
 			(at 66.04 83.82 90)
 			(effects
 				(font
@@ -17291,7 +17172,7 @@
 				(hide yes)
 			)
 		)
-		(property "CPN" "BT00002-30050"
+		(property "CPN" "BT00002-30051"
 			(at 66.04 83.82 90)
 			(effects
 				(font
