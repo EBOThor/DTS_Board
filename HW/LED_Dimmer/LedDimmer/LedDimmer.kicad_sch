@@ -7898,6 +7898,17 @@
 		)
 		(uuid 3c450b86-f242-4a66-bcf0-2a56c2c5d332)
 	)
+	(text "ICSP pins:\n4 : VPP\n1 : VDD (3.3V)\n8 : VSS (GND)\n7 : ICSPData\n6 : ICSPCLK"
+		(exclude_from_sim no)
+		(at 164.592 149.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d6779bb3-afab-4ed9-863a-17e35c21c11a")
+	)
 	(text "2025-07-11:schamatic updated with mountet values"
 		(exclude_from_sim no)
 		(at 380.746 266.954 0)
@@ -10570,7 +10581,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5c2f3da1-54c4-4545-8ca2-bcbf482a466c")
 		(property "Reference" "C9"
@@ -13544,7 +13555,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "99924f20-4d38-43a9-8ef2-b9c7afce2105")
 		(property "Reference" "C10"
