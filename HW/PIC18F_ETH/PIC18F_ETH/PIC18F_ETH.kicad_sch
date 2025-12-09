@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "26a36835-4e01-4565-9612-f38560505464")
 	(paper "A3")
 	(title_block
@@ -102,7 +102,6 @@
 	)
 	(label "LED_Y"
 		(at 162.56 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -113,7 +112,6 @@
 	)
 	(label "SPI_DI{SPI}"
 		(at 243.84 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -124,7 +122,6 @@
 	)
 	(label "LED_G"
 		(at 162.56 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -135,7 +132,6 @@
 	)
 	(label "CAN_CTRL{SPI}"
 		(at 237.49 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -146,7 +142,6 @@
 	)
 	(label "SPI_DO{SPI}"
 		(at 243.84 167.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -157,7 +152,6 @@
 	)
 	(label "AD[0..5]"
 		(at 260.35 158.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -169,6 +163,10 @@
 	(sheet
 		(at 283.21 130.81)
 		(size 49.53 52.07)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -198,33 +196,33 @@
 		)
 		(pin "AD[0..5]" output
 			(at 283.21 158.75 180)
+			(uuid "8d3a71e5-4da2-4da2-b044-fceff7536070")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8d3a71e5-4da2-4da2-b044-fceff7536070")
 		)
 		(pin "SPI_DO{SPI}" input
 			(at 283.21 167.64 180)
+			(uuid "8b2e630b-4901-42d8-b752-201f30e93927")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8b2e630b-4901-42d8-b752-201f30e93927")
 		)
 		(pin "SPI_DI{SPI}" bidirectional
 			(at 283.21 165.1 180)
+			(uuid "0230a433-9a57-4677-a937-312ef1452d32")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "0230a433-9a57-4677-a937-312ef1452d32")
 		)
 		(instances
 			(project "PIC18F_ETH"
@@ -237,6 +235,10 @@
 	(sheet
 		(at 139.7 204.47)
 		(size 31.75 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -275,6 +277,10 @@
 	(sheet
 		(at 264.16 90.17)
 		(size 35.56 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -304,13 +310,13 @@
 		)
 		(pin "CAN_CTRL{SPI}" bidirectional
 			(at 264.16 110.49 180)
+			(uuid "8be97703-1bd0-4f37-8724-08f18d85746a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8be97703-1bd0-4f37-8724-08f18d85746a")
 		)
 		(instances
 			(project "PIC18F_ETH"
@@ -323,6 +329,10 @@
 	(sheet
 		(at 189.23 135.89)
 		(size 43.18 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -352,73 +362,73 @@
 		)
 		(pin "ETH{ETH}" bidirectional
 			(at 189.23 171.45 180)
+			(uuid "80269845-fb3c-4f84-a1c1-f9aa2522498a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "80269845-fb3c-4f84-a1c1-f9aa2522498a")
 		)
 		(pin "LED_B" output
 			(at 189.23 166.37 180)
+			(uuid "c33a7d26-fce3-4f3d-b987-a864f883cc03")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "c33a7d26-fce3-4f3d-b987-a864f883cc03")
 		)
 		(pin "LED_A" output
 			(at 189.23 163.83 180)
+			(uuid "4dfef44f-f584-463b-bd71-64b9353dc04c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4dfef44f-f584-463b-bd71-64b9353dc04c")
 		)
 		(pin "AD[0..5]" input
 			(at 232.41 158.75 0)
+			(uuid "22749194-d40c-49ef-b0bd-aa098a053dbe")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "22749194-d40c-49ef-b0bd-aa098a053dbe")
 		)
 		(pin "CAN_CTRL{SPI}" bidirectional
 			(at 232.41 140.97 0)
+			(uuid "b2932c6c-93e3-424e-8e04-23335adfe993")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "b2932c6c-93e3-424e-8e04-23335adfe993")
 		)
 		(pin "SPI_DI{SPI}" bidirectional
 			(at 232.41 165.1 0)
+			(uuid "531f22ff-03fa-42ac-a049-2f11d5991982")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "531f22ff-03fa-42ac-a049-2f11d5991982")
 		)
 		(pin "SPI_DO{SPI}" bidirectional
 			(at 232.41 167.64 0)
+			(uuid "f89cb082-db83-495e-83c2-01941e483955")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "f89cb082-db83-495e-83c2-01941e483955")
 		)
 		(instances
 			(project "PIC18F_ETH"
@@ -431,6 +441,10 @@
 	(sheet
 		(at 132.08 113.03)
 		(size 29.21 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -469,6 +483,10 @@
 	(sheet
 		(at 137.16 160.02)
 		(size 17.78 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -498,33 +516,33 @@
 		)
 		(pin "LED_G" input
 			(at 154.94 163.83 0)
+			(uuid "bfe36efb-7adb-4592-9815-a7383e6a9d33")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "bfe36efb-7adb-4592-9815-a7383e6a9d33")
 		)
 		(pin "LED_Y" input
 			(at 154.94 166.37 0)
+			(uuid "1ffe8f5c-9f0f-4bef-91ab-8f9b30747134")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "1ffe8f5c-9f0f-4bef-91ab-8f9b30747134")
 		)
 		(pin "ETH{ETH}" bidirectional
 			(at 154.94 171.45 0)
+			(uuid "198ccfc8-257d-4ced-bb43-fd751f8a4a3a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "198ccfc8-257d-4ced-bb43-fd751f8a4a3a")
 		)
 		(instances
 			(project "PIC18F_ETH"
@@ -539,4 +557,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
